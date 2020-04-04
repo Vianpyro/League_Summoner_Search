@@ -6,6 +6,10 @@
     transition-delay: 50ms;
 }
 
+.LoH-logo:hover {
+    transform: scale(1.25);
+}
+
 .navbar ul {
     list-style-type: none;
     margin: 0;
@@ -29,11 +33,6 @@
 .nav-elt:hover {
     background-color: #111;
     border-radius: 0;
-}
-
-.LoH-logo:hover {
-    width: 35px;
-    padding: 9.5px;
 }
 
 /* SEARCH BAR */
