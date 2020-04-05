@@ -1,27 +1,34 @@
-.champ-lines {
-    margin: 0;
+.champ-img {
+    border-radius:20px;
+    height:same-as-width;
+    object-fit:cover;
+    transition-duration:250ms;
+    width:100%;
+}
+
+.champ-img:hover {
+    border-radius:5px;
+}
+
+figure {
+    margin:10px;
 }
 
 figure a {
-    float: right;
-    width: 100%;
-    text-align: center;
-    transition-duration: 250ms;
+    float:right;
+    text-align:center;
+    transition-duration:250ms;
+    width:100%;
 }
 
 figure a p {
-    margin: 5px;
+    margin:5px;
 }
 
 figure a:hover {
-    transform: scale(1.1);
+    transform:scale(1.1);
 }
 
-.champ-img {
-    width: 200px;
-    height: 200px;
-    object-fit: cover;
-    border-radius: 20px;
-    transition-duration: 250ms;
+table {
+    padding-top:40px;
 }
-
