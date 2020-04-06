@@ -1,3 +1,8 @@
+td {
+    margin: 0;
+    padding: 0;
+}
+
 .champ-img {
     border-radius:20px;
     height:same-as-width;
@@ -11,7 +16,7 @@
 }
 
 figure {
-    margin:10px;
+    margin:11px;
 }
 
 figure a {
@@ -31,4 +36,15 @@ figure a:hover {
 
 table {
     padding-top:40px;
+}
+
+/* SMALL SCREENS */
+@media screen and (max-width: 580px){
+    body {
+        background: red;
+    }
+ 
+    ul {
+        list-style: none;
+}
 }

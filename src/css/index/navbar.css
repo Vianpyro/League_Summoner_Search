@@ -58,7 +58,8 @@
     width:30px;
 }
 
-.search-btn:hover {
+.search-btn:hover,
+a:hover, a:active {
     color:orange;
 }
 
