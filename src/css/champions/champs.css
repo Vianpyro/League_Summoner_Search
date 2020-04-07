@@ -16,7 +16,7 @@ td {
 }
 
 figure {
-    margin:11px;
+    margin:12px;
 }
 
 figure a {
@@ -35,7 +35,7 @@ figure a:hover {
 }
 
 table {
-    padding-top:40px;
+    padding-top:25px;
 }
 
 /* SMALL SCREENS */

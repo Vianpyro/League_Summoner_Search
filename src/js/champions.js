@@ -2,9 +2,10 @@ async function displayChampions() {
     try {
         const data = new Request(`../src/json/champions.json`);
         const { champions } = await fetch(data).then(data => data.json());
+
+        document.getElementById("champ-toptext").innerHTML = ("With "+ champions.length + " champions, you’ll find the perfect match for your playstyle. Master one, or master them all.")
         console.log("There are " + champions.length + " champions in League of Legends.")
 
-        alert(screen.width >= 580)
 
         if (screen.width >= 580) {            
             document.getElementById("champions").innerHTML += `<table id="champ_lines"></table>`;
