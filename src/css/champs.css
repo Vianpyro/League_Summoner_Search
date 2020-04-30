@@ -1,50 +1,49 @@
-td {
-    margin: 0;
-    padding: 0;
+#champions {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 2em 7em;
+    align-items: center;
 }
 
-.champ-img {
-    border-radius:20px;
-    height:same-as-width;
-    object-fit:cover;
-    transition-duration:250ms;
-    width:100%;
+#champions figure {
+    background-color: #999;
+    border-radius: 20px;
+    margin: 1em 2em;
+    text-align: center;
+    text-transform: uppercase;
+    width: 200px;
+    transition-delay: 50ms;
+    transition-duration: 250ms;
 }
 
-.champ-img:hover {
-    border-radius:5px;
+#champions figure a {
+    text-decoration: none;
+    color: lightgray;
 }
 
-figure {
-    margin:12px;
+#champions figure figcaption:hover {
+    color: #000;
+    transition-duration: 250ms;
 }
 
-figure a {
-    float:right;
-    text-align:center;
-    transition-duration:250ms;
-    width:100%;
+#champions figure:hover {
+    background-color: #a9a9a9;
+    cursor: pointer;
+    transform: scale(1.125);
 }
 
-figure a p {
-    margin:5px;
+#champions figure img {
+    background-color: lightgray;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    box-shadow: gray 0 0 10px;
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
 }
 
-figure a:hover {
-    transform:scale(1.1);
-}
-
-table {
-    padding-top:25px;
-}
-
-/* SMALL SCREENS */
-@media screen and (max-width: 580px){
-    body {
-        background: red;
-    }
- 
-    ul {
-        list-style: none;
-    }
+#champ-toptext {
+    padding-top: 2em;
 }
