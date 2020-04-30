@@ -1,25 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="src/css/style.css">
-    <link rel="stylesheet" href="src/css/index/navbar.css">
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="src/css/navbar.css">
+    <link rel="stylesheet" href="src/css/searchbar.css">
+    <link rel="stylesheet" href="src/css/styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
-    <title>League of Help</title>
+    <title>League of help (V2)</title>
 </head>
-
 <body>
-    <div class="navbar">
-        <ul>
-            <li><a href="#"><img src="favicon.ico" class="LoH-logo" alt="League of Help"></a></li>
-            <li><a href="#" class="nav-elt">Build tips</a></li>
-            <li><a href="pages/champions.html" class="nav-elt">Champions</a></li>
-            <li class="search-box">
-                <input class="search-txt" type="text" name="" placeholder="Search a champion">
-                <a href="#"><i class="fas fa-search search-btn"></i></a>
-            </li>
-        </ul>
+    <div class="script">
+        <script src="src/javascript/region-option.js"></script>
     </div>
+
+    <nav class="header">
+        <h2 class="logo">League of Help</h2>
+        <input type="checkbox" id="chk">
+        <label for="chk" class="show-menu-btn">
+            <i class="fas fa-ellipsis-h"></i>
+        </label>
+
+        <ul class="menu">
+            <a href="#">Stay home</a>
+            <a href="#">Build tips</a>
+            <a href="pages/champs.html">Champions</a>
+            <label for="chk" class="hide-menu-btn">
+                <i class="fas fa-times"></i>
+            </label>
+        </ul>
+    </nav>
+
+    <center>
+        <div class="searchbar">
+            <h1>Search Summoner</h1>
+            <p>(You will be redirected to his/her OP.GG)</p>
+            <form action="https://op.gg/summoner/" method="GET" autocomplete="off" id="REGION">
+                <input type="text" name="userName" placeholder="Search Summoner(s)..." autofocus required oninvalid="this.setCustomValidity('Please enter at least one Summoner name')">
+                <select id="region" onchange="detect_region()">
+                    <option id="region-region" selected>Default Region</option>
+                    <option class="region-option" id="BR">Brazil</option>
+                    <option class="region-option" id="EUNE">Europe Nordic & East</option>
+                    <option class="region-option" id="EUW">Europe West</option>
+                    <option class="region-option" id="JP">Japan</option>
+                    <option class="region-option" id="KR">Korea</option>
+                    <option class="region-option" id="LAN">Latin America (North)</option>
+                    <option class="region-option" id="LAS">Latin America (South)</option>
+                    <option class="region-option" id="NA">North America</option>
+                    <option class="region-option" id="OCE">Oceania</option>
+                    <option class="region-option" id="RU">Russia</option>
+                    <option class="region-option" id="TR">Turkey</option>
+                </select>
+                <input type="submit" value="Search"  id="search-btn">
+            </form>
+        </div>
+    </center>
 </body>
 </html>
