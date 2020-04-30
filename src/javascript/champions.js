@@ -6,16 +6,15 @@ async function displayChampions() {
         document.getElementById("champ-toptext").innerHTML = ("With " + champions.length + " champions, you’ll find the perfect match for your playstyle. Master one, or master them all.")
 
         champions.slice().forEach((element, i) => {
+            document.getElementById(`champions`).innerHTML +=
+                `<figure><a id="get${element.name}Stats" onclick="loadChampData('${element.name}');">
+                    <img class="champ-img" src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/${element.name}_0.jpg">
+                    <figcaption id="champ${element.name}Name"></figcaption></a></figure>`;
+
             if (element.displayName) {
-                document.getElementById(`champions`).innerHTML +=
-                    `<figure><a>
-                    <img class="champ-img" src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/${element.name}_0.jpg">
-                    <figcaption>${element.displayName}</figcaption></a></figure>`;
+                document.getElementById(`champ${element.name}Name`).innerHTML = `${element.displayName}`;
             } else {
-                document.getElementById(`champions`).innerHTML +=
-                    `<figure><a>
-                    <img class="champ-img" src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/${element.name}_0.jpg">
-                    <figcaption>${element.name}</figcaption></a></figure>`;
+                document.getElementById(`champ${element.name}Name`).innerHTML = `${element.name}`;
             }
         });
     } catch (err) {

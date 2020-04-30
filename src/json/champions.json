@@ -1,7 +1,10 @@
 {
     "champions": [
         {
-            "name": "Aatrox"
+            "name": "Aatrox",
+            "stats": [
+                "QWERTY"
+            ]
         },
         {
             "name": "Ahri"
@@ -227,7 +230,8 @@
             "displayName": "Master Yi"
         },
         {
-            "name": "MissFortune"
+            "name": "MissFortune",
+            "displayName": "Miss Fortune"
         },
         {
             "name": "Mordekaiser"
