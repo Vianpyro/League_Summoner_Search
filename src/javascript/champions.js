@@ -8,7 +8,9 @@ async function displayChampions() {
         champions.slice().forEach((element, i) => {
             document.getElementById(`champions`).innerHTML +=
                 `<figure><a id="get${element.name}Stats" onclick="loadChampData('${element.name}');">
-                    <img class="champ-img" src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/${element.name}_0.jpg">
+                    <img class="champ-img" id="get${element.name}Icon"
+                    src="../src/img/icon/${element.name}.jpg"
+                    onerror="javascript: document.getElementById('get${element.name}Icon').src = 'https://ddragon.leagueoflegends.com/cdn/img/champion/splash/${element.name}_0.jpg'">
                     <figcaption id="champ${element.name}Name"></figcaption></a></figure>`;
 
             if (element.displayName) {
