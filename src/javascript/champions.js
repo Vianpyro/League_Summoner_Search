@@ -8,7 +8,7 @@ async function displayChampions() {
         champions.slice().forEach((element, i) => {
             // I change the 'on_error_link' because I often code without internet connection - the second link should always be inactive.
             var on_error_link = 'https://ddragon.leagueoflegends.com/cdn/img/champion/splash/${element.name}_0.jpg'
-            var on_error_link = '../src/img/image_not_found.png'
+            // var on_error_link = '../src/img/image_not_found.png'
             document.getElementById(`champions`).innerHTML +=
                 `<figure>
                     <a id="get${element.name}Stats" onclick="loadChampData('${on_error_link}',
