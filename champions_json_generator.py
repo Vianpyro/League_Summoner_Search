@@ -42,25 +42,25 @@ unkown_tier = (
 
 abilities = {
     'Aatrox': (
-        'DEATHBRINGER STANCE', 'Periodically, Aatrox\'s next basic attack deals bonus physical damage and heals him, based on the target\'s max health.',
-        'THE DARIN BLADE', 'Aatrox slams his greatsword down, dealing physical damage. He can swing three times, each with a different area of effect.',
-        'INFERNAL CHAINS', 'Aatrox smashes the ground, dealing damage to the first enemy hit. Champions and large monsters have to leave the impact area quickly or they will be dragged to the center and take the damage again.',
-        'UMBRAL DASH', 'Passively, Aatrox heals when damaging enemy champions. On activation, he dashes in a direction.',
-        'WORLD ENDER', 'Aatrox unleashes his demonic form, fearing nearby enemy minions and gaining attack damage, increased healing, and movement speed. If he gets a takedown, this effect is extended.'
+        'DEATHBRINGER STANCE', f'Periodically, Aatrox\'s next basic attack deals bonus physical damage and heals him, based on the target\'s max health.',
+        'THE DARIN BLADE', f'Aatrox slams his greatsword down, dealing 10/30/50/70/90 (+60%) physical damage. He can swing three times, each with a different area of effect.',
+        'INFERNAL CHAINS', f'Aatrox smashes the ground, dealing 30/40/50/60/70 (+40%) physical damage to the first enemy hit. Champions and large monsters have to leave the impact area quickly or they will be dragged to the center and take the damage again.',
+        'UMBRAL DASH', f'Passively, Aatrox heals 20%/22.5%/25%/27.5%/30% of damage he deals to enemy champions. On activation, he dashes in a direction.',
+        'WORLD ENDER', f'Aatrox unleashes his demonic form, fearing nearby enemy minions and gaining 20%/25%/30% attack damage, and 50%/60%/70% increased healing, and 60%/80%/100% movement speed. If he gets a takedown, this effect is extended.'
     ),
     'Ahri': (
-        'VASTAYAN GRACE', 'Whenever Ahri\'s spells hit a champion 2 times within a short period, she briefly gains movement speed.',
-        'ORB OF DECEPTION', 'Ahri sends out and pulls back her orb, dealing magic damage on the way out and true damage on the way back. After earning several spells hits, Ahri\'s next orb hits will restore her health.',
-        'FOX-FIRE', 'Ahri releases three fox-fires, that lock onto and attack nearby enemies',
-        'CHARM', 'Ahri blows a kiss that damages and charms an enemy it encounters, instantly stopping movement abilities and causing them to walk harmlessly towards her. The target temporarily takes increased damage from Ahri.',
-        'SPIRIT RUSH', 'Ahri dashes forward and fires essence bolts, damaging nearby enemies. Spirit Rush can be cast up to three times before going on cooldown'
+        'VASTAYAN GRACE', f'Whenever Ahri\'s spells hit a champion 2 times within a short period, she briefly gains movement speed.',
+        'ORB OF DECEPTION', f'Ahri sends out and pulls back her orb, dealing 40/65/90/115/140 (+35% AP) magic damage on the way out and 40/65/90/115/140 (+35% AP) true damage on the way back. After earning several spells hits, Ahri\'s next orb hits will restore 3/5/9/18 (+9% AP) of her health.',
+        'FOX-FIRE', f'Releases fox-fires that seek nearby enemies and deal 40/65/90/115/140 (+30% AP) magic damage. Enemies hit with multiple fox-fires take 30% damage from each additional fox-fire beyond the first, for a maximum of ? damage to a single enemy.Fox-fire prioritizes champions recently hit by Charm, then enemies Ahri recently attacked. If Fox-fire cannot find a priority target, it targets champions over the nearest enemy if possible.',
+        'CHARM', f'Ahri blows a kiss that deals 60/90/120/150/180 (+40% AP) magic damage and charms an enemy it encounters, instantly stopping movement abilities and causing them to walk harmlessly towards her. The target temporarily takes increased damage from Ahri.',
+        'SPIRIT RUSH', f'Ahri dashes forward and fires essence bolts that deal 60/90/120 (+35% AP), damaging nearby enemies. Spirit Rush can be cast up to three times before going on cooldown'
     ),
     'Yone': (
         'WAY OF THE HUNTER', f'Yone uses two blades, causing every second Attack to deal 50% magic damage. Yone\'s Critical Strike Chance is doubled but his critical strikes deal 10% reduced damage.',
-        'MORTAL STEEL', f'Yone thrusts forward, dealing 20/45/70/95/120(+?% AD) physical damage. On hit, grants a stack of for 6 seconds. At 2 stacks, this skill causes Yone to dash forward with a wave of wind that Knocks Up for 0.75 second and deal 20/45/70/95/120(+?% AD) physical damage.',
-        'SPIRIT CLEAVE', f'Yone cleaves forward in a massive arc, dealing 5/10/15/20/25 + 6%/6.5%/7%/7.5%/8% physical damage and 5/10/15/20/25 + 6%/6.5%/7%/7.5%/8% magical damage of the target\'s maximum health. After successfully hitting an enemy, Yone also gains 40(+?% AD) shield for 1.5 second. The shield\'s power increases per champion struck.',
+        'MORTAL STEEL', f'Yone thrusts forward, dealing 20/45/70/95/120 (+100% AD) physical damage. On hit, grants a stack of for 6 seconds. At 2 stacks, this skill causes Yone to dash forward with a wave of wind that Knocks Up for 0.75 second and deal 20/45/70/95/120 (+100% AD) physical damage.',
+        'SPIRIT CLEAVE', f'Yone cleaves forward in a massive arc, dealing 5/10/15/20/25 + 6%/6.5%/7%/7.5%/8% physical damage and 5/10/15/20/25 + 6%/6.5%/7%/7.5%/8% magical damage of the target\'s maximum health. After successfully hitting an enemy, Yone also gains 40 (+24% AD) shield for 1.5 second. The shield\'s power increases per champion struck.',
         'SOUL UNBOUND', f'Yone can enter his Spirit Form for 5 seconds, gaining 10% movement speed and leaving his body behind. When Yone\'s Spirit Form expires, he\'ll snap back into his body and deal 25%/27.5%/30%/32.5%/35% of all the damage he dealt with while in Spirit Form.',
-        'FATE SEALED', f'Yone strikes all enemies in his path for 100(+?% AD) pysical damage and 100(+?% AD) magic damage, blinking behind the last enemy hit and Knocking Up victims towards him.'
+        'FATE SEALED', f'Yone strikes all enemies in his path for 100 (+40% AD) pysical damage and 100 (+40% AD) magic damage, blinking behind the last enemy hit and Knocking Up victims towards him.'
     )
 }
 
