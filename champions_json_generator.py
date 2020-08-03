@@ -27,7 +27,7 @@ c_tier = (
 d_tier = (
     'Darius', 'Tryndamere', 'Mordekaiser', 'Master Yi', 'Neeko', 'Swain', 'Teemo', 'Zyra', 'Kayle', 'Olaf',
     'Udyr', 'Tristana', 'Nocturne', 'Nasus', 'Shyvana', 'Poppy', 'Volibear', 'Zac', 'Sejuani', 'Hecarim',
-    'Skarner', 'Diana', 'Cho\'Gath', 'Jarvan IV', 'Blitzcrank', 'Nautilus', 'Monkey King', 'Trundle', 'Morgana',
+    'Skarner', 'Diana', 'Cho\'Gath', 'Jarvan IV', 'Blitzcrank', 'Nautilus', 'Wukong', 'Trundle', 'Morgana',
     'Zilean', 'Karma', 'Braum', 'Leona', 'Sivir', 'Maokai', 'Sett'
 )
 
@@ -91,24 +91,18 @@ for index, champ in enumerate(champions):
     # Add champion name and (maybe) display name
     if "'" in champ or ' ' in champ:
         if champ == 'Nunu & Willump':
-            word += '"name": "Nunu"\n'
-        elif champ == 'Rek\'Sai':
-            word += '"name": "RekSai"'
+            word += '"name": "Nunu",\n'
         elif "'" in champ:
-            word += '"name": "%s"\n' % (champ[0] + champ[1:].replace("'", '').replace(' ', '').lower())
+            word += '"name": "%s",\n' % (champ[0] + champ[1:].replace("'", '').replace(' ', '').lower())
         else:
-            word += '"name": "%s"\n' % (champ.replace("'", '').replace(' ', ''))
-
-        if champ == 'Monkey King':
-            word += ',"displayName": "Wukong"\n'
-        else:
-            word += ',"displayName": "%s"\n' % (champ)
+            word += '"name": "%s",\n' % (champ.replace("'", '').replace(' ', ''))
+        word += '"displayName": "%s",\n' % (champ)
     else:
-        word += '"name": "%s"\n' % (champ)
+        word += '"name": "%s",\n' % (champ)
 
 
     # Add champion skill caps rank
-    word += ',"difficulty_rank": '
+    word += '"difficulty_rank": '
     if champ in s_tier: word += '%i' %(s_tier.index(champ) + 1)
     elif champ in a_tier: word += '%i' %(a_tier.index(champ) + len(a_tier) + 1)
     elif champ in b_tier: word += '%i' %(b_tier.index(champ) + len(s_tier + a_tier) + 1)
@@ -116,14 +110,14 @@ for index, champ in enumerate(champions):
     elif champ in d_tier: word += '%i' %(d_tier.index(champ) + len(s_tier + a_tier + b_tier + c_tier) + 1)
     elif champ in e_tier: word += '%i' %(e_tier.index(champ) + len(s_tier + a_tier + b_tier + c_tier + d_tier) + 1)
     else: word += '"?"'
-    word += '\n'
+    word += ',\n'
 
     # Add champion meta rank
-    word += ',"meta_tier": '
+    word += '"meta_tier": '
     if champ in tier_op: word += '"OP"'
     elif champ in tier_1: word += '1'
     elif champ in tier_2: word += '2'
-    elif champ in ('Lillia', 'Yone'): word += '": unknown"'
+    elif champ in ('Yone'): word += '": unknown"'
     else: word += '": weak"'
     word += '\n'
 
@@ -143,6 +137,6 @@ for index, champ in enumerate(champions):
     # Close champion part
     word += '}'
 
-word += '\n]\n}'
+word += ']}'
 with open('src/json/champions.json', 'w') as f:
     f.write(word)

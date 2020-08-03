@@ -1,9 +1,9 @@
 {
 "champions":
 [{
-"name": "Aatrox"
-,"difficulty_rank": 41
-,"meta_tier": ": weak"
+"name": "Aatrox",
+"difficulty_rank": 41,
+"meta_tier": ": weak"
 ,"passive_name": "DEATHBRINGER STANCE"
 ,"passive_description": "Periodically, Aatrox\\'s next basic attack deals bonus physical damage and heals him, based on the target\\'s max health."
 ,"q_name": "THE DARIN BLADE"
@@ -16,9 +16,9 @@
 ,"r_description": "Aatrox unleashes his demonic form, fearing nearby enemy minions and gaining 20%/25%/30% attack damage, and 50%/60%/70% increased healing, and 60%/80%/100% movement speed. If he gets a takedown, this effect is extended."
 },
 {
-"name": "Ahri"
-,"difficulty_rank": 66
-,"meta_tier": ": weak"
+"name": "Ahri",
+"difficulty_rank": 66,
+"meta_tier": ": weak"
 ,"passive_name": "VASTAYAN GRACE"
 ,"passive_description": "Whenever Ahri\\'s spells hit a champion 2 times within a short period, she briefly gains movement speed."
 ,"q_name": "ORB OF DECEPTION"
@@ -31,719 +31,719 @@
 ,"r_description": "Ahri dashes forward and fires essence bolts that deal 60/90/120 (+35% AP), damaging nearby enemies. Spirit Rush can be cast up to three times before going on cooldown"
 },
 {
-"name": "Akali"
-,"difficulty_rank": 13
-,"meta_tier": ": weak"
+"name": "Akali",
+"difficulty_rank": 13,
+"meta_tier": ": weak"
 },
 {
-"name": "Alistar"
-,"difficulty_rank": 57
-,"meta_tier": ": weak"
+"name": "Alistar",
+"difficulty_rank": 57,
+"meta_tier": ": weak"
 },
 {
-"name": "Amumu"
-,"difficulty_rank": 143
-,"meta_tier": ": weak"
+"name": "Amumu",
+"difficulty_rank": 143,
+"meta_tier": ": weak"
 },
 {
-"name": "Anivia"
-,"difficulty_rank": 38
-,"meta_tier": ": weak"
+"name": "Anivia",
+"difficulty_rank": 38,
+"meta_tier": ": weak"
 },
 {
-"name": "Annie"
-,"difficulty_rank": 148
-,"meta_tier": ": weak"
+"name": "Annie",
+"difficulty_rank": 148,
+"meta_tier": ": weak"
 },
 {
-"name": "Aphelios"
-,"difficulty_rank": 62
-,"meta_tier": ": weak"
+"name": "Aphelios",
+"difficulty_rank": 62,
+"meta_tier": ": weak"
 },
 {
-"name": "Ashe"
-,"difficulty_rank": 138
-,"meta_tier": "OP"
+"name": "Ashe",
+"difficulty_rank": 138,
+"meta_tier": "OP"
 },
 {
-"name": "AurelionSol"
-,"displayName": "Aurelion Sol"
-,"difficulty_rank": 1
-,"meta_tier": ": weak"
+"name": "AurelionSol",
+"displayName": "Aurelion Sol",
+"difficulty_rank": 1,
+"meta_tier": ": weak"
 },
 {
-"name": "Azir"
-,"difficulty_rank": 9
-,"meta_tier": ": weak"
+"name": "Azir",
+"difficulty_rank": 9,
+"meta_tier": ": weak"
 },
 {
-"name": "Bard"
-,"difficulty_rank": 14
-,"meta_tier": "OP"
+"name": "Bard",
+"difficulty_rank": 14,
+"meta_tier": "OP"
 },
 {
-"name": "Blitzcrank"
-,"difficulty_rank": 116
-,"meta_tier": 1
+"name": "Blitzcrank",
+"difficulty_rank": 116,
+"meta_tier": 1
 },
 {
-"name": "Brand"
-,"difficulty_rank": 128
-,"meta_tier": ": weak"
+"name": "Brand",
+"difficulty_rank": 128,
+"meta_tier": ": weak"
 },
 {
-"name": "Braum"
-,"difficulty_rank": 123
-,"meta_tier": ": weak"
+"name": "Braum",
+"difficulty_rank": 123,
+"meta_tier": ": weak"
 },
 {
-"name": "Caitlyn"
-,"difficulty_rank": 86
-,"meta_tier": "OP"
+"name": "Caitlyn",
+"difficulty_rank": 86,
+"meta_tier": "OP"
 },
 {
-"name": "Camille"
-,"difficulty_rank": 53
-,"meta_tier": 1
+"name": "Camille",
+"difficulty_rank": 53,
+"meta_tier": 1
 },
 {
-"name": "Cassiopeia"
-,"difficulty_rank": 24
-,"meta_tier": 2
+"name": "Cassiopeia",
+"difficulty_rank": 24,
+"meta_tier": 2
 },
 {
-"name": "Chogath"
-,"displayName": "Cho'Gath"
-,"difficulty_rank": 114
-,"meta_tier": ": weak"
+"name": "Chogath",
+"displayName": "Cho'Gath",
+"difficulty_rank": 114,
+"meta_tier": ": weak"
 },
 {
-"name": "Corki"
-,"difficulty_rank": 89
-,"meta_tier": ": weak"
+"name": "Corki",
+"difficulty_rank": 89,
+"meta_tier": ": weak"
 },
 {
-"name": "Darius"
-,"difficulty_rank": 92
-,"meta_tier": 1
+"name": "Darius",
+"difficulty_rank": 92,
+"meta_tier": 1
 },
 {
-"name": "Diana"
-,"difficulty_rank": 113
-,"meta_tier": ": weak"
+"name": "Diana",
+"difficulty_rank": 113,
+"meta_tier": ": weak"
 },
 {
-"name": "DrMundo"
-,"difficulty_rank": 139
-,"meta_tier": ": weak"
+"name": "DrMundo",
+"difficulty_rank": 139,
+"meta_tier": ": weak"
 },
 {
-"name": "Draven"
-,"difficulty_rank": 3
-,"meta_tier": ": weak"
+"name": "Draven",
+"difficulty_rank": 3,
+"meta_tier": ": weak"
 },
 {
-"name": "Ekko"
-,"difficulty_rank": 46
-,"meta_tier": 2
+"name": "Ekko",
+"difficulty_rank": 46,
+"meta_tier": 2
 },
 {
-"name": "Elise"
-,"difficulty_rank": 25
-,"meta_tier": 1
+"name": "Elise",
+"difficulty_rank": 25,
+"meta_tier": 1
 },
 {
-"name": "Evelynn"
-,"difficulty_rank": 44
-,"meta_tier": ": weak"
+"name": "Evelynn",
+"difficulty_rank": 44,
+"meta_tier": ": weak"
 },
 {
-"name": "Ezreal"
-,"difficulty_rank": 52
-,"meta_tier": 2
+"name": "Ezreal",
+"difficulty_rank": 52,
+"meta_tier": 2
 },
 {
-"name": "Fiddlesticks"
-,"difficulty_rank": 84
-,"meta_tier": ": weak"
+"name": "Fiddlesticks",
+"difficulty_rank": 84,
+"meta_tier": ": weak"
 },
 {
-"name": "Fiora"
-,"difficulty_rank": 38
-,"meta_tier": 2
+"name": "Fiora",
+"difficulty_rank": 38,
+"meta_tier": 2
 },
 {
-"name": "Fizz"
-,"difficulty_rank": 63
-,"meta_tier": 1
+"name": "Fizz",
+"difficulty_rank": 63,
+"meta_tier": 1
 },
 {
-"name": "Galio"
-,"difficulty_rank": 90
-,"meta_tier": "OP"
+"name": "Galio",
+"difficulty_rank": 90,
+"meta_tier": "OP"
 },
 {
-"name": "Gangplank"
-,"difficulty_rank": 4
-,"meta_tier": ": weak"
+"name": "Gangplank",
+"difficulty_rank": 4,
+"meta_tier": ": weak"
 },
 {
-"name": "Garen"
-,"difficulty_rank": 142
-,"meta_tier": 1
+"name": "Garen",
+"difficulty_rank": 142,
+"meta_tier": 1
 },
 {
-"name": "Gnar"
-,"difficulty_rank": 54
-,"meta_tier": ": weak"
+"name": "Gnar",
+"difficulty_rank": 54,
+"meta_tier": ": weak"
 },
 {
-"name": "Gragas"
-,"difficulty_rank": 58
-,"meta_tier": ": weak"
+"name": "Gragas",
+"difficulty_rank": 58,
+"meta_tier": ": weak"
 },
 {
-"name": "Graves"
-,"difficulty_rank": 74
-,"meta_tier": 2
+"name": "Graves",
+"difficulty_rank": 74,
+"meta_tier": 2
 },
 {
-"name": "Hecarim"
-,"difficulty_rank": 111
-,"meta_tier": ": weak"
+"name": "Hecarim",
+"difficulty_rank": 111,
+"meta_tier": ": weak"
 },
 {
-"name": "Heimerdinger"
-,"difficulty_rank": 65
-,"meta_tier": ": weak"
+"name": "Heimerdinger",
+"difficulty_rank": 65,
+"meta_tier": ": weak"
 },
 {
-"name": "Illaoi"
-,"difficulty_rank": 70
-,"meta_tier": ": weak"
+"name": "Illaoi",
+"difficulty_rank": 70,
+"meta_tier": ": weak"
 },
 {
-"name": "Irelia"
-,"difficulty_rank": 37
-,"meta_tier": ": weak"
+"name": "Irelia",
+"difficulty_rank": 37,
+"meta_tier": ": weak"
 },
 {
-"name": "Ivern"
-,"difficulty_rank": 28
-,"meta_tier": ": weak"
+"name": "Ivern",
+"difficulty_rank": 28,
+"meta_tier": ": weak"
 },
 {
-"name": "Janna"
-,"difficulty_rank": 50
-,"meta_tier": ": weak"
+"name": "Janna",
+"difficulty_rank": 50,
+"meta_tier": ": weak"
 },
 {
-"name": "JarvanIV"
-,"displayName": "Jarvan IV"
-,"difficulty_rank": 115
-,"meta_tier": ": weak"
+"name": "JarvanIV",
+"displayName": "Jarvan IV",
+"difficulty_rank": 115,
+"meta_tier": ": weak"
 },
 {
-"name": "Jax"
-,"difficulty_rank": 68
-,"meta_tier": 2
+"name": "Jax",
+"difficulty_rank": 68,
+"meta_tier": 2
 },
 {
-"name": "Jayce"
-,"difficulty_rank": 36
-,"meta_tier": ": weak"
+"name": "Jayce",
+"difficulty_rank": 36,
+"meta_tier": ": weak"
 },
 {
-"name": "Jhin"
-,"difficulty_rank": 72
-,"meta_tier": ": weak"
+"name": "Jhin",
+"difficulty_rank": 72,
+"meta_tier": ": weak"
 },
 {
-"name": "Jinx"
-,"difficulty_rank": 129
-,"meta_tier": ": weak"
+"name": "Jinx",
+"difficulty_rank": 129,
+"meta_tier": ": weak"
 },
 {
-"name": "Kaisa"
-,"displayName": "Kai'Sa"
-,"difficulty_rank": 40
-,"meta_tier": ": weak"
+"name": "Kaisa",
+"displayName": "Kai'Sa",
+"difficulty_rank": 40,
+"meta_tier": ": weak"
 },
 {
-"name": "Kalista"
-,"difficulty_rank": 2
-,"meta_tier": ": weak"
+"name": "Kalista",
+"difficulty_rank": 2,
+"meta_tier": ": weak"
 },
 {
-"name": "Karma"
-,"difficulty_rank": 122
-,"meta_tier": 2
+"name": "Karma",
+"difficulty_rank": 122,
+"meta_tier": 2
 },
 {
-"name": "Karthus"
-,"difficulty_rank": 49
-,"meta_tier": "OP"
+"name": "Karthus",
+"difficulty_rank": 49,
+"meta_tier": "OP"
 },
 {
-"name": "Kassadin"
-,"difficulty_rank": 76
-,"meta_tier": 1
+"name": "Kassadin",
+"difficulty_rank": 76,
+"meta_tier": 1
 },
 {
-"name": "Katarina"
-,"difficulty_rank": 23
-,"meta_tier": 2
+"name": "Katarina",
+"difficulty_rank": 23,
+"meta_tier": 2
 },
 {
-"name": "Kayle"
-,"difficulty_rank": 100
-,"meta_tier": ": weak"
+"name": "Kayle",
+"difficulty_rank": 100,
+"meta_tier": ": weak"
 },
 {
-"name": "Kayn"
-,"difficulty_rank": 55
-,"meta_tier": 2
+"name": "Kayn",
+"difficulty_rank": 55,
+"meta_tier": 2
 },
 {
-"name": "Kennen"
-,"difficulty_rank": 79
-,"meta_tier": ": weak"
+"name": "Kennen",
+"difficulty_rank": 79,
+"meta_tier": ": weak"
 },
 {
-"name": "Khazix"
-,"displayName": "Kha'Zix"
-,"difficulty_rank": 39
-,"meta_tier": 2
+"name": "Khazix",
+"displayName": "Kha'Zix",
+"difficulty_rank": 39,
+"meta_tier": 2
 },
 {
-"name": "Kindred"
-,"difficulty_rank": 42
-,"meta_tier": ": weak"
+"name": "Kindred",
+"difficulty_rank": 42,
+"meta_tier": ": weak"
 },
 {
-"name": "Kled"
-,"difficulty_rank": 41
-,"meta_tier": ": weak"
+"name": "Kled",
+"difficulty_rank": 41,
+"meta_tier": ": weak"
 },
 {
-"name": "KogMaw"
-,"displayName": "Kog Maw"
-,"difficulty_rank": 56
-,"meta_tier": ": weak"
+"name": "KogMaw",
+"displayName": "Kog Maw",
+"difficulty_rank": 56,
+"meta_tier": ": weak"
 },
 {
-"name": "Leblanc"
-,"difficulty_rank": 12
-,"meta_tier": ": weak"
+"name": "Leblanc",
+"difficulty_rank": 12,
+"meta_tier": ": weak"
 },
 {
-"name": "LeeSin"
-,"displayName": "Lee Sin"
-,"difficulty_rank": 8
-,"meta_tier": ": weak"
+"name": "LeeSin",
+"displayName": "Lee Sin",
+"difficulty_rank": 8,
+"meta_tier": ": weak"
 },
 {
-"name": "Leona"
-,"difficulty_rank": 124
-,"meta_tier": 2
+"name": "Leona",
+"difficulty_rank": 124,
+"meta_tier": 2
 },
 {
-"name": "Lillia"
-,"difficulty_rank": "?"
-,"meta_tier": ": unknown"
+"name": "Lillia",
+"difficulty_rank": "?",
+"meta_tier": ": weak"
 },
 {
-"name": "Lissandra"
-,"difficulty_rank": 85
-,"meta_tier": ": weak"
+"name": "Lissandra",
+"difficulty_rank": 85,
+"meta_tier": ": weak"
 },
 {
-"name": "Lucian"
-,"difficulty_rank": 33
-,"meta_tier": ": weak"
+"name": "Lucian",
+"difficulty_rank": 33,
+"meta_tier": ": weak"
 },
 {
-"name": "Lulu"
-,"difficulty_rank": 87
-,"meta_tier": 1
+"name": "Lulu",
+"difficulty_rank": 87,
+"meta_tier": 1
 },
 {
-"name": "Lux"
-,"difficulty_rank": 133
-,"meta_tier": ": weak"
+"name": "Lux",
+"difficulty_rank": 133,
+"meta_tier": ": weak"
 },
 {
-"name": "Malphite"
-,"difficulty_rank": 146
-,"meta_tier": ": weak"
+"name": "Malphite",
+"difficulty_rank": 146,
+"meta_tier": ": weak"
 },
 {
-"name": "Malzahar"
-,"difficulty_rank": 135
-,"meta_tier": ": weak"
+"name": "Malzahar",
+"difficulty_rank": 135,
+"meta_tier": ": weak"
 },
 {
-"name": "Maokai"
-,"difficulty_rank": 126
-,"meta_tier": "OP"
+"name": "Maokai",
+"difficulty_rank": 126,
+"meta_tier": "OP"
 },
 {
-"name": "MasterYi"
-,"displayName": "Master Yi"
-,"difficulty_rank": 95
-,"meta_tier": ": weak"
+"name": "MasterYi",
+"displayName": "Master Yi",
+"difficulty_rank": 95,
+"meta_tier": ": weak"
 },
 {
-"name": "MissFortune"
-,"displayName": "Miss Fortune"
-,"difficulty_rank": 137
-,"meta_tier": ": weak"
+"name": "MissFortune",
+"displayName": "Miss Fortune",
+"difficulty_rank": 137,
+"meta_tier": ": weak"
 },
 {
-"name": "MonkeyKing"
-,"displayName": "Wukong"
-,"difficulty_rank": 118
-,"meta_tier": ": weak"
+"name": "Mordekaiser",
+"difficulty_rank": 94,
+"meta_tier": ": weak"
 },
 {
-"name": "Mordekaiser"
-,"difficulty_rank": 94
-,"meta_tier": ": weak"
+"name": "Morgana",
+"difficulty_rank": 120,
+"meta_tier": 2
 },
 {
-"name": "Morgana"
-,"difficulty_rank": 120
-,"meta_tier": 2
+"name": "Nami",
+"difficulty_rank": 88,
+"meta_tier": ": weak"
 },
 {
-"name": "Nami"
-,"difficulty_rank": 88
-,"meta_tier": ": weak"
+"name": "Nasus",
+"difficulty_rank": 105,
+"meta_tier": ": weak"
 },
 {
-"name": "Nasus"
-,"difficulty_rank": 105
-,"meta_tier": ": weak"
+"name": "Nautilus",
+"difficulty_rank": 117,
+"meta_tier": ": weak"
 },
 {
-"name": "Nautilus"
-,"difficulty_rank": 117
-,"meta_tier": ": weak"
+"name": "Neeko",
+"difficulty_rank": 96,
+"meta_tier": ": weak"
 },
 {
-"name": "Neeko"
-,"difficulty_rank": 96
-,"meta_tier": ": weak"
+"name": "Nidalee",
+"difficulty_rank": 10,
+"meta_tier": ": weak"
 },
 {
-"name": "Nidalee"
-,"difficulty_rank": 10
-,"meta_tier": ": weak"
+"name": "Nocturne",
+"difficulty_rank": 104,
+"meta_tier": 2
 },
 {
-"name": "Nocturne"
-,"difficulty_rank": 104
-,"meta_tier": 2
+"name": "Nunu",
+"displayName": "Nunu & Willump",
+"difficulty_rank": 75,
+"meta_tier": "OP"
 },
 {
-"name": "Nunu"
-,"displayName": "Nunu & Willump"
-,"difficulty_rank": 75
-,"meta_tier": "OP"
+"name": "Olaf",
+"difficulty_rank": 101,
+"meta_tier": ": weak"
 },
 {
-"name": "Olaf"
-,"difficulty_rank": 101
-,"meta_tier": ": weak"
+"name": "Orianna",
+"difficulty_rank": 43,
+"meta_tier": ": weak"
 },
 {
-"name": "Orianna"
-,"difficulty_rank": 43
-,"meta_tier": ": weak"
+"name": "Ornn",
+"difficulty_rank": 78,
+"meta_tier": ": weak"
 },
 {
-"name": "Ornn"
-,"difficulty_rank": 78
-,"meta_tier": ": weak"
+"name": "Pantheon",
+"difficulty_rank": 134,
+"meta_tier": 2
 },
 {
-"name": "Pantheon"
-,"difficulty_rank": 134
-,"meta_tier": 2
+"name": "Poppy",
+"difficulty_rank": 107,
+"meta_tier": ": weak"
 },
 {
-"name": "Poppy"
-,"difficulty_rank": 107
-,"meta_tier": ": weak"
+"name": "Pyke",
+"difficulty_rank": 29,
+"meta_tier": ": weak"
 },
 {
-"name": "Pyke"
-,"difficulty_rank": 29
-,"meta_tier": ": weak"
+"name": "Qiyana",
+"difficulty_rank": 32,
+"meta_tier": ": weak"
 },
 {
-"name": "Qiyana"
-,"difficulty_rank": 32
-,"meta_tier": ": weak"
+"name": "Quinn",
+"difficulty_rank": 81,
+"meta_tier": 2
 },
 {
-"name": "Quinn"
-,"difficulty_rank": 81
-,"meta_tier": 2
+"name": "Rakan",
+"difficulty_rank": 34,
+"meta_tier": ": weak"
 },
 {
-"name": "Rakan"
-,"difficulty_rank": 34
-,"meta_tier": ": weak"
+"name": "Rammus",
+"difficulty_rank": 144,
+"meta_tier": ": weak"
 },
 {
-"name": "Rammus"
-,"difficulty_rank": 144
-,"meta_tier": ": weak"
+"name": "Reksai",
+"displayName": "Rek'Sai",
+"difficulty_rank": 42,
+"meta_tier": ": weak"
 },
 {
-"name": "RekSai","displayName": "Rek'Sai"
-,"difficulty_rank": 42
-,"meta_tier": ": weak"
+"name": "Renekton",
+"difficulty_rank": 64,
+"meta_tier": 1
 },
 {
-"name": "Renekton"
-,"difficulty_rank": 64
-,"meta_tier": 1
+"name": "Rengar",
+"difficulty_rank": 22,
+"meta_tier": ": weak"
 },
 {
-"name": "Rengar"
-,"difficulty_rank": 22
-,"meta_tier": ": weak"
+"name": "Riven",
+"difficulty_rank": 11,
+"meta_tier": ": weak"
 },
 {
-"name": "Riven"
-,"difficulty_rank": 11
-,"meta_tier": ": weak"
+"name": "Rumble",
+"difficulty_rank": 45,
+"meta_tier": ": weak"
 },
 {
-"name": "Rumble"
-,"difficulty_rank": 45
-,"meta_tier": ": weak"
+"name": "Ryze",
+"difficulty_rank": 40,
+"meta_tier": ": weak"
 },
 {
-"name": "Ryze"
-,"difficulty_rank": 40
-,"meta_tier": ": weak"
+"name": "Sejuani",
+"difficulty_rank": 110,
+"meta_tier": ": weak"
 },
 {
-"name": "Sejuani"
-,"difficulty_rank": 110
-,"meta_tier": ": weak"
+"name": "Senna",
+"difficulty_rank": 83,
+"meta_tier": 2
 },
 {
-"name": "Senna"
-,"difficulty_rank": 83
-,"meta_tier": 2
+"name": "Sett",
+"difficulty_rank": 127,
+"meta_tier": ": weak"
 },
 {
-"name": "Sett"
-,"difficulty_rank": 127
-,"meta_tier": ": weak"
+"name": "Shaco",
+"difficulty_rank": 27,
+"meta_tier": ": weak"
 },
 {
-"name": "Shaco"
-,"difficulty_rank": 27
-,"meta_tier": ": weak"
+"name": "Shen",
+"difficulty_rank": 77,
+"meta_tier": ": weak"
 },
 {
-"name": "Shen"
-,"difficulty_rank": 77
-,"meta_tier": ": weak"
+"name": "Shyvana",
+"difficulty_rank": 106,
+"meta_tier": ": weak"
 },
 {
-"name": "Shyvana"
-,"difficulty_rank": 106
-,"meta_tier": ": weak"
+"name": "Singed",
+"difficulty_rank": 36,
+"meta_tier": ": weak"
 },
 {
-"name": "Singed"
-,"difficulty_rank": 36
-,"meta_tier": ": weak"
+"name": "Sion",
+"difficulty_rank": 80,
+"meta_tier": ": weak"
 },
 {
-"name": "Sion"
-,"difficulty_rank": 80
-,"meta_tier": ": weak"
+"name": "Sivir",
+"difficulty_rank": 125,
+"meta_tier": ": weak"
 },
 {
-"name": "Sivir"
-,"difficulty_rank": 125
-,"meta_tier": ": weak"
+"name": "Skarner",
+"difficulty_rank": 112,
+"meta_tier": ": weak"
 },
 {
-"name": "Skarner"
-,"difficulty_rank": 112
-,"meta_tier": ": weak"
+"name": "Sona",
+"difficulty_rank": 147,
+"meta_tier": 2
 },
 {
-"name": "Sona"
-,"difficulty_rank": 147
-,"meta_tier": 2
+"name": "Soraka",
+"difficulty_rank": 136,
+"meta_tier": ": weak"
 },
 {
-"name": "Soraka"
-,"difficulty_rank": 136
-,"meta_tier": ": weak"
+"name": "Swain",
+"difficulty_rank": 97,
+"meta_tier": 2
 },
 {
-"name": "Swain"
-,"difficulty_rank": 97
-,"meta_tier": 2
+"name": "Sylas",
+"difficulty_rank": 59,
+"meta_tier": ": weak"
 },
 {
-"name": "Sylas"
-,"difficulty_rank": 59
-,"meta_tier": ": weak"
+"name": "Syndra",
+"difficulty_rank": 39,
+"meta_tier": ": weak"
 },
 {
-"name": "Syndra"
-,"difficulty_rank": 39
-,"meta_tier": ": weak"
+"name": "TahmKench",
+"displayName": "Tahm Kench",
+"difficulty_rank": 35,
+"meta_tier": ": weak"
 },
 {
-"name": "TahmKench"
-,"displayName": "Tahm Kench"
-,"difficulty_rank": 35
-,"meta_tier": ": weak"
+"name": "Taliyah",
+"difficulty_rank": 47,
+"meta_tier": ": weak"
 },
 {
-"name": "Taliyah"
-,"difficulty_rank": 47
-,"meta_tier": ": weak"
+"name": "Talon",
+"difficulty_rank": 60,
+"meta_tier": "OP"
 },
 {
-"name": "Talon"
-,"difficulty_rank": 60
-,"meta_tier": "OP"
+"name": "Taric",
+"difficulty_rank": 91,
+"meta_tier": ": weak"
 },
 {
-"name": "Taric"
-,"difficulty_rank": 91
-,"meta_tier": ": weak"
+"name": "Teemo",
+"difficulty_rank": 98,
+"meta_tier": ": weak"
 },
 {
-"name": "Teemo"
-,"difficulty_rank": 98
-,"meta_tier": ": weak"
+"name": "Thresh",
+"difficulty_rank": 5,
+"meta_tier": 2
 },
 {
-"name": "Thresh"
-,"difficulty_rank": 5
-,"meta_tier": 2
+"name": "Tristana",
+"difficulty_rank": 103,
+"meta_tier": ": weak"
 },
 {
-"name": "Tristana"
-,"difficulty_rank": 103
-,"meta_tier": ": weak"
+"name": "Trundle",
+"difficulty_rank": 119,
+"meta_tier": ": weak"
 },
 {
-"name": "Trundle"
-,"difficulty_rank": 119
-,"meta_tier": ": weak"
+"name": "Tryndamere",
+"difficulty_rank": 93,
+"meta_tier": ": weak"
 },
 {
-"name": "Tryndamere"
-,"difficulty_rank": 93
-,"meta_tier": ": weak"
+"name": "TwistedFate",
+"displayName": "Twisted Fate",
+"difficulty_rank": 26,
+"meta_tier": ": weak"
 },
 {
-"name": "TwistedFate"
-,"displayName": "Twisted Fate"
-,"difficulty_rank": 26
-,"meta_tier": ": weak"
+"name": "Twitch",
+"difficulty_rank": 69,
+"meta_tier": ": weak"
 },
 {
-"name": "Twitch"
-,"difficulty_rank": 69
-,"meta_tier": ": weak"
+"name": "Udyr",
+"difficulty_rank": 102,
+"meta_tier": ": weak"
 },
 {
-"name": "Udyr"
-,"difficulty_rank": 102
-,"meta_tier": ": weak"
+"name": "Urgot",
+"difficulty_rank": 71,
+"meta_tier": ": weak"
 },
 {
-"name": "Urgot"
-,"difficulty_rank": 71
-,"meta_tier": ": weak"
+"name": "Varus",
+"difficulty_rank": 82,
+"meta_tier": ": weak"
 },
 {
-"name": "Varus"
-,"difficulty_rank": 82
-,"meta_tier": ": weak"
+"name": "Vayne",
+"difficulty_rank": 31,
+"meta_tier": 2
 },
 {
-"name": "Vayne"
-,"difficulty_rank": 31
-,"meta_tier": 2
+"name": "Veigar",
+"difficulty_rank": 131,
+"meta_tier": ": weak"
 },
 {
-"name": "Veigar"
-,"difficulty_rank": 131
-,"meta_tier": ": weak"
+"name": "Velkoz",
+"displayName": "Vel'Koz",
+"difficulty_rank": 67,
+"meta_tier": ": weak"
 },
 {
-"name": "Velkoz"
-,"displayName": "Vel'Koz"
-,"difficulty_rank": 67
-,"meta_tier": ": weak"
+"name": "Vi",
+"difficulty_rank": 130,
+"meta_tier": ": weak"
 },
 {
-"name": "Vi"
-,"difficulty_rank": 130
-,"meta_tier": ": weak"
+"name": "Viktor",
+"difficulty_rank": 61,
+"meta_tier": ": weak"
 },
 {
-"name": "Viktor"
-,"difficulty_rank": 61
-,"meta_tier": ": weak"
+"name": "Vladimir",
+"difficulty_rank": 48,
+"meta_tier": ": weak"
 },
 {
-"name": "Vladimir"
-,"difficulty_rank": 48
-,"meta_tier": ": weak"
+"name": "Volibear",
+"difficulty_rank": 108,
+"meta_tier": "OP"
 },
 {
-"name": "Volibear"
-,"difficulty_rank": 108
-,"meta_tier": "OP"
+"name": "Warwick",
+"difficulty_rank": 145,
+"meta_tier": ": weak"
 },
 {
-"name": "Warwick"
-,"difficulty_rank": 145
-,"meta_tier": ": weak"
+"name": "Wukong",
+"difficulty_rank": 118,
+"meta_tier": 2
 },
 {
-"name": "Xayah"
-,"difficulty_rank": 51
-,"meta_tier": ": weak"
+"name": "Xayah",
+"difficulty_rank": 51,
+"meta_tier": ": weak"
 },
 {
-"name": "Xerath"
-,"difficulty_rank": 37
-,"meta_tier": ": weak"
+"name": "Xerath",
+"difficulty_rank": 37,
+"meta_tier": ": weak"
 },
 {
-"name": "XinZhao"
-,"displayName": "Xin Zhao"
-,"difficulty_rank": 141
-,"meta_tier": ": weak"
+"name": "XinZhao",
+"displayName": "Xin Zhao",
+"difficulty_rank": 141,
+"meta_tier": ": weak"
 },
 {
-"name": "Yasuo"
-,"difficulty_rank": 7
-,"meta_tier": 2
+"name": "Yasuo",
+"difficulty_rank": 7,
+"meta_tier": 2
 },
 {
-"name": "Yone"
-,"difficulty_rank": "?"
-,"meta_tier": ": unknown"
+"name": "Yone",
+"difficulty_rank": "?",
+"meta_tier": ": unknown"
 ,"passive_name": "WAY OF THE HUNTER"
 ,"passive_description": "Yone uses two blades, causing every second Attack to deal 50% magic damage. Yone\\'s Critical Strike Chance is doubled but his critical strikes deal 10% reduced damage."
 ,"q_name": "MORTAL STEEL"
@@ -756,44 +756,42 @@
 ,"r_description": "Yone strikes all enemies in his path for 100 (+40% AD) pysical damage and 100 (+40% AD) magic damage, blinking behind the last enemy hit and Knocking Up victims towards him."
 },
 {
-"name": "Yorick"
-,"difficulty_rank": 73
-,"meta_tier": ": weak"
+"name": "Yorick",
+"difficulty_rank": 73,
+"meta_tier": ": weak"
 },
 {
-"name": "Yuumi"
-,"difficulty_rank": 140
-,"meta_tier": ": weak"
+"name": "Yuumi",
+"difficulty_rank": 140,
+"meta_tier": ": weak"
 },
 {
-"name": "Zac"
-,"difficulty_rank": 109
-,"meta_tier": 2
+"name": "Zac",
+"difficulty_rank": 109,
+"meta_tier": 2
 },
 {
-"name": "Zed"
-,"difficulty_rank": 6
-,"meta_tier": 1
+"name": "Zed",
+"difficulty_rank": 6,
+"meta_tier": 1
 },
 {
-"name": "Ziggs"
-,"difficulty_rank": 132
-,"meta_tier": ": weak"
+"name": "Ziggs",
+"difficulty_rank": 132,
+"meta_tier": ": weak"
 },
 {
-"name": "Zilean"
-,"difficulty_rank": 121
-,"meta_tier": 2
+"name": "Zilean",
+"difficulty_rank": 121,
+"meta_tier": 2
 },
 {
-"name": "Zoe"
-,"difficulty_rank": 30
-,"meta_tier": ": weak"
+"name": "Zoe",
+"difficulty_rank": 30,
+"meta_tier": ": weak"
 },
 {
-"name": "Zyra"
-,"difficulty_rank": 99
-,"meta_tier": ": weak"
-}
-]
-}
+"name": "Zyra",
+"difficulty_rank": 99,
+"meta_tier": ": weak"
+}]}
