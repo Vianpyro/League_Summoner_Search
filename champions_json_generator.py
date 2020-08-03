@@ -2,8 +2,8 @@ PATCH = 10.15
 
 # List by hardest to easiest champion skill cap
 s_tier = (
-    'Aurelion Sol', 'Kalista', 'Draven', 'Gangplank', 'Tresh', 'Zed', 'Yasuo', 'Lee Sin', 'Azir', 'Nidalee', 
-    'Riven', 'LeBlanc', 'Akali', 'Bard'
+    'Aurelion Sol', 'Kalista', 'Draven', 'Gangplank', 'Thresh', 'Zed', 'Yasuo', 'Lee Sin', 'Azir', 'Nidalee', 
+    'Riven', 'Leblanc', 'Akali', 'Bard'
 )
 
 a_tier = (
@@ -15,25 +15,25 @@ a_tier = (
 b_tier = (
     'Singed', 'Xerath', 'Anivia', 'Kha\'Zix', 'Ryze', 'Kled', 'Kindred', 'Orianna', 'Evelynn', 'Rumble',
     'Ekko', 'Taliyah', 'Vladimir', 'Karthus', 'Janna', 'Xayah', 'Ezreal', 'Camille', 'Gnar', 'Kayn',
-    'Kog\'Maw', 'Alisar', 'Gragas', 'Sylas', 'Talon', 'Viktor', 'Aphelios'
+    'Kog Maw', 'Alistar', 'Gragas', 'Sylas', 'Talon', 'Viktor', 'Aphelios'
 )
 
 c_tier = (
     'Fizz', 'Renekton', 'Heimerdinger', 'Ahri', 'Vel\'Koz', 'Jax', 'Twitch', 'Illaoi', 'Urgot', 'Jhin',
-    'Yorik', 'Graves', 'Nunu & Willump', 'Kassadin', 'Shen', 'Ornn', 'Kennen', 'Sion', 'Quinn', 'Varus',
+    'Yorick', 'Graves', 'Nunu & Willump', 'Kassadin', 'Shen', 'Ornn', 'Kennen', 'Sion', 'Quinn', 'Varus',
     'Senna', 'Fiddlesticks', 'Lissandra', 'Caitlyn', 'Lulu', 'Nami', 'Corki', 'Galio', 'Taric'
 )
 
 d_tier = (
     'Darius', 'Tryndamere', 'Mordekaiser', 'Master Yi', 'Neeko', 'Swain', 'Teemo', 'Zyra', 'Kayle', 'Olaf',
     'Udyr', 'Tristana', 'Nocturne', 'Nasus', 'Shyvana', 'Poppy', 'Volibear', 'Zac', 'Sejuani', 'Hecarim',
-    'Skarner', 'Diana', 'Cho\'Gath', 'Jarvan IV', 'Blitzcrank', 'Nautilus', 'Wukong', 'Trundle', 'Morgana',
+    'Skarner', 'Diana', 'Cho\'Gath', 'Jarvan IV', 'Blitzcrank', 'Nautilus', 'Monkey King', 'Trundle', 'Morgana',
     'Zilean', 'Karma', 'Braum', 'Leona', 'Sivir', 'Maokai', 'Sett'
 )
 
 e_tier = (
     'Brand', 'Jinx', 'Vi', 'Veigar', 'Ziggs', 'Lux', 'Pantheon', 'Malzahar', 'Soraka', 'Miss Fortune', 
-    'Ashe', 'Mundo', 'Yuumi', 'Xin Zao', 'Garen', 'Amumu', 'Rammus', 'Warwick', 'Malhpite', 'Sona', 'Annie'
+    'Ashe', 'DrMundo', 'Yuumi', 'Xin Zhao', 'Garen', 'Amumu', 'Rammus', 'Warwick', 'Malphite', 'Sona', 'Annie'
 )
 
 unkown_tier = (
@@ -54,6 +54,13 @@ abilities = {
         'FOX-FIRE', 'Ahri releases three fox-fires, that lock onto and attack nearby enemies',
         'CHARM', 'Ahri blows a kiss that damages and charms an enemy it encounters, instantly stopping movement abilities and causing them to walk harmlessly towards her. The target temporarily takes increased damage from Ahri.',
         'SPIRIT RUSH', 'Ahri dashes forward and fires essence bolts, damaging nearby enemies. Spirit Rush can be cast up to three times before going on cooldown'
+    ),
+    'Yone': (
+        'WAY OF THE HUNTER', f'Yone uses two blades, causing every second Attack to deal 50% magic damage. Yone\'s Critical Strike Chance is doubled but his critical strikes deal 10% reduced damage.',
+        'MORTAL STEEL', f'Yone thrusts forward, dealing 20/45/70/95/120(+?% AD) physical damage. On hit, grants a stack of for 6 seconds. At 2 stacks, this skill causes Yone to dash forward with a wave of wind that Knocks Up for 0.75 second and deal 20/45/70/95/120(+?% AD) physical damage.',
+        'SPIRIT CLEAVE', f'Yone cleaves forward in a massive arc, dealing 5/10/15/20/25 + 6%/6.5%/7%/7.5%/8% physical damage and 5/10/15/20/25 + 6%/6.5%/7%/7.5%/8% magical damage of the target\'s maximum health. After successfully hitting an enemy, Yone also gains 40(+?% AD) shield for 1.5 second. The shield\'s power increases per champion struck.',
+        'SOUL UNBOUND', f'Yone can enter his Spirit Form for 5 seconds, gaining 10% movement speed and leaving his body behind. When Yone\'s Spirit Form expires, he\'ll snap back into his body and deal 25%/27.5%/30%/32.5%/35% of all the damage he dealt with while in Spirit Form.',
+        'FATE SEALED', f'Yone strikes all enemies in his path for 100(+?% AD) pysical damage and 100(+?% AD) magic damage, blinking behind the last enemy hit and Knocking Up victims towards him.'
     )
 }
 
@@ -67,7 +74,7 @@ tier_1 = (
 )
 
 tier_2 = (
-    'Wukong', 'Quinn', 'Jax', 'Fiora', 'Ekko', 'Graves', 'Rek\'Sai', 'Kha\'Zix', 'Zac', 'Kayn',
+    'Wukong', 'Quinn', 'Jax', 'Fiora', 'Ekko', 'Graves', 'Rek Sai', 'Kha\'Zix', 'Zac', 'Kayn',
     'Cassiopeia', 'Pantheon', 'Yasuo', 'Katarina', 'Nocturne', 'Ezreal', 'Vayne', 'Senna', 'Yasuo', 'Swain',
     'Leona', 'Morgana', 'Thresh', 'Karma', 'Zilean', 'Sona'
 )
@@ -83,10 +90,22 @@ for index, champ in enumerate(champions):
 
     # Add champion name and (maybe) display name
     if "'" in champ or ' ' in champ:
-        word += '"name": "%s"\n' % (champ.replace("'", '').replace(' ', ''))
-        word += ',"displayName": "%s"\n' % (champ)
+        if champ == 'Nunu & Willump':
+            word += '"name": "Nunu"\n'
+        elif champ == 'Rek\'Sai':
+            word += '"name": "RekSai"'
+        elif "'" in champ:
+            word += '"name": "%s"\n' % (champ[0] + champ[1:].replace("'", '').replace(' ', '').lower())
+        else:
+            word += '"name": "%s"\n' % (champ.replace("'", '').replace(' ', ''))
+
+        if champ == 'Monkey King':
+            word += ',"displayName": "Wukong"\n'
+        else:
+            word += ',"displayName": "%s"\n' % (champ)
     else:
         word += '"name": "%s"\n' % (champ)
+
 
     # Add champion skill caps rank
     word += ',"difficulty_rank": '
@@ -104,6 +123,7 @@ for index, champ in enumerate(champions):
     if champ in tier_op: word += '"OP"'
     elif champ in tier_1: word += '1'
     elif champ in tier_2: word += '2'
+    elif champ in ('Lillia', 'Yone'): word += '": unknown"'
     else: word += '": weak"'
     word += '\n'
 
@@ -124,5 +144,5 @@ for index, champ in enumerate(champions):
     word += '}'
 
 word += '\n]\n}'
-with open('champs_temp.json', 'w') as f:
+with open('src/json/champions.json', 'w') as f:
     f.write(word)

@@ -16,7 +16,7 @@ function loadChampData(on_error_link,
                             <title>League of Help - ${champion}</title>
                         </head>
         
-                        <body style="background-image: url(${on_error_link});background-repeat: no-repeat;background-attachment: fixed;background-size: cover;backdrop-filter: blur(8px);">
+                        <body style="background-image: url('${on_error_link}');background-repeat: no-repeat;background-attachment: fixed;background-size: cover;backdrop-filter: blur(8px);">
                             <nav class="header">
                                 <h2 class="logo">League of Help</h2>
                                 <input type="checkbox" id="chk">
@@ -37,29 +37,29 @@ function loadChampData(on_error_link,
                             <figure id="champ-icon">
                                 <a onclick="loadChampData('${champion}');">
                                 <img id="champ-img" src="../src/img/icon/${champion}.jpg"
-                                onerror="javascript: document.getElementById('champ-img').src = ${on_error_link}">
+                                onerror="this.onerror=null;this.src = '${on_error_link}';">
                                 <figcaption id="champ-difficulty_rank"> Difficulty rank: #${champ_difficulty_rank}</figcaption></a>
                             </figure>
                             <div id="champ-stats">
                                 <h3>Abilities:</h3>
                                 <div class="tooltip" style="font-size:16px;">
-                                    <img src="../src/img/abilities/${champion}/p.png" onerror="javascript: document.getElementById('abilities-p').src = '../src/img/image_not_found.png'" class="abilities" id='abilities-p'>
+                                    <img src="../src/img/abilities/${champion}/p.png" onerror="this.onerror=null;this.src = '../src/img/image_not_found.png';" class="abilities" id='abilities-p'>
                                     <span class="tooltip-text"><b style='color:#d4af37;font-size:18px;'>${champ_p_name}</b></br>${champ_p_desc}</span>
                                 </div>
                                 <div class="tooltip" style="font-size:16px;">
-                                    <img src="../src/img/abilities/${champion}/q.png" onerror="javascript: document.getElementById('abilities-q').src = '../src/img/image_not_found.png'" class="abilities" id='abilities-q'>
+                                    <img src="../src/img/abilities/${champion}/q.png" onerror="this.onerror=null;this.src = '../src/img/image_not_found.png';" class="abilities" id='abilities-q'>
                                     <span class="tooltip-text"><b style='color:#d4af37;font-size:18px;'>${champ_q_name}</b></br>${champ_q_desc}</span>
                                 </div>
                                 <div class="tooltip" style="font-size:16px;">
-                                    <img src="../src/img/abilities/${champion}/w.png" onerror="javascript: document.getElementById('abilities-w').src = '../src/img/image_not_found.png'" class="abilities" id='abilities-w'>
+                                    <img src="../src/img/abilities/${champion}/w.png" onerror="this.onerror=null;this.src = '../src/img/image_not_found.png';" class="abilities" id='abilities-w'>
                                     <span class="tooltip-text"><b style='color:#d4af37;font-size:18px;'>${champ_w_name}</b></br>${champ_w_desc}</span>
                                 </div>
                                 <div class="tooltip" style="font-size:16px;">
-                                    <img src="../src/img/abilities/${champion}/e.png" onerror="javascript: document.getElementById('abilities-e').src = '../src/img/image_not_found.png'" class="abilities" id='abilities-e'>
+                                    <img src="../src/img/abilities/${champion}/e.png" onerror="this.onerror=null;this.src = '../src/img/image_not_found.png';" class="abilities" id='abilities-e'>
                                     <span class="tooltip-text"><b style='color:#d4af37;font-size:18px;'>${champ_e_name}</b></br>${champ_e_desc}</span>
                                 </div>
                                 <div class="tooltip" style="font-size:16px;">
-                                    <img src="../src/img/abilities/${champion}/r.png" onerror="javascript: document.getElementById('abilities-r').src = '../src/img/image_not_found.png'" class="abilities" id='abilities-r'>
+                                    <img src="../src/img/abilities/${champion}/r.png" onerror="this.onerror=null;this.src = '../src/img/image_not_found.png';" class="abilities" id='abilities-r'>
                                     <span class="tooltip-text"><b style='color:#d4af37;font-size:18px;'>${champ_r_name}</b></br>${champ_r_desc}</span>
                                 </div>
                                 <div class="meta">
