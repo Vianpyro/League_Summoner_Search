@@ -77,7 +77,7 @@ tier_1 = (
 )
 
 tier_2 = (
-    'Wukong', 'Quinn', 'Jax', 'Fiora', 'Ekko', 'Graves', 'Rek Sai', 'Kha\'Zix', 'Zac', 'Kayn',
+    'Wukong', 'Quinn', 'Jax', 'Fiora', 'Ekko', 'Graves', 'Rek\'Sai', 'Kha\'Zix', 'Zac', 'Kayn',
     'Cassiopeia', 'Pantheon', 'Yasuo', 'Katarina', 'Nocturne', 'Ezreal', 'Vayne', 'Senna', 'Yasuo', 'Swain',
     'Leona', 'Morgana', 'Thresh', 'Karma', 'Zilean', 'Sona'
 )
