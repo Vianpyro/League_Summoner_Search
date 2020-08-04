@@ -20,7 +20,6 @@ async function displayChampions() {
                     <img class="champ-img" src="../src/img/icon/${champion.name}.jpg" onerror="this.src='${on_error_link}';this.onerror=null;">
                     <figcaption id="champ${champion.name}Name"></figcaption></a>
                 </figure>`;
-            console.log(champion.displayName)
 
             if (champion.displayName) {
                 document.getElementById(`champ${champion.name}Name`).innerHTML = `${champion.displayName}`;

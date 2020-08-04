@@ -16,7 +16,7 @@ function loadChampData(on_error_link,
                             <title>League of Help - ${champion}</title>
                         </head>
         
-                        <body style="background-image: url('${on_error_link}');background-repeat: no-repeat;background-attachment: fixed;background-size: cover;backdrop-filter: blur(8px);">
+                        <body id="load-champ-bg" style="background-image: url('${on_error_link}');">
                             <nav class="header">
                                 <h2 class="logo">League of Help</h2>
                                 <input type="checkbox" id="chk">
@@ -36,9 +36,8 @@ function loadChampData(on_error_link,
 
                             <figure id="champ-icon">
                                 <a onclick="loadChampData('${champion}');">
-                                <img id="champ-img" src="../src/img/icon/${champion}.jpg"
-                                onerror="this.onerror=null;this.src = '${on_error_link}';">
-                                <figcaption id="champ-difficulty_rank"> Difficulty rank: #${champ_difficulty_rank}</figcaption></a>
+                                <img id="champ-img" src="../src/img/icon/${champion}.jpg" onerror="this.onerror=null;this.src = '${on_error_link}';">
+                                <figcaption id="champ-difficulty_rank">${champion}</br>Difficulty rank: #${champ_difficulty_rank}</figcaption></a>
                             </figure>
                             <div id="champ-stats">
                                 <h3>Abilities:</h3>

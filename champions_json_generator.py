@@ -37,8 +37,11 @@ e_tier = (
 )
 
 unkown_tier = (
-    'Lillia', 'Yone'
+    'Lillia', 'Yone', 'Samira', 'Seraphine'
 )
+
+# Regroup and sort every champion in a single list
+champions = sorted(s_tier + a_tier + b_tier + c_tier + d_tier + e_tier + unkown_tier)
 
 abilities = {
     'Aatrox': (
@@ -79,9 +82,6 @@ tier_2 = (
     'Leona', 'Morgana', 'Thresh', 'Karma', 'Zilean', 'Sona'
 )
 
-# Regroup and sort every champion in a single list
-champions = sorted(s_tier + a_tier + b_tier + c_tier + d_tier + e_tier + unkown_tier)
-
 word = '{\n"champions":\n['
 for index, champ in enumerate(champions):
     # Don't put a ',' if first element when opening champion part
@@ -117,7 +117,7 @@ for index, champ in enumerate(champions):
     if champ in tier_op: word += '"OP"'
     elif champ in tier_1: word += '1'
     elif champ in tier_2: word += '2'
-    elif champ in ('Yone'): word += '": unknown"'
+    elif champ in ('Yone', 'Samira', 'Seraphine'): word += '": unknown"'
     else: word += '": weak"'
     word += '\n'
 

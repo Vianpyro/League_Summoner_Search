@@ -39,11 +39,45 @@
     border: 1px solid #fff;
     border-radius: 20px;
     box-shadow: gray 0 0 10px;
+    width: 100%;
     height: 200px;
-    width: 200px;
     object-fit: cover;
 }
 
-#champ-toptext {
-    padding-top: 2em;
+#toptext {
+    font-size: 24px;
+    margin: 2em 2em 1em 2em;
+    text-align: center;
+}
+
+/* Mobile */
+@media screen and (max-width:800px) {
+    #champions {
+        margin: 1em 3em;
+    }
+
+    #champions figure {
+        margin: 1em;
+        width: 105px;
+    }
+    
+    #toptext {
+        font-size: 16px;
+    }
+}
+
+/* 4k and above */
+@media screen and (min-width:2000px) {
+    #champions {
+        margin: 2em;
+    }
+
+    #champions figure {
+        margin: 2em;
+        width: 400px;
+    }
+
+    #toptext {
+        font-size: 32px;
+    }
 }

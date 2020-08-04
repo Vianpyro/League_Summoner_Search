@@ -527,6 +527,11 @@
 "meta_tier": ": weak"
 },
 {
+"name": "Samira",
+"difficulty_rank": "?",
+"meta_tier": ": unknown"
+},
+{
 "name": "Sejuani",
 "difficulty_rank": 110,
 "meta_tier": ": weak"
@@ -535,6 +540,11 @@
 "name": "Senna",
 "difficulty_rank": 83,
 "meta_tier": 2
+},
+{
+"name": "Seraphine",
+"difficulty_rank": "?",
+"meta_tier": ": unknown"
 },
 {
 "name": "Sett",
