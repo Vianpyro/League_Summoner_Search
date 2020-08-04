@@ -14,6 +14,7 @@
     <div class="scripts">
         <script src="../src/javascript/champions.js"></script>
         <script src="../src/javascript/load-champ.js"></script>
+        <script src="../src/javascript/search-bar.js"></script>
     </div>
     
     <nav class="header">
@@ -36,6 +37,7 @@
     <div id="toptext">
         <noscript>You need to enable JavaScript to run this app.</noscript>
         <p id="champ-toptext"></p>
+        <input type="text" id="search-champion" onkeyup="search_champion()" placeholder="Search for champion..." autocomplete="off" autofocus>
     </div>
     <center>
         <div id="champions"></div>

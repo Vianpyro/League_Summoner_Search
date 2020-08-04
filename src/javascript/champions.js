@@ -10,7 +10,7 @@ async function displayChampions() {
             var on_error_link = `https://ddragon.leagueoflegends.com/cdn/img/champion/splash/${champion.name}_0.jpg`
             // var on_error_link = '../src/img/image_not_found.png'
             document.getElementById(`champions`).innerHTML +=
-                `<figure>
+                `<figure class="champion-figure">
                     <a onclick="loadChampData('${on_error_link}',
                     '${champion.name}', '${champion.difficulty_rank}', 
                     '${champion.passive_name}', '${champion.passive_description}',
