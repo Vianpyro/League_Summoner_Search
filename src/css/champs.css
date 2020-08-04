@@ -39,7 +39,7 @@
     border: 1px solid #fff;
     border-radius: 20px;
     box-shadow: gray 0 0 10px;
-    width: 100%;
+    width: 200px;
     height: 200px;
     object-fit: cover;
 }
@@ -61,6 +61,11 @@
         width: 105px;
     }
     
+    #champions figure img {
+        height: 105px;
+        width: 105px;
+    }
+    
     #toptext {
         font-size: 16px;
     }
@@ -74,6 +79,11 @@
 
     #champions figure {
         margin: 2em;
+        width: 400px;
+    }
+
+    #champions figure img {
+        height: 400px;
         width: 400px;
     }
 
