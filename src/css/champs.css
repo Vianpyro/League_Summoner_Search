@@ -51,7 +51,6 @@
 }
 
 #search-champion {
-    background-image: url('/src/img/searchicon.png');
     background-position: 10px 12px;
     background-repeat: no-repeat;
     max-width: 200px;
