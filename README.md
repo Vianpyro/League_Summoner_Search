@@ -28,4 +28,4 @@ Open an issue ("ticket") [here](https://github.com/Vianpyro/League-of-Help/issue
 - [stackoverflow](https://stackoverflow.com/)
 
 ## License
-MIT © Vianpyro
+[MIT © Vianpyro](https://github.com/Vianpyro/League-of-Help/blob/master/LICENSE)
