@@ -1,4 +1,44 @@
-PATCH = 10.15
+from lxml import html
+import requests
+
+
+class GetMetaBot:
+    def __init__(self):
+        self.base_url = 'https://op.gg/champion/statistics'
+
+        self.page = requests.get(f'{self.base_url}')
+        self.tree = html.fromstring(self.page.content)
+
+        self.get_meta()
+
+    def get_meta(self):
+        champions_list = self.tree.xpath('//*[@class="champion-index-table__name"]/text()')
+        winrate = self.tree.xpath('//*[@class="champion-index-table__cell champion-index-table__cell--value"]/text()')
+        patch = self.tree.xpath('//*[@class="champion-index__version"]/text()')
+
+        winrate_list = [float(winrate[i * 4][0:-1]) for i in range (len(winrate) // 4)]
+
+        return patch[-1][19:25], champions_list, winrate_list
+
+
+if __name__ == '__main__':
+    bot = GetMetaBot()
+    PATCH, CHAMPS, WINRATE = bot.get_meta()
+
+new_champs, new_winrate = [], []
+for i in range (len(CHAMPS)):
+    if not CHAMPS[i] in new_champs:
+        new_champs.append(CHAMPS[i])
+        new_winrate.append(WINRATE[i])
+
+tier_op, tier_1, tier_2, tier_3, tier_4, tier_5 = [], [], [], [], [], []
+for j in range (len(new_champs)):
+    if new_winrate[j] > 53.0: tier_op.append(new_champs[j])
+    elif 53.0 > new_winrate[j] > 51.0: tier_1.append(new_champs[j])
+    elif 51.0 > new_winrate[j] > 50.0: tier_2.append(new_champs[j])
+    elif 50.0 > new_winrate[j] > 49.0: tier_3.append(new_champs[j])
+    elif 49.0 > new_winrate[j] > 48.0: tier_4.append(new_champs[j])
+    else: tier_5.append(new_champs[j])
 
 # List by hardest to easiest champion skill cap
 s_tier = (
@@ -33,7 +73,7 @@ d_tier = (
 
 e_tier = (
     'Brand', 'Jinx', 'Vi', 'Veigar', 'Ziggs', 'Lux', 'Pantheon', 'Malzahar', 'Soraka', 'Miss Fortune', 
-    'Ashe', 'DrMundo', 'Yuumi', 'Xin Zhao', 'Garen', 'Amumu', 'Rammus', 'Warwick', 'Malphite', 'Sona', 'Annie'
+    'Ashe', 'Dr. Mundo', 'Yuumi', 'Xin Zhao', 'Garen', 'Amumu', 'Rammus', 'Warwick', 'Malphite', 'Sona', 'Annie'
 )
 
 unkown_tier = (
@@ -67,21 +107,6 @@ abilities = {
     )
 }
 
-# List strongest to weakest champions (meta)
-tier_op = (
-    'Maokai', 'Karthus', 'Volibear', 'Nunu & Willump', 'Galio', 'Talon', 'Caitlyn', 'Ashe', 'Bard'
-)
-
-tier_1 = (
-    'Darius', 'Camille', 'Renekton', 'Garen', 'Elise', 'Zed', 'Kassadin', 'Fizz', 'Lulu', 'Blitzcrank'
-)
-
-tier_2 = (
-    'Wukong', 'Quinn', 'Jax', 'Fiora', 'Ekko', 'Graves', 'Rek\'Sai', 'Kha\'Zix', 'Zac', 'Kayn',
-    'Cassiopeia', 'Pantheon', 'Yasuo', 'Katarina', 'Nocturne', 'Ezreal', 'Vayne', 'Senna', 'Yasuo', 'Swain',
-    'Leona', 'Morgana', 'Thresh', 'Karma', 'Zilean', 'Sona'
-)
-
 word = '{\n"champions":\n['
 for index, champ in enumerate(champions):
     # Don't put a ',' if first element when opening champion part
@@ -93,7 +118,7 @@ for index, champ in enumerate(champions):
         if champ == 'Nunu & Willump':
             word += '"name": "Nunu",\n'
         elif "'" in champ:
-            word += '"name": "%s",\n' % (champ[0] + champ[1:].replace("'", '').replace(' ', '').lower())
+            word += '"name": "%s",\n' % (champ[0] + champ[1:].replace("'", '').replace(' ', '').replace('.', '').lower())
         else:
             word += '"name": "%s",\n' % (champ.replace("'", '').replace(' ', ''))
         word += '"displayName": "%s",\n' % (champ)
@@ -117,8 +142,10 @@ for index, champ in enumerate(champions):
     if champ in tier_op: word += '"OP"'
     elif champ in tier_1: word += '1'
     elif champ in tier_2: word += '2'
-    elif champ in ('Yone', 'Samira', 'Seraphine'): word += '": unknown"'
-    else: word += '": weak"'
+    elif champ in tier_3: word += '3'
+    elif champ in tier_4: word += '4'
+    elif champ in tier_5: word += '5'
+    else: word += '": unknown"'
     word += '\n'
 
     # Add abilities
@@ -136,6 +163,8 @@ for index, champ in enumerate(champions):
 
     # Close champion part
     word += '}'
+
+print(PATCH, tier_5)
 
 word += ']}'
 with open('src/json/champions.json', 'w') as f:
