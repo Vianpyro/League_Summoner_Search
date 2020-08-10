@@ -6,7 +6,6 @@ async function displayChampions() {
         document.getElementById("champ-toptext").innerHTML = ("With " + champions.length + " champions, you’ll find the perfect match for your playstyle. Master one, or master them all.")
 
         champions.slice().forEach((champion) => {
-            // I change the 'on_error_link' because I often code without internet connection - the second link should always be inactive.
             document.getElementById(`champions`).innerHTML +=
                 `<figure class="champion-figure">
                     <a onclick="loadChampData('${champion.name}');">
@@ -19,6 +18,9 @@ async function displayChampions() {
             } else {
                 document.getElementById(`champ${champion.name}Name`).innerHTML = `${champion.name}`;
             }
+        });        
+        document.getElementById('modal-close').addEventListener('click', () => {
+            document.getElementById('modal').style.display = 'none';
         });
     } catch (err) {
         console.error(err);
