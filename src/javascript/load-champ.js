@@ -6,77 +6,30 @@ async function loadChampData(champion_name) {
         champions.slice().forEach((champion) => { 
             // I need help to simplify this !!!
             if (champion_name === champion.name) {
-                console.log(champion.name)            
-                var w = window.open("");
-                w.document.write(`<html>
-                        <head>
-                            <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
-                            <link rel="stylesheet" href="../src/css/load-champions.css">
-                            <meta charset="UTF-8">
-                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-                            <title>League of Help - ${champion.name}</title>
-                        </head>
-        
-                        <body id="load-champ-bg" style="background-image: url('https://ddragon.leagueoflegends.com/cdn/img/champion/splash/${champion.name}_0.jpg');"
-                        onerror="onerror="this.src='../src/img/image_not_found.png';this.onerror=null;">
-                            <nav class="header">
-                                <h2 class="logo">League of Help</h2>
-                                <input type="checkbox" id="chk">
-                                <label for="chk" class="show-menu-btn">
-                                    <i class="fas fa-ellipsis-h"></i>
-                                </label>
-
-                                <ul class="menu">
-                                    <a href="../index.html">Stay home</a>
-                                    <a href="#">Build tips</a>
-                                    <a href="../pages/champs.html">Champions</a>
-                                    <label for="chk" class="hide-menu-btn">
-                                        <i class="fas fa-times"></i>
-                                    </label>
-                                </ul>
-                            </nav>
-
-                            <figure id="champ-icon">
-                                <a onclick="loadChampData('${champion.name}');">
-                                <img id="champ-img" src="../src/img/icon/${champion.name}.jpg" onerror="this.onerror=null;this.src='../src/img/image_not_found.png';">
-                                <figcaption id="champ-difficulty_rank">${champion.name}</br>Difficulty rank: #${champion.difficulty_rank}</figcaption></a>
-                            </figure>
-                            <div id="champ-stats">
-                                <h3>Abilities:</h3>
-                                <div class="tooltip" style="font-size:16px;">
-                                    <img src="../src/img/abilities/${champion.name}/p.png" onerror="this.onerror=null;this.src = '../src/img/image_not_found.png';" class="abilities" id='abilities-p'>
-                                    <span class="tooltip-text"><b style='color:#d4af37;font-size:18px;'>${champion.passive_name}</b></br>${champion.passive_description}</span>
-                                </div>
-                                <div class="tooltip" style="font-size:16px;">
-                                    <img src="../src/img/abilities/${champion.name}/q.png" onerror="this.onerror=null;this.src = '../src/img/image_not_found.png';" class="abilities" id='abilities-q'>
-                                    <span class="tooltip-text"><b style='color:#d4af37;font-size:18px;'>${champion.q_name}</b></br>${champion.q_description}</span>
-                                </div>
-                                <div class="tooltip" style="font-size:16px;">
-                                    <img src="../src/img/abilities/${champion.name}/w.png" onerror="this.onerror=null;this.src = '../src/img/image_not_found.png';" class="abilities" id='abilities-w'>
-                                    <span class="tooltip-text"><b style='color:#d4af37;font-size:18px;'>${champion.w_name}</b></br>${champion.w_description}</span>
-                                </div>
-                                <div class="tooltip" style="font-size:16px;">
-                                    <img src="../src/img/abilities/${champion.name}/e.png" onerror="this.onerror=null;this.src = '../src/img/image_not_found.png';" class="abilities" id='abilities-e'>
-                                    <span class="tooltip-text"><b style='color:#d4af37;font-size:18px;'>${champion.e_name}</b></br>${champion.e_description}</span>
-                                </div>
-                                <div class="tooltip" style="font-size:16px;">
-                                    <img src="../src/img/abilities/${champion.name}/r.png" onerror="this.onerror=null;this.src = '../src/img/image_not_found.png';" class="abilities" id='abilities-r'>
-                                    <span class="tooltip-text"><b style='color:#d4af37;font-size:18px;'>${champion.r_name}</b></br>${champion.r_description}</span>
-                                </div>
-                                <div class="meta">
-                                    <h3>Meta tier ${champion.meta_tier}</h3>
-                                </div>
-                            </div>
-                        </body>
-                    </html>`);
-                w.document.close();
-
-                if (champion.displayName) {
-                    w.document.title = `League of Help - ${champion.displayName}`;
-                    w.document.getElementById(`champ-difficulty_rank`).innerHTML = `${champion.displayName}</br>Difficulty rank: #${champion.difficulty_rank}`;
-                }
+                if (champion.displayName) { document.getElementById('modal-champ-name').innerHTML = champion.displayName } 
+                else { document.getElementById('modal-champ-name').innerHTML = champion.name }
+                if (champion.difficulty_rank != '?') { document.getElementById('modal-champ-skillcap').innerHTML = `#${champion.difficulty_rank}` } 
+                else { document.getElementById('modal-champ-skillcap').innerHTML = '?' }
+                document.getElementById('modal-champ-icon').src = `../src/img/icon/${champion.name}.jpg`
+                document.getElementById('modal-champ-p').src = `../src/img/abilities/${champion.name}/p.png`
+                document.getElementById('modal-champ-q').src = `../src/img/abilities/${champion.name}/q.png`
+                document.getElementById('modal-champ-w').src = `../src/img/abilities/${champion.name}/w.png`
+                document.getElementById('modal-champ-e').src = `../src/img/abilities/${champion.name}/e.png`
+                document.getElementById('modal-champ-r').src = `../src/img/abilities/${champion.name}/r.png`
+                document.getElementById('modal-p').innerHTML = champion.passive_name
+                document.getElementById('modal-q').innerHTML = champion.q_name
+                document.getElementById('modal-w').innerHTML = champion.w_name
+                document.getElementById('modal-e').innerHTML = champion.e_name
+                document.getElementById('modal-r').innerHTML = champion.r_name
+                document.getElementById('modal-p-desc').innerHTML = champion.passive_description
+                document.getElementById('modal-q-desc').innerHTML = champion.q_description
+                document.getElementById('modal-w-desc').innerHTML = champion.w_description
+                document.getElementById('modal-e-desc').innerHTML = champion.e_description
+                document.getElementById('modal-r-desc').innerHTML = champion.r_description
             }
         });
+        document.getElementById('modal').style.display = 'flex';
+        console.log('a')
     } catch (err) {
         console.error(err);
     }

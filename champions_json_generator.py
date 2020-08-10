@@ -118,9 +118,9 @@ for index, champ in enumerate(champions):
         if champ == 'Nunu & Willump':
             word += '"name": "Nunu",\n'
         elif "'" in champ:
-            word += '"name": "%s",\n' % (champ[0] + champ[1:].replace("'", '').replace(' ', '').replace('.', '').lower())
+            word += '"name": "%s",\n' % (champ[0] + champ[1:].replace("'", '').replace(' ', '').lower())
         else:
-            word += '"name": "%s",\n' % (champ.replace("'", '').replace(' ', ''))
+            word += '"name": "%s",\n' % (champ.replace("'", '').replace(' ', '').replace('.', ''))
         word += '"displayName": "%s",\n' % (champ)
     else:
         word += '"name": "%s",\n' % (champ)
