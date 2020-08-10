@@ -25,6 +25,11 @@ async function displayChampions() {
         document.querySelectorAll('img').forEach(function (img) {
             img.onerror = function () { this.src = '../src/img/image_not_found.png'; };
         });
+        document.body.onkeyup = function (e) {
+            if (e.key === 'Escape' || e.key === 'Esc') {
+                document.getElementById('modal').style.display = 'none';
+            }
+        }
     } catch (err) {
         console.error(err);
     }
