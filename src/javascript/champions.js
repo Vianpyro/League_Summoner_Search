@@ -9,7 +9,7 @@ async function displayChampions() {
             document.getElementById(`champions`).innerHTML +=
                 `<figure class="champion-figure">
                     <a onclick="loadChampData('${champion.name}');">
-                    <img class="champ-img" src="../src/img/icon/${champion.name}.jpg" onerror="this.src='../src/img/image_not_found.png';this.onerror=null;">
+                    <img class="champ-img" src="../src/img/icon/${champion.name}.jpg">
                     <figcaption id="champ${champion.name}Name"></figcaption></a>
                 </figure>`;
 
@@ -21,6 +21,9 @@ async function displayChampions() {
         });        
         document.getElementById('modal-close').addEventListener('click', () => {
             document.getElementById('modal').style.display = 'none';
+        });
+        document.querySelectorAll('img').forEach(function (img) {
+            img.onerror = function () { this.src = '../src/img/image_not_found.png'; };
         });
     } catch (err) {
         console.error(err);
