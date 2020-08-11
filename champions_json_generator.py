@@ -150,8 +150,8 @@ for index, champ in enumerate(champions):
 
     # Add abilities
     if champ in abilities and len(abilities[champ]) == 10:
-        word += ',"passive_name": "%s"\n' % (abilities[champ][0].replace("'", "\\\\'"))
-        word += ',"passive_description": "%s"\n' % (abilities[champ][1].replace("'", "\\\\'"))
+        word += ',"p_name": "%s"\n' % (abilities[champ][0].replace("'", "\\\\'"))
+        word += ',"p_description": "%s"\n' % (abilities[champ][1].replace("'", "\\\\'"))
         word += ',"q_name": "%s"\n' % (abilities[champ][2].replace("'", "\\\\'"))
         word += ',"q_description": "%s"\n' % (abilities[champ][3].replace("'", "\\\\'"))
         word += ',"w_name": "%s"\n' % (abilities[champ][4].replace("'", "\\\\'"))
@@ -163,8 +163,6 @@ for index, champ in enumerate(champions):
 
     # Close champion part
     word += '}'
-
-print(PATCH, tier_5)
 
 word += ']}'
 with open('src/json/champions.json', 'w') as f:

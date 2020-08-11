@@ -4,8 +4,8 @@
 "name": "Aatrox",
 "difficulty_rank": 41,
 "meta_tier": 5
-,"passive_name": "DEATHBRINGER STANCE"
-,"passive_description": "Periodically, Aatrox\\'s next basic attack deals bonus physical damage and heals him, based on the target\\'s max health."
+,"p_name": "DEATHBRINGER STANCE"
+,"p_description": "Periodically, Aatrox\\'s next basic attack deals bonus physical damage and heals him, based on the target\\'s max health."
 ,"q_name": "THE DARIN BLADE"
 ,"q_description": "Aatrox slams his greatsword down, dealing 10/30/50/70/90 (+60%) physical damage. He can swing three times, each with a different area of effect."
 ,"w_name": "INFERNAL CHAINS"
@@ -19,8 +19,8 @@
 "name": "Ahri",
 "difficulty_rank": 66,
 "meta_tier": 1
-,"passive_name": "VASTAYAN GRACE"
-,"passive_description": "Whenever Ahri\\'s spells hit a champion 2 times within a short period, she briefly gains movement speed."
+,"p_name": "VASTAYAN GRACE"
+,"p_description": "Whenever Ahri\\'s spells hit a champion 2 times within a short period, she briefly gains movement speed."
 ,"q_name": "ORB OF DECEPTION"
 ,"q_description": "Ahri sends out and pulls back her orb, dealing 40/65/90/115/140 (+35% AP) magic damage on the way out and 40/65/90/115/140 (+35% AP) true damage on the way back. After earning several spells hits, Ahri\\'s next orb hits will restore 3/5/9/18 (+9% AP) of her health."
 ,"w_name": "FOX-FIRE"
@@ -755,8 +755,8 @@
 "name": "Yone",
 "difficulty_rank": "?",
 "meta_tier": 5
-,"passive_name": "WAY OF THE HUNTER"
-,"passive_description": "Yone uses two blades, causing every second Attack to deal 50% magic damage. Yone\\'s Critical Strike Chance is doubled but his critical strikes deal 10% reduced damage."
+,"p_name": "WAY OF THE HUNTER"
+,"p_description": "Yone uses two blades, causing every second Attack to deal 50% magic damage. Yone\\'s Critical Strike Chance is doubled but his critical strikes deal 10% reduced damage."
 ,"q_name": "MORTAL STEEL"
 ,"q_description": "Yone thrusts forward, dealing 20/45/70/95/120 (+100% AD) physical damage. On hit, grants a stack of for 6 seconds. At 2 stacks, this skill causes Yone to dash forward with a wave of wind that Knocks Up for 0.75 second and deal 20/45/70/95/120 (+100% AD) physical damage."
 ,"w_name": "SPIRIT CLEAVE"
