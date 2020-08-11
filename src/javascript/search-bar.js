@@ -1,7 +1,6 @@
 function search_champion() {
     // Declare variables
-
-    var input, filter, parent, figure, a, i, txtValue;
+    let input, filter, parent, figure, a, i, txtValue;
     input = document.getElementById('search-champion');
 
     filter = input.value.toUpperCase();

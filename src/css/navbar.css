@@ -4,53 +4,39 @@
     height: 100px;
     padding: 0 20px;
 }
-
 .logo {
     float: left;
     line-height: 100px;
     text-transform: uppercase;
 }
-
 .menu {
     float: right;
     line-height: 100px;
 }
-
 .menu a {
     color: #f1f1f1;
     padding: 40px 10px;
     text-decoration: none;
     text-transform: uppercase;
-    transition: 350ms;
+    transition: .35s;
 }
-
 .show-menu-btn,.hide-menu-btn {
     cursor: pointer;
     display: none;
     transition: 350ms;
     font-size: 30px;
 }
-
 .show-menu-btn {
     float: right;
 }
-
 .show-menu-btn i {
     line-height: 100px;
 }
-
-.menu a:hover,
-.show-menu-btn:hover,
-.hide-menu-btn:hover {
-    color: #3498db;
-}
-
 #chk {
     position: absolute;
     visibility: hidden;
     z-index: -1111;
 }
-
 @media screen and (max-width:800px) {
     .show-menu-btn,.hide-menu-btn{
         display: block;
@@ -87,7 +73,6 @@
 
 @media screen and (min-width:800px) {
     .menu a:hover {
-        background-color: #666;
-        border-radius: 10px;
+        opacity: 0.5;
     }
 }

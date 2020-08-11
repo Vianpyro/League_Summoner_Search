@@ -1,6 +1,6 @@
 function detect_region() {
-    var region = document.getElementById("region"); // getting the selected server
-    var selected_region = region.options[region.selectedIndex].text;
+    const region = document.getElementById("region"); // getting the selected server
+    const selected_region = region.options[region.selectedIndex].text;
 
     switch (selected_region) {
         case "North America":
