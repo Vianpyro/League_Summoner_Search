@@ -3,8 +3,17 @@ from lxml import html
 import requests
 
 
-class GetChampionsStatsBot:
-    def __init__(self): pass
+class GetLeagueStatsBot:
+    def __init__(self):
+        base_url = 'https://na.leagueoflegends.com/en-us/news/tags/patch-notes'
+        try:
+            page = requests.get(f'{base_url}')
+            tree = html.fromstring(page.content)
+        except: pass
+
+        try: self.PATCH = tree.xpath('//*[@id="gatsby-focus-wrapper"]/div/div[2]/div/div[1]/div/ol/li[1]/a/article/div[2]/div/h2/text()')[0][6:-6]
+        except: self.PATCH = '"?"'
+        print(self.PATCH)
 
     def get_champ_meta_tier(self, champion):
         base_url = 'https://na.op.gg/champion'
@@ -38,7 +47,7 @@ class GetChampionsStatsBot:
         except: pass
 
 if __name__ == '__main__':
-    champ_stats = GetChampionsStatsBot()
+    champ_stats = GetLeagueStatsBot()
 
 new_champs, new_winrate = [], []
 
@@ -92,13 +101,11 @@ unkown_tier = (
 )
 
 # Regroup and sort every champion in a single list
-champions = sorted(s_tier + a_tier + b_tier + c_tier + d_tier + e_tier + unkown_tier)
+champions_list = sorted(s_tier + a_tier + b_tier + c_tier + d_tier + e_tier + unkown_tier)
 
-word = '{\n"champions":\n['
-total_champions = len(champions)
-for index, champ in enumerate(champions):
-    print(total_champions - index)
-
+word = '{\n"patch": %s,\n"champions":\n[' % (champ_stats.PATCH)
+total_champions = len(champions_list)
+for index, champ in enumerate(champions_list):
     # Get a "clean" champion name
     clean_champ_name = champ.replace("'", '-').replace(".", '').replace(" ", '-')
 
@@ -110,13 +117,11 @@ for index, champ in enumerate(champions):
     if "'" in champ or ' ' in champ:
         if champ == 'Nunu & Willump':
             word += '"name": "Nunu",\n'
-        elif "'" in champ:
-            word += '"name": "%s",\n' % (champ[0] + champ[1:].replace("'", '').replace(' ', '').lower())
         else:
             word += '"name": "%s",\n' % (champ.replace("'", '').replace(' ', '').replace('.', ''))
-        word += '"displayName": "%s",\n' % (champ)
+        word += f'"displayName": "{champ}",\n'
     else:
-        word += '"name": "%s",\n' % (champ)
+        word += f'"name": "{champ}",\n'
 
 
     # Add champion skill caps rank
@@ -134,7 +139,7 @@ for index, champ in enumerate(champions):
     champ_meta_tier = champ_stats.get_champ_meta_tier(clean_champ_name.replace('-', ''))
     word += f'"meta_tier": '
     if champ_meta_tier != None: word += f'{champ_meta_tier}'
-    else: word += '"unknown"'
+    else: word += '"?"'
     word += '\n'
     
     # Add abilities
@@ -147,6 +152,9 @@ for index, champ in enumerate(champions):
 
     # Close champion part
     word += '}'
+
+    # Print the amount of champions left
+    print(total_champions - index)
 
 word += ']}'
 with open('src/json/champions.json', 'w') as f:

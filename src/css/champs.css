@@ -134,6 +134,7 @@
     color: #dadada;
     background-color: red;
     transform: scale(1.20);
+    cursor: pointer;
 }
 
 #modal-close:active {
