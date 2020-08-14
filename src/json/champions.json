@@ -3,7 +3,7 @@
 [{
 "name": "Aatrox",
 "difficulty_rank": 41,
-"meta_tier": 5
+"meta_tier": 3
 ,"p_name": "Deathbringer Stance"
 ,"p_description": "Periodically, Aatrox's next basic attack deals bonus physical damage and heals him, based on the target's max health. "
 ,"q_name": "The Darkin Blade"
@@ -18,7 +18,7 @@
 {
 "name": "Ahri",
 "difficulty_rank": 66,
-"meta_tier": 1
+"meta_tier": 2
 ,"p_name": "Vastayan Grace"
 ,"p_description": "Whenever Ahri's spells hit a champion 2 times within a short period, she briefly gains movement speed."
 ,"q_name": "Orb of Deception"
@@ -33,7 +33,7 @@
 {
 "name": "Akali",
 "difficulty_rank": 13,
-"meta_tier": 3
+"meta_tier": 2
 ,"p_name": "Assassin's Mark"
 ,"p_description": "Dealing spell damage to a champion creates a ring of energy around them. Exiting that ring empowers Akali's next autoattack with bonus range and damage."
 ,"q_name": "Five Point Strike"
@@ -48,7 +48,7 @@
 {
 "name": "Alistar",
 "difficulty_rank": 57,
-"meta_tier": 1
+"meta_tier": 3
 ,"p_name": "Triumphant Roar"
 ,"p_description": "Alistar charges his roar by stunning or displacing enemy champions or when nearby enemies die. When fully charged he heals himself all nearby allied champions."
 ,"q_name": "Pulverize"
@@ -63,7 +63,7 @@
 {
 "name": "Amumu",
 "difficulty_rank": 143,
-"meta_tier": 3
+"meta_tier": 5
 ,"p_name": "Cursed Touch"
 ,"p_description": "Amumu's basic attacks Curse his enemies, causing them to take bonus true damage from incoming magic damage."
 ,"q_name": "Bandage Toss"
@@ -78,7 +78,7 @@
 {
 "name": "Anivia",
 "difficulty_rank": 38,
-"meta_tier": 2
+"meta_tier": 4
 ,"p_name": "Rebirth"
 ,"p_description": "Upon taking fatal damage, Anivia reverts to an egg and is reborn with full health."
 ,"q_name": "Flash Frost"
@@ -93,7 +93,7 @@
 {
 "name": "Annie",
 "difficulty_rank": 148,
-"meta_tier": "OP"
+"meta_tier": 4
 ,"p_name": "Pyromania"
 ,"p_description": "After casting 4 spells, Annie's next offensive spell will stun the target."
 ,"q_name": "Disintegrate"
@@ -108,7 +108,7 @@
 {
 "name": "Aphelios",
 "difficulty_rank": 62,
-"meta_tier": 5
+"meta_tier": 3
 ,"p_name": "The Hitman and the Seer"
 ,"p_description": "Aphelios wields 5 Lunari Weapons made by his sister Alune. He has access to two at a time: one main-hand and one off-hand. Each weapon has a unique Basic Attack and Activated Ability. Attacks and abilities consume a weapon's ammo. When out of ammo, Aphelios discards the weapon and Alune summons the next of the 5. "
 ,"q_name": "Weapon Abilites"
@@ -123,7 +123,7 @@
 {
 "name": "Ashe",
 "difficulty_rank": 138,
-"meta_tier": 1
+"meta_tier": 2
 ,"p_name": "Frost Shot"
 ,"p_description": "Ashe's attacks slow their target, causing her to deal increased damage to these targets.  Ashe's critical strikes deal no bonus damage but apply an empowered slow to the target."
 ,"q_name": "Ranger's Focus"
@@ -139,7 +139,7 @@
 "name": "AurelionSol",
 "displayName": "Aurelion Sol",
 "difficulty_rank": 1,
-"meta_tier": "OP"
+"meta_tier": 4
 ,"p_name": "Center of the Universe"
 ,"p_description": "Stars orbit Aurelion Sol, dealing magic damage when they hit an enemy."
 ,"q_name": "Starsurge"
@@ -154,7 +154,7 @@
 {
 "name": "Azir",
 "difficulty_rank": 9,
-"meta_tier": 4
+"meta_tier": 5
 ,"p_name": "Shurima's Legacy"
 ,"p_description": "Azir can summon the Disc of the Sun from the ruins of allied or enemy turrets."
 ,"q_name": "Conquering Sands"
@@ -169,7 +169,7 @@
 {
 "name": "Bard",
 "difficulty_rank": 14,
-"meta_tier": 1
+"meta_tier": 2
 ,"p_name": "Traveler's Call"
 ,"p_description": "Meeps: Bard attracts lesser spirits that assist with his basic attacks to deal extra magic damage. When Bard has collected enough  Chimes, his meeps will also deal damage in an area and slow enemies hit.  Chimes: Ancient chimes randomly appear for Bard to collect. These grant experience, maximum mana, and out-of-combat movement speed stacks. "
 ,"q_name": "Cosmic Binding"
@@ -184,7 +184,7 @@
 {
 "name": "Blitzcrank",
 "difficulty_rank": 116,
-"meta_tier": 2
+"meta_tier": 1
 ,"p_name": "Mana Barrier"
 ,"p_description": "Blitzcrank gains a shield based on his mana when dropping to low health."
 ,"q_name": "Rocket Grab"
@@ -199,7 +199,7 @@
 {
 "name": "Brand",
 "difficulty_rank": 128,
-"meta_tier": 4
+"meta_tier": 5
 ,"p_name": "Blaze"
 ,"p_description": "Brand's spells light his targets ablaze, dealing damage over 4 seconds, stacking up to 3 times. If Brand kills an enemy while it is ablaze he regains mana. When Blaze reaches max stacks on a Champion or large monster, it becomes unstable. It detonates in 2 seconds, applying spell effects and dealing massive damage in an area around the victim."
 ,"q_name": "Sear"
@@ -214,7 +214,7 @@
 {
 "name": "Braum",
 "difficulty_rank": 123,
-"meta_tier": 3
+"meta_tier": 5
 ,"p_name": "Concussive Blows"
 ,"p_description": "Braum's basic attacks apply Concussive Blows. Once the first stack is applied, ally basic attacks also stack Concussive Blows.   Upon reaching 4 stacks, the target is stunned and takes magic damage. For the next few seconds they cannot receive new stacks, but take bonus magic damage from Braum's attacks."
 ,"q_name": "Winter's Bite"
@@ -259,7 +259,7 @@
 {
 "name": "Cassiopeia",
 "difficulty_rank": 24,
-"meta_tier": 1
+"meta_tier": 2
 ,"p_name": "Serpentine Grace"
 ,"p_description": "Cassiopeia gains Movement Speed per level, but she cannot purchase Boots items."
 ,"q_name": "Noxious Blast"
@@ -275,7 +275,7 @@
 "name": "Chogath",
 "displayName": "Cho'Gath",
 "difficulty_rank": 114,
-"meta_tier": 1
+"meta_tier": 5
 ,"p_name": "Carnivore"
 ,"p_description": "Whenever Cho'Gath kills a unit, he recovers Health and Mana. The values restored increase with Cho'Gath's level."
 ,"q_name": "Rupture"
@@ -305,7 +305,7 @@
 {
 "name": "Darius",
 "difficulty_rank": 92,
-"meta_tier": 2
+"meta_tier": 1
 ,"p_name": "Hemorrhage"
 ,"p_description": "Darius's attacks and damaging abilities cause enemies to bleed for physical damage over 5 seconds, stacking up to 5 times."
 ,"q_name": "Decimate"
@@ -320,7 +320,7 @@
 {
 "name": "Diana",
 "difficulty_rank": 113,
-"meta_tier": 1
+"meta_tier": 3
 ,"p_name": "Moonsilver Blade"
 ,"p_description": "Every third strike cleaves nearby enemies for an additional magic damage. After casting a spell, Diana gains attack speed for her next 3 attacks."
 ,"q_name": "Crescent Strike"
@@ -336,7 +336,7 @@
 "name": "DrMundo",
 "displayName": "Dr. Mundo",
 "difficulty_rank": 139,
-"meta_tier": 2
+"meta_tier": 5
 ,"p_name": "Adrenaline Rush"
 ,"p_description": "Dr. Mundo regenerates 0.3% of his maximum Health each second."
 ,"q_name": "Infected Cleaver"
@@ -351,7 +351,7 @@
 {
 "name": "Draven",
 "difficulty_rank": 3,
-"meta_tier": 2
+"meta_tier": 4
 ,"p_name": "League of Draven"
 ,"p_description": "Draven gains his fans' Adoration when he catches a Spinning Axe or kills a minion, monster, or tower. Killing enemy champions grants Draven bonus gold based on how much Adoration he has."
 ,"q_name": "Spinning Axe"
@@ -366,7 +366,7 @@
 {
 "name": "Ekko",
 "difficulty_rank": 46,
-"meta_tier": 2
+"meta_tier": 1
 ,"p_name": "Z-Drive Resonance"
 ,"p_description": "Ekko's Zero-Drive charges his spells and attacks with temporal energy. The third hit deals bonus damage and, if the target is a champion, Ekko gains accelerated movement speed."
 ,"q_name": "Timewinder"
@@ -396,7 +396,7 @@
 {
 "name": "Evelynn",
 "difficulty_rank": 44,
-"meta_tier": 1
+"meta_tier": 2
 ,"p_name": "Demon Shade"
 ,"p_description": "When out of combat, Evelynn enters Demon Shade. Demon Shade heals Evelynn when she is low on health and grants Camouflage after level 6."
 ,"q_name": "Hate Spike"
@@ -411,7 +411,7 @@
 {
 "name": "Ezreal",
 "difficulty_rank": 52,
-"meta_tier": 4
+"meta_tier": 2
 ,"p_name": "Rising Spell Force"
 ,"p_description": "Ezreal gains increasing Attack Speed each time he successfully hits a spell, stacking up to 5 times."
 ,"q_name": "Mystic Shot"
@@ -426,7 +426,7 @@
 {
 "name": "Fiddlesticks",
 "difficulty_rank": 84,
-"meta_tier": "OP"
+"meta_tier": 2
 ,"p_name": "A Harmless Scarecrow"
 ,"p_description": "Fiddlesticks' trinket is replaced by scarecrow effigies."
 ,"q_name": "Terrify"
@@ -546,7 +546,7 @@
 {
 "name": "Graves",
 "difficulty_rank": 74,
-"meta_tier": 2
+"meta_tier": 1
 ,"p_name": "New Destiny"
 ,"p_description": "Graves's shotgun holds two shells. After firing them he must reload. Each attack fires several bullets in a cone. Hitting an enemy with multiple bullets does bonus damage. These bullets cannot pass through units."
 ,"q_name": "End of the Line"
@@ -561,7 +561,7 @@
 {
 "name": "Hecarim",
 "difficulty_rank": 111,
-"meta_tier": "OP"
+"meta_tier": 2
 ,"p_name": "Warpath"
 ,"p_description": "Hecarim gains Attack Damage equal to a percentage of his bonus Movement Speed."
 ,"q_name": "Rampage"
@@ -576,7 +576,7 @@
 {
 "name": "Heimerdinger",
 "difficulty_rank": 65,
-"meta_tier": 2
+"meta_tier": 5
 ,"p_name": "Hextech Affinity"
 ,"p_description": "Gain Movement Speed while near allied towers and turrets deployed by Heimerdinger."
 ,"q_name": "H-28 G Evolution Turret"
@@ -591,7 +591,7 @@
 {
 "name": "Illaoi",
 "difficulty_rank": 70,
-"meta_tier": 3
+"meta_tier": 4
 ,"p_name": "Prophet of an Elder God"
 ,"p_description": "Illaoi and the Vessels she creates spawn Tentacles on nearby impassible terrain. Tentacles swing at spirits, Vessels, and victims of Illaoi's Harsh lesson. Tentacles deal physical damage to enemies hit, and will heal Illaoi if they damage a champion."
 ,"q_name": "Tentacle Smash"
@@ -606,7 +606,7 @@
 {
 "name": "Irelia",
 "difficulty_rank": 37,
-"meta_tier": 5
+"meta_tier": 2
 ,"p_name": "Ionian Fervor"
 ,"p_description": "When Irelia strikes enemies with spells she gains stacking bonus Attack Speed. At maximum stacks she also gains bonus damage on hit."
 ,"q_name": "Bladesurge"
@@ -621,7 +621,7 @@
 {
 "name": "Ivern",
 "difficulty_rank": 28,
-"meta_tier": 1
+"meta_tier": 4
 ,"p_name": "Friend of the Forest"
 ,"p_description": "Ivern cannot attack or be attacked by non-epic monsters. Ivern can create magical groves on jungle camps which grow over time. When the grove is fully grown, Ivern may free the monsters to receive gold and experience. After level 5 Ivern can share jungle buffs with allies."
 ,"q_name": "Rootcaller"
@@ -636,7 +636,7 @@
 {
 "name": "Janna",
 "difficulty_rank": 50,
-"meta_tier": 1
+"meta_tier": 4
 ,"p_name": "Tailwind"
 ,"p_description": "Janna passively gains bonus Movement Speed, and nearby allied champions gain this bonus when moving toward her.  Additionally, Janna's basic attacks cause additional magic damage based on her bonus Movement Speed."
 ,"q_name": "Howling Gale"
@@ -682,7 +682,7 @@
 {
 "name": "Jayce",
 "difficulty_rank": 36,
-"meta_tier": 3
+"meta_tier": 2
 ,"p_name": "Hextech Capacitor"
 ,"p_description": "After casting Transform Jayce gains 40 Movement Speed and can move through units for the next 1.25 seconds."
 ,"q_name": "To the Skies! / Shock Blast"
@@ -697,7 +697,7 @@
 {
 "name": "Jhin",
 "difficulty_rank": 72,
-"meta_tier": 3
+"meta_tier": 2
 ,"p_name": "Whisper"
 ,"p_description": "Jhin's hand cannon, Whisper, is a precise instrument designed to deal superior damage. It fires at a fixed rate and carries only four shots. Jhin imbues the final bullet with dark magics to critically strike and deal bonus execute damage. Whenever Whisper crits, it inspires Jhin with a burst of movement speed."
 ,"q_name": "Dancing Grenade"
@@ -712,7 +712,7 @@
 {
 "name": "Jinx",
 "difficulty_rank": 129,
-"meta_tier": 3
+"meta_tier": 4
 ,"p_name": "Get Excited!"
 ,"p_description": "Jinx receives massively increased Movement Speed and Attack Speed whenever she damages an enemy champion, epic monster, or structure that is then killed or destroyed within 3 seconds."
 ,"q_name": "Switcheroo!"
@@ -728,7 +728,7 @@
 "name": "Kaisa",
 "displayName": "Kai'Sa",
 "difficulty_rank": 40,
-"meta_tier": 5
+"meta_tier": 3
 ,"p_name": "Second Skin"
 ,"p_description": "Kai'Sa's basic attacks stack Plasma, dealing increasing bonus magic damage. Allies' immobilizing effects help stack Plasma. Additionally, Kai'Sa's item purchases upgrade her basic spells to have more powerful properties."
 ,"q_name": "Icathian Rain"
@@ -743,7 +743,7 @@
 {
 "name": "Kalista",
 "difficulty_rank": 2,
-"meta_tier": 4
+"meta_tier": 3
 ,"p_name": "Martial Poise"
 ,"p_description": "Enter a movement command while winding up Kalista's basic attack or Pierce to lunge a short distance when she launches her attack."
 ,"q_name": "Pierce"
@@ -758,7 +758,7 @@
 {
 "name": "Karma",
 "difficulty_rank": 122,
-"meta_tier": 5
+"meta_tier": 3
 ,"p_name": "Gathering Fire"
 ,"p_description": "Reduces Mantra's cooldown each time Karma damages an enemy champion with one of her abilities (Half-effect for Karma's basic attacks)"
 ,"q_name": "Inner Flame"
@@ -788,7 +788,7 @@
 {
 "name": "Kassadin",
 "difficulty_rank": 76,
-"meta_tier": 2
+"meta_tier": 1
 ,"p_name": "Void Stone"
 ,"p_description": "Kassadin takes 15% reduced magic damage and ignores unit collision."
 ,"q_name": "Null Sphere"
@@ -818,7 +818,7 @@
 {
 "name": "Kayle",
 "difficulty_rank": 100,
-"meta_tier": 2
+"meta_tier": 5
 ,"p_name": "Divine Ascent"
 ,"p_description": "Kayle's attacks are empowered by the heavens as she levels up and spends skill points. Her wings are lit aflame as she progressively gains Attack Speed, Movement Speed, Attack Range, and waves of fire on her attacks."
 ,"q_name": "Radiant Blast"
@@ -833,7 +833,7 @@
 {
 "name": "Kayn",
 "difficulty_rank": 55,
-"meta_tier": 1
+"meta_tier": 2
 ,"p_name": "The Darkin Scythe"
 ,"p_description": "Kayn wields an ancient weapon and fights Rhaast, the darkin within it, for control. Either the Darkin will triumph, or Kayn will master Rhaast and become the Shadow Assassin.  Darkin: Heal for a percentage of spell damage dealt to champions.  Shadow Assassin: For the first few seconds in combat with enemy champions, deal bonus damage."
 ,"q_name": "Reaping Slash"
@@ -848,7 +848,7 @@
 {
 "name": "Kennen",
 "difficulty_rank": 79,
-"meta_tier": 3
+"meta_tier": 4
 ,"p_name": "Mark of the Storm"
 ,"p_description": "Kennen stuns enemies he hits 3 times with his abilities."
 ,"q_name": "Thundering Shuriken"
@@ -864,7 +864,7 @@
 "name": "Khazix",
 "displayName": "Kha'Zix",
 "difficulty_rank": 39,
-"meta_tier": 2
+"meta_tier": 3
 ,"p_name": "Unseen Threat"
 ,"p_description": "Nearby enemies that are Isolated from their allies are marked. Kha'Zix's abilities have interactions with Isolated targets.  When Kha'Zix is not visible to the enemy team, he gains Unseen Threat, causing his next basic attack against an enemy champion to deal bonus magic damage and slow them for a few seconds."
 ,"q_name": "Taste Their Fear"
@@ -894,7 +894,7 @@
 {
 "name": "Kled",
 "difficulty_rank": 41,
-"meta_tier": 2
+"meta_tier": 4
 ,"p_name": "Skaarl, the Cowardly Lizard"
 ,"p_description": "Kled rides his trusty steed, Skaarl, who takes damage for him. When Skaarl's health depletes, Kled dismounts.  While dismounted, Kled's abilities change and he deals less damage to champions. Kled can restore Skaarl's courage by fighting enemies. At maximum courage, Kled remounts with a portion of Skaarl's health."
 ,"q_name": "Bear Trap on a Rope"
@@ -910,7 +910,7 @@
 "name": "Kogmaw",
 "displayName": "Kog'Maw",
 "difficulty_rank": 56,
-"meta_tier": 3
+"meta_tier": 4
 ,"p_name": "Icathian Surprise"
 ,"p_description": "Upon dying, Kog'Maw starts a chain reaction in his body which causes him to move faster and detonate after 4 seconds; dealing 100 + (25 x lvl) true damage to surrounding enemies."
 ,"q_name": "Caustic Spittle"
@@ -925,7 +925,7 @@
 {
 "name": "Leblanc",
 "difficulty_rank": 12,
-"meta_tier": ": unknown"
+"meta_tier": 2
 ,"p_name": "Mirror Image"
 ,"p_description": "When LeBlanc drops below 40% health, she becomes invisible for 1 second and creates a Mirror Image that deals no damage and lasts for up to 8 seconds."
 ,"q_name": "Sigil of Malice"
@@ -941,7 +941,7 @@
 "name": "LeeSin",
 "displayName": "Lee Sin",
 "difficulty_rank": 8,
-"meta_tier": 5
+"meta_tier": 2
 ,"p_name": "Flurry"
 ,"p_description": "After Lee Sin uses an ability, his next 2 basic attacks gain Attack Speed and return Energy."
 ,"q_name": "Sonic Wave / Resonating Strike"
@@ -971,12 +971,12 @@
 {
 "name": "Lillia",
 "difficulty_rank": "?",
-"meta_tier": 5
+"meta_tier": 4
 },
 {
 "name": "Lissandra",
 "difficulty_rank": 85,
-"meta_tier": 2
+"meta_tier": 4
 ,"p_name": "Iceborn Subjugation"
 ,"p_description": "When an enemy champion dies near Lissandra they become a Frozen Thrall. Frozen Thralls slow nearby enemies and then, after a delay, shatter from the intense cold, dealing magic damage to nearby targets."
 ,"q_name": "Ice Shard"
@@ -1006,7 +1006,7 @@
 {
 "name": "Lulu",
 "difficulty_rank": 87,
-"meta_tier": 1
+"meta_tier": 2
 ,"p_name": "Pix, Faerie Companion"
 ,"p_description": "Pix fires magical bolts of energy whenever the champion he's following attacks another enemy unit. These bolts are homing, but can be intercepted by other units."
 ,"q_name": "Glitterlance"
@@ -1021,7 +1021,7 @@
 {
 "name": "Lux",
 "difficulty_rank": 133,
-"meta_tier": "OP"
+"meta_tier": 1
 ,"p_name": "Illumination"
 ,"p_description": "Lux's damaging spells charge the target with energy for 6 seconds. Lux's next attack ignites the energy, dealing bonus magic damage (depending on Lux's level) to the target."
 ,"q_name": "Light Binding"
@@ -1051,7 +1051,7 @@
 {
 "name": "Malzahar",
 "difficulty_rank": 135,
-"meta_tier": 1
+"meta_tier": 3
 ,"p_name": "Void Shift"
 ,"p_description": "When he hasn't recently taken damage or been crowd controlled, Malzahar gains massive damage reduction and crowd control immunity, lingering for a short period after taking damage."
 ,"q_name": "Call of the Void"
@@ -1066,7 +1066,7 @@
 {
 "name": "Maokai",
 "difficulty_rank": 126,
-"meta_tier": "OP"
+"meta_tier": 1
 ,"p_name": "Sap Magic"
 ,"p_description": "Maokai's basic attack also heal him on a moderate cooldown. Each time Maokai casts a spell or is struck by an enemy's spell, this cooldown is reduced."
 ,"q_name": "Bramble Smash"
@@ -1082,7 +1082,7 @@
 "name": "MasterYi",
 "displayName": "Master Yi",
 "difficulty_rank": 95,
-"meta_tier": 2
+"meta_tier": 3
 ,"p_name": "Double Strike"
 ,"p_description": "Every few consecutive basic attack, Master Yi strikes twice."
 ,"q_name": "Alpha Strike"
@@ -1098,7 +1098,7 @@
 "name": "MissFortune",
 "displayName": "Miss Fortune",
 "difficulty_rank": 137,
-"meta_tier": 1
+"meta_tier": 3
 ,"p_name": "Love Tap"
 ,"p_description": "Miss Fortune deals bonus physical damage whenever she basic attacks a new target."
 ,"q_name": "Double Up"
@@ -1113,7 +1113,7 @@
 {
 "name": "Mordekaiser",
 "difficulty_rank": 94,
-"meta_tier": 4
+"meta_tier": 2
 ,"p_name": "Darkness Rise"
 ,"p_description": "Mordekaiser gains a powerful damage aura and movement speed after landing 3 attacks or spells against champions."
 ,"q_name": "Obliterate"
@@ -1128,7 +1128,7 @@
 {
 "name": "Morgana",
 "difficulty_rank": 120,
-"meta_tier": 2
+"meta_tier": 1
 ,"p_name": "Soul Siphon"
 ,"p_description": "Morgana drains spirit from her enemies, healing as she deals damage to champions, large minions, and large monsters."
 ,"q_name": "Dark Binding"
@@ -1143,7 +1143,7 @@
 {
 "name": "Nami",
 "difficulty_rank": 88,
-"meta_tier": 2
+"meta_tier": 5
 ,"p_name": "Surging Tides"
 ,"p_description": "When Nami's abilities hit allied champions they gain Movement Speed for a short duration."
 ,"q_name": "Aqua Prison"
@@ -1158,7 +1158,7 @@
 {
 "name": "Nasus",
 "difficulty_rank": 105,
-"meta_tier": 3
+"meta_tier": 4
 ,"p_name": "Soul Eater"
 ,"p_description": "Nasus drains his foe's spiritual energy, giving him bonus Life Steal."
 ,"q_name": "Siphoning Strike"
@@ -1173,7 +1173,7 @@
 {
 "name": "Nautilus",
 "difficulty_rank": 117,
-"meta_tier": 5
+"meta_tier": 2
 ,"p_name": "Staggering Blow"
 ,"p_description": "Nautilus' basic attacks deal increased physical damage and roots his target briefly. Staggering blow cannot trigger more than once every few seconds on the same target."
 ,"q_name": "Dredge Line"
@@ -1188,7 +1188,7 @@
 {
 "name": "Neeko",
 "difficulty_rank": 96,
-"meta_tier": 2
+"meta_tier": 5
 ,"p_name": "Inherent Glamour"
 ,"p_description": "Neeko can look like an ally champion. Taking damage from enemy Champions or casting damaging spells breaks the disguise."
 ,"q_name": "Blooming Burst"
@@ -1203,7 +1203,7 @@
 {
 "name": "Nidalee",
 "difficulty_rank": 10,
-"meta_tier": 3
+"meta_tier": 2
 ,"p_name": "Prowl"
 ,"p_description": "Moving through brush increases Nidalee's Movement Speed by 10% for 2 seconds, increased to 30% toward visible enemy champions within 1400 range.  Hitting champions or monsters with Javelin Toss or Bushwhack triggers a Hunt, granting True Sight of them for 4 seconds. During this time, Nidalee gains 10% Movement Speed (increased to 30% toward the Hunted target) and her Takedown and Pounce are enhanced against them."
 ,"q_name": "Javelin Toss / Takedown"
@@ -1234,12 +1234,12 @@
 "name": "Nunu",
 "displayName": "Nunu & Willump",
 "difficulty_rank": 75,
-"meta_tier": 1
+"meta_tier": 2
 },
 {
 "name": "Olaf",
 "difficulty_rank": 101,
-"meta_tier": "OP"
+"meta_tier": 3
 ,"p_name": "Berserker Rage"
 ,"p_description": "Olaf's Attack Speed is increased by 1% for each 1% of his Health he is missing."
 ,"q_name": "Undertow"
@@ -1269,7 +1269,7 @@
 {
 "name": "Ornn",
 "difficulty_rank": 78,
-"meta_tier": 3
+"meta_tier": 4
 ,"p_name": "Living Forge"
 ,"p_description": "Ornn gains an additional bonus Armor and Magic Resistance from all sources.  Ornn can spend gold to forge non-consumable items anywhere.  Additionally, he can create masterwork items for himself and for his allies."
 ,"q_name": "Volcanic Rupture"
@@ -1299,7 +1299,7 @@
 {
 "name": "Poppy",
 "difficulty_rank": 107,
-"meta_tier": 2
+"meta_tier": 3
 ,"p_name": "Iron Ambassador"
 ,"p_description": "Poppy throws her buckler that bounces off the target. Poppy can pick it up to gain a temporary shield."
 ,"q_name": "Hammer Shock"
@@ -1314,7 +1314,7 @@
 {
 "name": "Pyke",
 "difficulty_rank": 29,
-"meta_tier": 1
+"meta_tier": 3
 ,"p_name": "Gift of the Drowned Ones"
 ,"p_description": "When Pyke is hidden from enemies, he regenerates damage that he has recently taken from champions. Pyke also cannot gain extra Maximum Health from any source, and instead gains Bonus AD."
 ,"q_name": "Bone Skewer"
@@ -1329,7 +1329,7 @@
 {
 "name": "Qiyana",
 "difficulty_rank": 32,
-"meta_tier": 1
+"meta_tier": 2
 ,"p_name": "Royal Privilege"
 ,"p_description": "Qiyana's first basic attack or ability against each enemy deals bonus damage."
 ,"q_name": "Elemental Wrath / Edge of Ixtal"
@@ -1344,7 +1344,7 @@
 {
 "name": "Quinn",
 "difficulty_rank": 81,
-"meta_tier": 1
+"meta_tier": 2
 ,"p_name": "Harrier"
 ,"p_description": "Valor, Quinn's Demacian eagle, periodically marks enemies as Vulnerable. Quinn's first basic attack against Vulnerable targets will deal bonus physical damage."
 ,"q_name": "Blinding Assault"
@@ -1359,7 +1359,7 @@
 {
 "name": "Rakan",
 "difficulty_rank": 34,
-"meta_tier": 1
+"meta_tier": 4
 ,"p_name": "Fey Feathers"
 ,"p_description": "Rakan periodically gains a shield."
 ,"q_name": "Gleaming Quill"
@@ -1374,7 +1374,7 @@
 {
 "name": "Rammus",
 "difficulty_rank": 144,
-"meta_tier": 1
+"meta_tier": 3
 ,"p_name": "Spiked Shell"
 ,"p_description": "Rammus' basic attacks deal bonus magic damage, scaling with his Armor."
 ,"q_name": "Powerball"
@@ -1390,7 +1390,7 @@
 "name": "Reksai",
 "displayName": "Rek'Sai",
 "difficulty_rank": 42,
-"meta_tier": 1
+"meta_tier": 2
 ,"p_name": "Fury of the Xer'Sai"
 ,"p_description": "While unburrowed Rek'Sai generates Fury with her basic attacks and spells. When burrowed Rek'Sai consumes Fury to heal herself."
 ,"q_name": "Queen's Wrath / Prey Seeker"
@@ -1405,7 +1405,7 @@
 {
 "name": "Renekton",
 "difficulty_rank": 64,
-"meta_tier": 2
+"meta_tier": 1
 ,"p_name": "Reign of Anger"
 ,"p_description": "Renekton's attacks generate Fury, increased when he is low on life. This Fury can empower his abilities with bonus effects."
 ,"q_name": "Cull the Meek"
@@ -1420,7 +1420,7 @@
 {
 "name": "Rengar",
 "difficulty_rank": 22,
-"meta_tier": 1
+"meta_tier": 3
 ,"p_name": "Unseen Predator"
 ,"p_description": "While in brush, Rengar leaps at his target with his basic attack. Leaping while at no Ferocity generates Ferocity.  At Max Ferocity, his next ability is empowered. Casting an empowered ability increases Rengar's Movement Speed for a few seconds.  Killing enemy champions awards trophies on Rengar's Bonetooth Necklace, granting bonus attack damage."
 ,"q_name": "Savagery"
@@ -1435,7 +1435,7 @@
 {
 "name": "Riven",
 "difficulty_rank": 11,
-"meta_tier": 2
+"meta_tier": 3
 ,"p_name": "Runic Blade"
 ,"p_description": "Riven's abilities charge her blade, and her basic attacks expend charges to deal an additional damage."
 ,"q_name": "Broken Wings"
@@ -1450,7 +1450,7 @@
 {
 "name": "Rumble",
 "difficulty_rank": 45,
-"meta_tier": 2
+"meta_tier": 5
 ,"p_name": "Junkyard Titan"
 ,"p_description": "Every spell Rumble casts gives him Heat. When he reaches 50% Heat he reaches Danger Zone, granting all his basic abilities bonus effects. When he reaches 100% Heat, he starts Overheating, granting his basic attacks bonus damage, but making him unable to cast spells for a few seconds."
 ,"q_name": "Flamespitter"
@@ -1480,12 +1480,12 @@
 {
 "name": "Samira",
 "difficulty_rank": "?",
-"meta_tier": ": unknown"
+"meta_tier": "unknown"
 },
 {
 "name": "Sejuani",
 "difficulty_rank": 110,
-"meta_tier": 2
+"meta_tier": 5
 ,"p_name": "Fury of the North"
 ,"p_description": "After being out of combat, Sejuani gains Frost Armor which grants Armor and Magic Resist and immunity to slows. Frost Armor persists for a short time after Sejuani takes damage.  Sejuani can damage a stunned enemy to shatter it, dealing massive magic damage."
 ,"q_name": "Arctic Assault"
@@ -1500,7 +1500,7 @@
 {
 "name": "Senna",
 "difficulty_rank": 83,
-"meta_tier": 1
+"meta_tier": 2
 ,"p_name": "Absolution"
 ,"p_description": "When units die near Senna, their souls are periodically trapped by the Black Mist. Senna can attack these souls to free them, absorbing the Mist that held them in death. Mist fuels her Relic Cannon's power with increased Attack Damage, Attack Range, and Critical Strike Chance.   Attacks from Senna's Relic Cannon take longer to fire, deals bonus damage , and briefly grant her a portion of her target's Movement Speed."
 ,"q_name": "Piercing Darkness"
@@ -1515,12 +1515,12 @@
 {
 "name": "Seraphine",
 "difficulty_rank": "?",
-"meta_tier": ": unknown"
+"meta_tier": "unknown"
 },
 {
 "name": "Sett",
 "difficulty_rank": 127,
-"meta_tier": 3
+"meta_tier": 4
 ,"p_name": "Pit Grit"
 ,"p_description": "Sett's basic attacks alternate between left and right punch. Right punch is slightly stronger and faster. Sett also hates losing, gaining additional health regeneration based off of his missing health."
 ,"q_name": "Knuckle Down"
@@ -1535,7 +1535,7 @@
 {
 "name": "Shaco",
 "difficulty_rank": 27,
-"meta_tier": 1
+"meta_tier": 3
 ,"p_name": "Backstab"
 ,"p_description": "Shaco's basic attacks and Two-Shiv Poison deal additional damage when striking from behind."
 ,"q_name": "Deceive"
@@ -1550,7 +1550,7 @@
 {
 "name": "Shen",
 "difficulty_rank": 77,
-"meta_tier": 1
+"meta_tier": 2
 ,"p_name": "Ki Barrier"
 ,"p_description": "After casting a spell, Shen gets a shield. Affecting other champions reduces the cooldown of this effect."
 ,"q_name": "Twilight Assault"
@@ -1565,7 +1565,7 @@
 {
 "name": "Shyvana",
 "difficulty_rank": 106,
-"meta_tier": 1
+"meta_tier": 3
 ,"p_name": "Fury of the Dragonborn"
 ,"p_description": "Shyvana deals bonus damage to dragons and gains Armor and Magic Resistance. As Shyvana and her allies slay more dragons, she gains more bonus Armor and Magic Resistance."
 ,"q_name": "Twin Bite"
@@ -1580,7 +1580,7 @@
 {
 "name": "Singed",
 "difficulty_rank": 36,
-"meta_tier": 2
+"meta_tier": 5
 ,"p_name": "Noxious Slipstream"
 ,"p_description": "Singed drafts off nearby champions, gaining a burst of movement speed when passing them."
 ,"q_name": "Poison Trail"
@@ -1595,7 +1595,7 @@
 {
 "name": "Sion",
 "difficulty_rank": 80,
-"meta_tier": 2
+"meta_tier": 5
 ,"p_name": "Glory in Death"
 ,"p_description": "After being killed, Sion will temporarily reanimate with rapidly decaying Health. His attacks become very rapid, heal him, and deal bonus damage based on his target's maximum Health."
 ,"q_name": "Decimating Smash"
@@ -1610,7 +1610,7 @@
 {
 "name": "Sivir",
 "difficulty_rank": 125,
-"meta_tier": 4
+"meta_tier": 5
 ,"p_name": "Fleet of Foot"
 ,"p_description": "Sivir gains a short burst of Movement Speed when she attacks an enemy champion."
 ,"q_name": "Boomerang Blade"
@@ -1625,7 +1625,7 @@
 {
 "name": "Skarner",
 "difficulty_rank": 112,
-"meta_tier": 2
+"meta_tier": 5
 ,"p_name": "Crystal Spires"
 ,"p_description": "Skarner's presence causes crystals to spawn in set locations around the map. While near crystals his team owns, Skarner gains tremendous movement speed, attack speed, and mana regeneration."
 ,"q_name": "Crystal Slash"
@@ -1640,7 +1640,7 @@
 {
 "name": "Sona",
 "difficulty_rank": 147,
-"meta_tier": "OP"
+"meta_tier": 2
 ,"p_name": "Power Chord"
 ,"p_description": "After 3 spell casts, Sona's next attack will deal bonus magic damage in addition to an additional effect based on what song Sona last activated."
 ,"q_name": "Hymn of Valor"
@@ -1655,7 +1655,7 @@
 {
 "name": "Soraka",
 "difficulty_rank": 136,
-"meta_tier": 1
+"meta_tier": 3
 ,"p_name": "Salvation"
 ,"p_description": "Soraka runs faster towards nearby low health allies."
 ,"q_name": "Starcall"
@@ -1670,7 +1670,7 @@
 {
 "name": "Swain",
 "difficulty_rank": 97,
-"meta_tier": 1
+"meta_tier": 4
 ,"p_name": "Ravenous Flock"
 ,"p_description": "Swain's ravens collect Soul Fragments that heal him and permanently increase his maximum health. Swain can right-click an immobilized enemy champions to pull them closer to him, dealing damage and ripping out a Soul Fragment."
 ,"q_name": "Death's Hand"
@@ -1685,7 +1685,7 @@
 {
 "name": "Sylas",
 "difficulty_rank": 59,
-"meta_tier": 4
+"meta_tier": 2
 ,"p_name": "Petricite Burst"
 ,"p_description": "After casting a spell, Sylas stores a charge of Petricite Burst.  Sylas's basic attacks will expend a charge and whirl his energized chains around him dealing bonus magic damage to enemies hit. While Sylas has a charge of Petricite Burst, he gains attack speed. "
 ,"q_name": "Chain Lash"
@@ -1700,7 +1700,7 @@
 {
 "name": "Syndra",
 "difficulty_rank": 39,
-"meta_tier": 5
+"meta_tier": 4
 ,"p_name": "Transcendent"
 ,"p_description": "Spells gain extra effects at max rank.  Dark Sphere: Deals 25% more damage against champions. Force of Will: Deals 20% bonus true damage. Scatter the Weak: Spell width increased by 50%. Unleashed Power: Range increased by 75."
 ,"q_name": "Dark Sphere"
@@ -1731,7 +1731,7 @@
 {
 "name": "Taliyah",
 "difficulty_rank": 47,
-"meta_tier": 3
+"meta_tier": 5
 ,"p_name": "Rock Surfing"
 ,"p_description": "Taliyah gains movement speed near walls."
 ,"q_name": "Threaded Volley"
@@ -1746,7 +1746,7 @@
 {
 "name": "Talon",
 "difficulty_rank": 60,
-"meta_tier": 1
+"meta_tier": 2
 ,"p_name": "Blade's End"
 ,"p_description": "Talon's spells Wound champions and large monsters, stacking up to 3 times. When Talon attacks a champion with 3 stacks of Wound, they bleed for heavy damage over time."
 ,"q_name": "Noxian Diplomacy"
@@ -1761,7 +1761,7 @@
 {
 "name": "Taric",
 "difficulty_rank": 91,
-"meta_tier": 1
+"meta_tier": 3
 ,"p_name": "Bravado"
 ,"p_description": "Spellcasts empower Taric's next 2 basic attacks to deal bonus magic damage, reduce his spell cooldowns, and attack in quick succession."
 ,"q_name": "Starlight's Touch"
@@ -1791,7 +1791,7 @@
 {
 "name": "Thresh",
 "difficulty_rank": 5,
-"meta_tier": 4
+"meta_tier": 2
 ,"p_name": "Damnation"
 ,"p_description": "Thresh can harvest the souls of enemies that die near him, permanently granting him Armor and Ability Power."
 ,"q_name": "Death Sentence"
@@ -1806,7 +1806,7 @@
 {
 "name": "Tristana",
 "difficulty_rank": 103,
-"meta_tier": 4
+"meta_tier": 5
 ,"p_name": "Draw a Bead"
 ,"p_description": "Increases Tristana's Attack Range as she levels."
 ,"q_name": "Rapid Fire"
@@ -1821,7 +1821,7 @@
 {
 "name": "Trundle",
 "difficulty_rank": 119,
-"meta_tier": 4
+"meta_tier": 5
 ,"p_name": "King's Tribute"
 ,"p_description": "When an enemy unit dies near Trundle, he heals for a percent of its maximum Health."
 ,"q_name": "Chomp"
@@ -1836,7 +1836,7 @@
 {
 "name": "Tryndamere",
 "difficulty_rank": 93,
-"meta_tier": 2
+"meta_tier": 5
 ,"p_name": "Battle Fury"
 ,"p_description": "Tryndamere gains Fury for each attack, critical strike, and killing blow he makes. Fury passively increases his Critical Strike Chance and can be consumed with his Bloodlust spell."
 ,"q_name": "Bloodlust"
@@ -1852,7 +1852,7 @@
 "name": "TwistedFate",
 "displayName": "Twisted Fate",
 "difficulty_rank": 26,
-"meta_tier": 3
+"meta_tier": 2
 ,"p_name": "Loaded Dice"
 ,"p_description": "Upon killing a unit, Twisted Fate rolls his 'lucky' dice receiving anywhere between 1 and 6 bonus gold."
 ,"q_name": "Wild Cards"
@@ -1867,7 +1867,7 @@
 {
 "name": "Twitch",
 "difficulty_rank": 69,
-"meta_tier": 1
+"meta_tier": 4
 ,"p_name": "Deadly Venom"
 ,"p_description": "Twitch's basic attacks infect the target, dealing true damage each second."
 ,"q_name": "Ambush"
@@ -1882,7 +1882,7 @@
 {
 "name": "Udyr",
 "difficulty_rank": 102,
-"meta_tier": 3
+"meta_tier": 5
 ,"p_name": "Monkey's Agility"
 ,"p_description": "Entering a stance grants Udyr bonus Attack Speed and Movement Speed for a short duration. This effect can stack multiple times."
 ,"q_name": "Tiger Stance"
@@ -1897,7 +1897,7 @@
 {
 "name": "Urgot",
 "difficulty_rank": 71,
-"meta_tier": 2
+"meta_tier": 5
 ,"p_name": "Echoing Flames"
 ,"p_description": "Urgot's basic attacks and Purge periodically trigger blasts of flame from his legs, dealing physical damage."
 ,"q_name": "Corrosive Charge"
@@ -1927,7 +1927,7 @@
 {
 "name": "Vayne",
 "difficulty_rank": 31,
-"meta_tier": 4
+"meta_tier": 2
 ,"p_name": "Night Hunter"
 ,"p_description": "Vayne ruthlessly hunts evil-doers, gaining 30 movement speed when moving toward nearby enemy champions."
 ,"q_name": "Tumble"
@@ -1942,7 +1942,7 @@
 {
 "name": "Veigar",
 "difficulty_rank": 131,
-"meta_tier": 2
+"meta_tier": 5
 ,"p_name": "Phenomenal Evil Power"
 ,"p_description": "Veigar is the greatest Evil to ever strike at the hearts of Runeterra - and he's only getting bigger! Striking an enemy Champion with a spell or scoring a takedown grants Veigar permanently increased Ability Power."
 ,"q_name": "Baleful Strike"
@@ -1973,7 +1973,7 @@
 {
 "name": "Vi",
 "difficulty_rank": 130,
-"meta_tier": 1
+"meta_tier": 3
 ,"p_name": "Blast Shield"
 ,"p_description": "Vi charges a shield over time. The shield can be activated by hitting an enemy with an ability."
 ,"q_name": "Vault Breaker"
@@ -1988,7 +1988,7 @@
 {
 "name": "Viktor",
 "difficulty_rank": 61,
-"meta_tier": 3
+"meta_tier": 5
 ,"p_name": "Glorious Evolution"
 ,"p_description": "Viktor starts with the Prototype Hex Core that can be upgraded three times in the store to augment his abilities."
 ,"q_name": "Siphon Power"
@@ -2018,7 +2018,7 @@
 {
 "name": "Volibear",
 "difficulty_rank": 108,
-"meta_tier": 4
+"meta_tier": 2
 ,"p_name": "The Relentless Storm"
 ,"p_description": "Volibear's attacks and abilities grant attack speed, and eventually cause his basic attacks to deal bonus magic damage to nearby enemies."
 ,"q_name": "Thundering Smash"
@@ -2033,7 +2033,7 @@
 {
 "name": "Warwick",
 "difficulty_rank": 145,
-"meta_tier": 1
+"meta_tier": 4
 ,"p_name": "Eternal Hunger"
 ,"p_description": "Warwick's basic attacks deal bonus magic damage. If Warwick is below 50% health, he heals the same amount. If Warwick is below 25% health, this healing triples."
 ,"q_name": "Jaws of the Beast"
@@ -2078,7 +2078,7 @@
 {
 "name": "Xerath",
 "difficulty_rank": 37,
-"meta_tier": 5
+"meta_tier": 4
 ,"p_name": "Mana Surge"
 ,"p_description": "Xerath's basic attacks periodically restore Mana."
 ,"q_name": "Arcanopulse"
@@ -2094,7 +2094,7 @@
 "name": "XinZhao",
 "displayName": "Xin Zhao",
 "difficulty_rank": 141,
-"meta_tier": 3
+"meta_tier": 5
 ,"p_name": "Determination"
 ,"p_description": "Every third attack deals bonus damage and heals Xin Zhao."
 ,"q_name": "Three Talon Strike"
@@ -2109,7 +2109,7 @@
 {
 "name": "Yasuo",
 "difficulty_rank": 7,
-"meta_tier": 4
+"meta_tier": 1
 ,"p_name": "Way of the Wanderer"
 ,"p_description": "Yasuo's Critical Strike Chance is doubled. Additionally, Yasuo builds toward a shield whenever he is moving. The shield triggers when he takes damage from a champion or monster."
 ,"q_name": "Steel Tempest"
@@ -2124,12 +2124,12 @@
 {
 "name": "Yone",
 "difficulty_rank": "?",
-"meta_tier": 5
+"meta_tier": 1
 },
 {
 "name": "Yorick",
 "difficulty_rank": 73,
-"meta_tier": 1
+"meta_tier": 4
 ,"p_name": "Shepherd of Souls"
 ,"p_description": "The Cursed Horde: Yorick can summon Mist Walkers to swarm and attack nearby enemies."
 ,"q_name": "Last Rites"
@@ -2144,7 +2144,7 @@
 {
 "name": "Yuumi",
 "difficulty_rank": 140,
-"meta_tier": 3
+"meta_tier": 2
 ,"p_name": "Bop 'n' Block"
 ,"p_description": "Periodically, when Yuumi attacks a champion, she restores mana and gains a shield that follows her, protecting her and the ally she's attached to."
 ,"q_name": "Prowling Projectile"
@@ -2159,7 +2159,7 @@
 {
 "name": "Zac",
 "difficulty_rank": 109,
-"meta_tier": 1
+"meta_tier": 2
 ,"p_name": "Cell Division"
 ,"p_description": "Each time Zac hits an enemy with an ability, he sheds a chunk of himself that can be reabsorbed to restore Health. Upon taking fatal damage, Zac splits into 4 bloblets that attempt to recombine. If any bloblets remain, he will revive with an amount of Health depending on the Health of the surviving bloblets. Each bloblet has a percentage of Zac's maximum Health, Armor and Magic Resistance. This ability has a 5 minute cooldown."
 ,"q_name": "Stretching Strikes"
@@ -2189,7 +2189,7 @@
 {
 "name": "Ziggs",
 "difficulty_rank": 132,
-"meta_tier": 4
+"meta_tier": 5
 ,"p_name": "Short Fuse"
 ,"p_description": "Periodically, Ziggs' next basic attack deals bonus magic damage. This cooldown is reduced whenever Ziggs uses an ability."
 ,"q_name": "Bouncing Bomb"
@@ -2204,7 +2204,7 @@
 {
 "name": "Zilean",
 "difficulty_rank": 121,
-"meta_tier": 1
+"meta_tier": 3
 ,"p_name": "Time In A Bottle"
 ,"p_description": "Zilean stores time as Experience.   When he has enough Experience to finish an ally's level, he can right-click them to impart it. Zilean receives as much Experience as he gives. Cannot be used in combat."
 ,"q_name": "Time Bomb"
@@ -2219,7 +2219,7 @@
 {
 "name": "Zoe",
 "difficulty_rank": 30,
-"meta_tier": 4
+"meta_tier": 2
 ,"p_name": "More Sparkles!"
 ,"p_description": "Zoe's next basic attack after casting a spell deals bonus magic damage."
 ,"q_name": "Paddle Star!"
@@ -2234,7 +2234,7 @@
 {
 "name": "Zyra",
 "difficulty_rank": 99,
-"meta_tier": 2
+"meta_tier": 4
 ,"p_name": "Garden of Thorns"
 ,"p_description": "Seeds spawn around Zyra periodically, becoming faster with level. Zyra can cast Deadly Spines or Grasping Roots near seeds to grow plants, who fight for Zyra."
 ,"q_name": "Deadly Spines"

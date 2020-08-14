@@ -11,11 +11,13 @@ async function loadChampData(champion_name) {
 
         //Replace datas
         const name = champ[0].displayName ? champ[0].displayName : champ[0].name;
-        const rank = champ[0].difficulty_rank != "?" ? `#${champ[0].difficulty_rank}` : "?";
+        const skillcap = champ[0].difficulty_rank != "?" ? `#${champ[0].difficulty_rank}` : "?";
+        const meta_tier = champ[0].meta_tier
 
         //Set champ details
         document.getElementById('modal-champ-name').innerHTML = name; 
-        document.getElementById('modal-champ-skillcap').innerHTML = rank;
+        document.getElementById('modal-champ-skillcap').innerHTML = skillcap;
+        document.getElementById('modal-champ-meta_tier').innerHTML = meta_tier;
         document.getElementById('modal-champ-icon').src = `../src/img/icon/${name}.jpg`;
 
         const ablities = ["p","q","w","e","r"];
