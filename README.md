@@ -26,6 +26,7 @@ Open an issue ("ticket") [here](https://github.com/Vianpyro/League-of-Help/issue
 ## Credits
 - [w3schools](https://www.w3schools.com/)
 - [stackoverflow](https://stackoverflow.com/)
+- [Cozax](https://github.com/Cozax)
 
 ## License
 [MIT © Vianpyro](https://github.com/Vianpyro/League-of-Help/blob/master/LICENSE)
