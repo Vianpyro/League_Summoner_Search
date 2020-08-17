@@ -41,7 +41,6 @@
     .show-menu-btn,.hide-menu-btn{
         display: block;
     }
-
     .menu{
         position: fixed;
         width: 100%;
@@ -52,27 +51,23 @@
         text-align: center;
         padding: 80px 0;
         line-height: normal;
-        transition: 0.7s;
+        transition: .7s;
     }
-
     .menu a{
         display: block;
         padding: 20px;
     }
-
     .hide-menu-btn{
         position: absolute;
         top: 40px;
         right: 40px;
     }
-
     #chk:checked ~ .menu{
         right: 0;
     }
 }
-
 @media screen and (min-width:800px) {
     .menu a:hover {
-        opacity: 0.5;
+        opacity: .5;
     }
 }
