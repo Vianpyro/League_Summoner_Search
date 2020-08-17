@@ -1,14 +1,3 @@
-.ability-key {
-    background: rgba(0,0,0,0.3);
-    border-radius: 1px;
-    bottom: 4px;
-    color: #dadada;
-    font-size: 12px;
-    letter-spacing: -.5px;
-    padding: 3px 4px 3px 5px;
-    position: absolute;
-    right: 0;
-}
 #champions {
     align-items: center;
     display: flex;
@@ -132,9 +121,26 @@ margin: 7%;
     margin: 2em 2em 1em;
     text-align: center;
 }
+.ability-key {
+    background: rgba(0,0,0,0.3);
+    border-radius: 1px;
+    bottom: 4px;
+    color: #dadada;
+    font-size: 12px;
+    letter-spacing: -.5px;
+    padding: 3px 4px 3px 5px;
+    position: absolute;
+    right: 0;
+}
 .modal-champ-ability {
+    border-radius: 8px;
     height: 48px;
     width: 48px;
+    transition-duration: .2s;
+}
+.modal-champ-ability:hover {
+    border-radius: 2px;
+    transform: scale(1.05);
 }
 .modal-champ-spell-name {
     color: #d4af37;
