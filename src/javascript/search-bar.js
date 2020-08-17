@@ -2,7 +2,6 @@ function search_champion() {
     // Declare variables
     let input, filter, parent, figure, a, i, txtValue;
     input = document.getElementById('search-champion');
-
     filter = input.value.toUpperCase();
     parent = document.getElementById("champions");
     figure = parent.getElementsByTagName('figure');

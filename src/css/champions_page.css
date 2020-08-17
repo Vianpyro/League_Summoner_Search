@@ -1,3 +1,14 @@
+.ability-key {
+    background: rgba(0,0,0,0.3);
+    border-radius: 1px;
+    bottom: 4px;
+    color: #dadada;
+    font-size: 12px;
+    letter-spacing: -.5px;
+    padding: 3px 4px 3px 5px;
+    position: absolute;
+    right: 0;
+}
 #champions {
     align-items: center;
     display: flex;

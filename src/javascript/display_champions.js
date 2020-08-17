@@ -13,7 +13,7 @@ async function displayChampions() {
             // Grid
             document.getElementById(`champions`).innerHTML += 
             `
-            <figure class="champion-figure">
+            <figure class="#${champion.difficulty_rank}">
                 <a class="championData" data-champion="${champion.name}">
                     <img class="champ-img" src="../src/img/icon/${champion.name}.jpg">
                     <figcaption id="champ${champion.name}Name"></figcaption>
