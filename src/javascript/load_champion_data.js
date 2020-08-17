@@ -10,28 +10,22 @@ async function loadChampData(champion_name) {
         console.log(champ)
 
         // Replace datas
-        const name = champ[0].displayName ? champ[0].displayName : champ[0].name;
+        const name = champ[0].name;
         const skillcap = champ[0].difficulty_rank != "?" ? `#${champ[0].difficulty_rank}` : "?";
         const meta_tier = champ[0].meta_tier
 
         // Set champion details
-        document.getElementById('modal-champ-name').innerHTML = name; 
+        document.getElementById('modal-champ-name').innerHTML = champ[0].displayName ? champ[0].displayName : champ[0].name; 
         document.getElementById('modal-champ-skillcap').innerHTML = skillcap;
         document.getElementById('modal-champ-meta_tier').innerHTML = meta_tier;
         document.getElementById('modal-champ-icon').src = `../src/img/icon/${name}.jpg`;
 
         // Set champion details colors
-        switch (meta_tier) {
-            case 1: document.getElementById('modal-champ-meta_tier').style.color = 'red'; break
-            case 2: document.getElementById('modal-champ-meta_tier').style.color = 'gray'; break
-            case 3: document.getElementById('modal-champ-meta_tier').style.color = 'brown'; break
-            case 4: document.getElementById('modal-champ-meta_tier').style.color = 'blue'; break
-            case 5: document.getElementById('modal-champ-meta_tier').style.color = 'green'; break
-        }
+        const colors = ['red', 'gray', 'brown', 'blue', 'green']
 
-        // Doesn't worlk :(
-        // const colors = ('red', 'blue', 'green', 'gray', 'black')
-        // document.getElementById('modal-champ-meta_tier').style.color = colors[meta_tier - 1]
+        if (1 <= meta_tier <= 5) {
+            document.getElementById('modal-champ-meta_tier').style.color = colors[meta_tier - 1]
+        } 
 
         const ablities = ["p","q","w","e","r"];
         ablities.forEach(e => {

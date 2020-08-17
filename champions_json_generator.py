@@ -63,7 +63,7 @@ for j in range (len(new_champs)):
 # List by hardest to easiest champion skill cap
 s_tier = (
     'Aurelion Sol', 'Kalista', 'Draven', 'Gangplank', 'Thresh', 'Zed', 'Yasuo', 'Lee Sin', 'Azir', 'Nidalee', 
-    'Riven', 'Leblanc', 'Akali', 'Bard'
+    'Riven', 'Yone', 'Leblanc', 'Akali', 'Bard'
 )
 
 a_tier = (
@@ -85,10 +85,10 @@ c_tier = (
 )
 
 d_tier = (
-    'Darius', 'Tryndamere', 'Mordekaiser', 'Master Yi', 'Neeko', 'Swain', 'Teemo', 'Zyra', 'Kayle', 'Olaf',
-    'Udyr', 'Tristana', 'Nocturne', 'Nasus', 'Shyvana', 'Poppy', 'Volibear', 'Zac', 'Sejuani', 'Hecarim',
-    'Skarner', 'Diana', 'Cho\'Gath', 'Jarvan IV', 'Blitzcrank', 'Nautilus', 'Wukong', 'Trundle', 'Morgana',
-    'Zilean', 'Karma', 'Braum', 'Leona', 'Sivir', 'Maokai', 'Sett'
+    'Darius', 'Tryndamere', 'Mordekaiser', 'Master Yi', 'Neeko', 'Lillia', 'Swain', 'Teemo', 'Zyra', 'Kayle', 
+    'Olaf', 'Udyr', 'Tristana', 'Nocturne', 'Nasus', 'Shyvana', 'Poppy', 'Volibear', 'Zac', 'Sejuani',  
+    'Hecarim', 'Skarner', 'Diana', 'Cho\'Gath', 'Jarvan IV', 'Blitzcrank', 'Nautilus', 'Wukong', 'Trundle', 
+    'Morgana', 'Zilean', 'Karma', 'Braum', 'Leona', 'Sivir', 'Maokai', 'Sett'
 )
 
 e_tier = (
@@ -97,7 +97,7 @@ e_tier = (
 )
 
 unkown_tier = ( 
-    'Lillia', 'Yone', 'Samira', 'Seraphine'
+    'Samira', 'Seraphine'
 )
 
 # Regroup and sort every champion in a single list

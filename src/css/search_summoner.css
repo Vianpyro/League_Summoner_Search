@@ -1,11 +1,9 @@
 .searchbar h1 {
     padding: 10vh 0 5px 0;
 }
-
 .searchbar p {
     padding-bottom: 3vh;
 }
-
 #search-btn {
     background-color: #333;
     border-radius: 10px;
@@ -13,14 +11,12 @@
     padding: 10px 0;
     transition-duration: 250ms;
 }
-
 #search-btn:hover {
     background-color: #888;
     border-radius: 5px;
     color: #fff;
     cursor: pointer;
 }
-
 .searchbar {
     background: #f1f1f1;
     border-radius: 10px;
@@ -29,19 +25,17 @@
     padding: 30px 80px;
     width: 40%;
 }
-
 .searchbar input,
 .searchbar select {
     font-size: 15px;
     color: #333;
     border: none;
-    width: 85%;
+    width: 100%;
     outline: none;
     background: none;
     padding: 0 5px;
     height: 40px;
 }
-
 .searchbar option {
     background-color: #f1f1f1;
 }
