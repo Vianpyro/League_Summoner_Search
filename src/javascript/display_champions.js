@@ -15,7 +15,7 @@ async function displayChampions() {
             `
             <figure class="#${champion.difficulty_rank}">
                 <a class="championData" data-champion="${champion.name}">
-                    <img class="champ-img" src="../src/img/icon/${champion.name}.jpg">
+                    <img class="champ-img" src="../src/img/champions/${champion.name}/icon.jpg">
                     <figcaption id="champ${champion.name}Name"></figcaption>
                 </a>
             </figure>

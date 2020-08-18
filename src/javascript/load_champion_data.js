@@ -7,8 +7,6 @@ async function loadChampData(champion_name) {
         // Target the selected champion
         const champ = champions.filter(e => e.name === champion_name);
 
-        console.log(champ)
-
         // Replace datas
         const name = champ[0].name;
         const skillcap = champ[0].difficulty_rank != "?" ? `#${champ[0].difficulty_rank}` : "?";
@@ -18,7 +16,7 @@ async function loadChampData(champion_name) {
         document.getElementById('modal-champ-name').innerHTML = champ[0].displayName ? champ[0].displayName : champ[0].name; 
         document.getElementById('modal-champ-skillcap').innerHTML = skillcap;
         document.getElementById('modal-champ-meta_tier').innerHTML = meta_tier;
-        document.getElementById('modal-champ-icon').src = `../src/img/icon/${name}.jpg`;
+        document.getElementById('modal-champ-icon').src = `../src/img/champions/${name}/icon.jpg`;
 
         // Set champion details colors
         const colors = ['red', 'gray', 'brown', 'blue', 'green']
@@ -29,7 +27,7 @@ async function loadChampData(champion_name) {
 
         const ablities = ["p","q","w","e","r"];
         ablities.forEach(e => {
-            document.getElementById(`modal-champ-${e}`).src =  `../src/img/abilities/${name}/${e}.png`;
+            document.getElementById(`modal-champ-${e}`).src =  `../src/img/champions/${name}/${e}.png`;
             document.getElementById(`modal-${e}`).innerHTML = champ[0][`${e}_name`]
             document.getElementById(`modal-${e}-desc`).innerHTML = champ[0][`${e}_description`];
         });
