@@ -47,7 +47,7 @@ class GetLeagueStatsBot:
                 'Fate Sealed', 'Yone strikes all enemies in his path, blinking behind the last enemy hit and knocking everyone airborn towards him.'
             ),
             'Samira': (
-                'Passive Infos', "Samira has two main weapons, a pistol and a dagger. Her attacks alternate between her pistol and dagger.",
+                'Passive Infos', "'Thrill Seeking Marksman': Samira has two main weapons, a pistol and a dagger. Her attacks alternate between her pistol and dagger.",
                 'Q-Spell Infos', "DISCLAIMER: Everything about this Samira character, including leaks, pictures, and other forms of information are tentative in nature, and might or might not be true until the official confirmation from Riot Games themselves.",
                 'W-Spell Infos', "DISCLAIMER: Everything about this Samira character, including leaks, pictures, and other forms of information are tentative in nature, and might or might not be true until the official confirmation from Riot Games themselves.",
                 'E-Spell Infos', "Since Samira's a marksman/assassin we could assume a dash a bit like Lucian's.",
@@ -103,10 +103,10 @@ champions_list = (
     'Hecarim', 'Skarner', 'Diana', 'Cho\'Gath', 'Jarvan IV', 'Blitzcrank', 'Nautilus', 'Wukong', 'Trundle',
     'Morgana', 'Zilean', 'Karma', 'Braum', 'Leona', 'Sivir', 'Maokai', 'Sett', 'Brand', 'Jinx', 'Vi', 'Veigar',
     'Ziggs', 'Lux', 'Pantheon', 'Malzahar', 'Soraka', 'Miss Fortune', 'Ashe', 'Dr. Mundo', 'Yuumi', 'Xin Zhao',
-    'Garen', 'Amumu', 'Rammus', 'Warwick', 'Malphite', 'Sona', 'Annie', 'Samira', 'Seraphine'
+    'Garen', 'Amumu', 'Rammus', 'Warwick', 'Malphite', 'Sona', 'Annie', 'Samira', 'Seraphine', 'Ultra-Heavy Tank Support'
 )
 
-no_data_champions = ('Seraphine')
+no_data_champions = ('Samira', 'Seraphine', 'Ultra-Heavy Tank Support')
 
 word = '{\n"patch": %s,\n"champions":\n[' % (champ_stats.PATCH)
 total_champions = len(champions_list)
