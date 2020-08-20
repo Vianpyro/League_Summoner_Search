@@ -47,10 +47,10 @@ class GetLeagueStatsBot:
                 'Fate Sealed', 'Yone strikes all enemies in his path, blinking behind the last enemy hit and knocking everyone airborn towards him.'
             ),
             'Samira': (
-                'Passive Infos', "Samira has two main weapons, a pistol and a dagger. Her attacks alternate between her pistol and dagger."
-                'Q-Spell Infos', "DISCLAIMER: Everything about this Samira character, including leaks, pictures, and other forms of information are tentative in nature, and might or might not be true until the official confirmation from Riot Games themselves."
-                'W-Spell Infos', "DISCLAIMER: Everything about this Samira character, including leaks, pictures, and other forms of information are tentative in nature, and might or might not be true until the official confirmation from Riot Games themselves."
-                'E-Spell Infos', "Since Samira's a marksman/assassin we could assume a dash a bit like Lucian's."
+                'Passive Infos', "Samira has two main weapons, a pistol and a dagger. Her attacks alternate between her pistol and dagger.",
+                'Q-Spell Infos', "DISCLAIMER: Everything about this Samira character, including leaks, pictures, and other forms of information are tentative in nature, and might or might not be true until the official confirmation from Riot Games themselves.",
+                'W-Spell Infos', "DISCLAIMER: Everything about this Samira character, including leaks, pictures, and other forms of information are tentative in nature, and might or might not be true until the official confirmation from Riot Games themselves.",
+                'E-Spell Infos', "Since Samira's a marksman/assassin we could assume a dash a bit like Lucian's.",
                 'Ultimate Infos', "Samira uses a machine gun in a combination of Katarina's R, Urgot's R and Nunu's R. She'll start spinning and shooting bullets from her machine gun as well as throw multiple daggers."
             )
         }
@@ -106,7 +106,7 @@ champions_list = (
     'Garen', 'Amumu', 'Rammus', 'Warwick', 'Malphite', 'Sona', 'Annie', 'Samira', 'Seraphine'
 )
 
-no_data_champions = ('Samira', 'Seraphine')
+no_data_champions = ('Seraphine')
 
 word = '{\n"patch": %s,\n"champions":\n[' % (champ_stats.PATCH)
 total_champions = len(champions_list)

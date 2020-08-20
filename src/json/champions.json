@@ -1490,7 +1490,17 @@
 },
 {
 "name": "Samira",
-"difficulty_rank": "?",
+"p_name": "Passive Infos",
+"p_description": "Samira has two main weapons, a pistol and a dagger. Her attacks alternate between her pistol and dagger.",
+"q_name": "Q-Spell Infos",
+"q_description": "DISCLAIMER: Everything about this Samira character, including leaks, pictures, and other forms of information are tentative in nature, and might or might not be true until the official confirmation from Riot Games themselves.",
+"w_name": "W-Spell Infos",
+"w_description": "DISCLAIMER: Everything about this Samira character, including leaks, pictures, and other forms of information are tentative in nature, and might or might not be true until the official confirmation from Riot Games themselves.",
+"e_name": "E-Spell Infos",
+"e_description": "Since Samira's a marksman/assassin we could assume a dash a bit like Lucian's.",
+"r_name": "Ultimate Infos",
+"r_description": "Samira uses a machine gun in a combination of Katarina's R, Urgot's R and Nunu's R. She'll start spinning and shooting bullets from her machine gun as well as throw multiple daggers.",
+"difficulty_rank": 151,
 "meta_tier": "?"
 },
 {
