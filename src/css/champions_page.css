@@ -27,7 +27,9 @@
 }
 #champions figure img {
     border-radius: 20px;
-    box-shadow: #000 0 0 8px;
+    -webkit-box-shadow: var(--box-shadows);  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+    -moz-box-shadow: var(--box-shadows);  /* Firefox 3.5 - 3.6 */
+    box-shadow: var(--box-shadows);
     height: 200px;
     object-fit: cover;
     transition-duration: 250ms;

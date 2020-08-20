@@ -20,7 +20,9 @@
 .searchbar {
     background: #fff;
     border-radius: 10px;
-    box-shadow: #000 0 0 8px;
+    -webkit-box-shadow: var(--box-shadows);  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+    -moz-box-shadow: var(--box-shadows);  /* Firefox 3.5 - 3.6 */
+    box-shadow: var(--box-shadows);
     margin-top: 8%;
     height: 100hv;
     padding: 30px 80px;

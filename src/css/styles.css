@@ -3,7 +3,9 @@
     margin: 0;
     padding: 0;
 }
-
+:root {
+    --box-shadows: #000 0 0 3px;
+}
 body {
     background-color: #fefefe;
 }
