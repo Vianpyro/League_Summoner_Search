@@ -1,5 +1,5 @@
 {
-"patch": 10.16,
+"patch": 10.17,
 "champions":
 [{
 "name": "Aatrox",
@@ -407,7 +407,7 @@
 "r_name": "Last Caress",
 "r_description": "Evelynn briefly goes untargetable and decimates the area in front of her before warping backwards a long distance.",
 "difficulty_rank": 45,
-"meta_tier": 2
+"meta_tier": 1
 },
 {
 "name": "Ezreal",
@@ -497,7 +497,7 @@
 "r_name": "Cannon Barrage",
 "r_description": "Gangplank signals his ship to bombard an area, slowing and damaging enemies.",
 "difficulty_rank": 4,
-"meta_tier": 4
+"meta_tier": 3
 },
 {
 "name": "Garen",
@@ -784,7 +784,7 @@
 "r_name": "Requiem",
 "r_description": "After channeling for 3 seconds, Karthus deals damage to all enemy champions.",
 "difficulty_rank": 50,
-"meta_tier": 1
+"meta_tier": 2
 },
 {
 "name": "Kassadin",
@@ -971,6 +971,16 @@
 },
 {
 "name": "Lillia",
+"p_name": "Dream-Laden Bough",
+"p_description": "Hitting a champion or monster with a skill will deal additional max Health damage over time.",
+"q_name": "Blooming Blows",
+"q_description": "Passively, Lillia gains stacking Move Speed when hitting enemies with spells. She can activate this to deal magic damage to nearby enemies, dealing extra true damage on the edge.",
+"w_name": "Watch Out! Eep!",
+"w_description": "Lillia deals damage in a nearby area, dealing heavy damage in the center.",
+"e_name": "Swirlseed",
+"e_description": "Lillia hurls a seed that damages and slows those it lands on. If it doesn't hit anything, it will continue rolling until it hits a wall or target.",
+"r_name": "Lilting Lullaby",
+"r_description": "Lillia causes all enemies with Dream Dust on them to become Drowsy before falling asleep. Those enemies will take extra damage on being forcibly woken up.",
 "difficulty_rank": 98,
 "meta_tier": 3
 },
@@ -1446,7 +1456,7 @@
 "r_name": "Blade of the Exile",
 "r_description": "Riven empowers her keepsake weapon with energy, and gains Attack Damage and Range. During this time, she also gains the ability to use Wind Slash, a powerful ranged attack, once.",
 "difficulty_rank": 11,
-"meta_tier": 3
+"meta_tier": 4
 },
 {
 "name": "Rumble",
@@ -1561,7 +1571,7 @@
 "r_name": "Stand United",
 "r_description": "Shen shields target allied champion from incoming damage, and soon after teleports to their location.",
 "difficulty_rank": 78,
-"meta_tier": 2
+"meta_tier": 3
 },
 {
 "name": "Shyvana",
@@ -2014,7 +2024,7 @@
 "r_name": "Hemoplague",
 "r_description": "Vladimir infects an area with a virulent plague. Affected enemies take increased damage for the duration. After a few seconds, Hemoplague deals magic damage to infected enemies and heals Vladimir for each enemy Champion hit.",
 "difficulty_rank": 49,
-"meta_tier": 3
+"meta_tier": 2
 },
 {
 "name": "Volibear",
@@ -2124,6 +2134,16 @@
 },
 {
 "name": "Yone",
+"p_name": "Way of the Hunter",
+"p_description": "Yone deals magic damage with every second Attack. In addition, his critical strike chance is doubled.",
+"q_name": "Mortal Steel",
+"q_description": "Thrusts forward, damaging all enemies in a line.  On hit, grants a stack of Gathering Storm for a few seconds. At 2 stacks, Mortal Steel dashes Yone forward with a gust of wind knocking enemies Airborne.  Mortal Steel is treated as a basic attack and scales with all the same things.",
+"w_name": "Spirit Cleave",
+"w_description": "Cleaves forward, damaging all enemies in a cone. Grants a shield to Yone, the value is increased by the number of champions hit by the swipe.  Spirit Cleave's cooldown and cast time scale with attack speed.",
+"e_name": "Soul Unbound",
+"e_description": "Yone's spirit leaves his body behind, gaining movement speed. When this skill ends, Yone's spirit is forced back to his body and he repeats a portion of the damage he dealt as a spirit.",
+"r_name": "Fate Sealed",
+"r_description": "Yone blinks behind the last champion in a line with a slash so powerful it pulls all enemies hit towards him.",
 "difficulty_rank": 12,
 "meta_tier": 1
 },

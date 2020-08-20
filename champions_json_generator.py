@@ -31,6 +31,23 @@ class GetLeagueStatsBot:
         page = requests.get(f'{base_url}/{champion.lower()}/')
         tree = html.fromstring(page.content)
 
+        recent_abilities = {
+            'Lillia': (
+                'Dream-Laden Bough', "Lillia's abilities apply Dream Dust, dealing a portion of the target's maximum health as magic damage over a duration.",
+                'Blooming Blows', "Lillia swings her branch in the air and deals magic damage to nearby enemies, dealing true damage to those at the outer edge of the circle, Lillia gains stacking movement speed whenever she hits a target with a skill.",
+                'Watch Out! Eep!', 'Lillia winds up for a huge strike with her branch, dealing magic damage to enemies. Enemies at the center of the impact recieve more damage.',
+                'Swirlseed', "Lillia lobs a Swirlseed overhead, dealing magic damage to enemies and slowing them for a duration. If Lillia's Swirlseed misses, it's continue to roll until it hits and enemy or collides with terrain.",
+                'Lilting Lullaby', 'Lillia casts a lullaby over her enemies and those affected by her Dream Dust become increasingly slowed before falling asleep for a duration. When awakened by damage, enemies will take additional magic damage.'
+            ),
+            'Yone': (
+                'Way of the Hunter', 'Yone uses two blades, causing every second attack to deal more magic damage. His critical strike chance is also doubled but his critical strikes deal reduced damage.',
+                'Mortal Steel', 'Yone thrusts forward, dealing physical damage to opponents, On hit, he gains a stack of Gathering Storm. At two stacks, Yone can dash forward with a wave that makes enemies airborn.'
+                'Spirit Cleave', "Yone cleaves forward in a massive arc, dealing a portion of the target's max health. After successfully hitting an enemy, Yone also gains a temporary shield. The shield's power increases per champion struck.",
+                'Soul Unbound', "Yone can enter his Spirit Form, gaingin movement speed and leaving his body behing. When Yone's Spirit Form expires, he'll snap back into his body and deal a pecentage of all the damage he dealt while in Spirit Form.",
+                'Fate Sealed', 'Yone strikes all enemies in his path, blinking behind the last enemy hit and knocking everyone airborn towards him.'
+            )
+        }
+
         try:
             return (
                 tree.xpath('//*[@id="gatsby-focus-wrapper"]/div/section[2]/div[1]/div[2]/div/div[1]/div/div/div[2]/div[2]/ol/li[1]/h5/text()')[0].replace("\n", " "),
@@ -44,7 +61,10 @@ class GetLeagueStatsBot:
                 tree.xpath('//*[@id="gatsby-focus-wrapper"]/div/section[2]/div[1]/div[2]/div/div[1]/div/div/div[2]/div[2]/ol/li[5]/h5/text()')[0].replace("\n", " "),
                 tree.xpath('//*[@id="gatsby-focus-wrapper"]/div/section[2]/div[1]/div[2]/div/div[1]/div/div/div[2]/div[2]/ol/li[5]/p/text()')[0].replace("\n", " ")
             )
-        except: pass
+        except:
+            try: return recent_abilities[champion]
+            except: pass
+
 
 if __name__ == '__main__':
     champ_stats = GetLeagueStatsBot()

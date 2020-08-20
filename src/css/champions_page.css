@@ -4,10 +4,8 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    margin: 2em 6em;
 }
 #champions figure {
-    background-color: #999;
     border-radius: 20px;
     margin: 1em 2em;
     text-align: center;
@@ -17,26 +15,29 @@
     width: 200px;
 }
 #champions figure a {
-    color: lightgray;
+    color: #000;
     text-decoration: none;
 }
-#champions figure figcaption:hover {
-    color: #000;
+#champions figure a:hover {
+    color: #aaa;
+}
+#champions figure figcaption {
     transition-duration: 250ms;
+    margin-top: .9pc;
 }
 #champions figure img {
-    background-color: lightgray;
-    border: 1px solid #fff;
     border-radius: 20px;
-    box-shadow: gray 0 0 10px;
+    box-shadow: #000 0 0 8px;
     height: 200px;
     object-fit: cover;
+    transition-duration: 250ms;
     width: 200px;
 }
-#champions figure:hover {
-    background-color: #a9a9a9;
-    cursor: pointer;
+#champions figure img:hover {
     transform: scale(1.125);
+}
+#champions figure:hover {
+    cursor: pointer;
 }
 #modal {
     align-items: center;
