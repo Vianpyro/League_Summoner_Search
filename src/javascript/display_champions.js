@@ -8,7 +8,7 @@ async function displayChampions() {
         document.getElementById("champ-toptext").innerHTML = `With ${champions.length} champions, you’ll find the perfect match for your playstyle. Master one, or master them all.`;
 
         // Create a grid with all the champions
-        champions.slice().forEach((champion) => {
+        champions.forEach((champion) => {
 
             // Grid
             document.getElementById(`champions`).innerHTML += 
