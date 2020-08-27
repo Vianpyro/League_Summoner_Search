@@ -195,7 +195,7 @@
 "r_name": "Static Field",
 "r_description": "Enemies attacked by Blitzcrank are marked and take lightning damage after 1 second. Additionally, Blitzcrank can activate this ability to remove nearby enemies' shields, damage them, and silence them briefly.",
 "difficulty_rank": 118,
-"meta_tier": 2
+"meta_tier": 1
 },
 {
 "name": "Brand",
@@ -407,7 +407,7 @@
 "r_name": "Last Caress",
 "r_description": "Evelynn briefly goes untargetable and decimates the area in front of her before warping backwards a long distance.",
 "difficulty_rank": 45,
-"meta_tier": 1
+"meta_tier": 2
 },
 {
 "name": "Ezreal",
@@ -437,7 +437,7 @@
 "r_name": "Crowstorm",
 "r_description": "A murder of crows flock wildly around Fiddlesticks, dealing damage per second to all enemy units in the area.",
 "difficulty_rank": 85,
-"meta_tier": 3
+"meta_tier": 2
 },
 {
 "name": "Fiora",
@@ -467,7 +467,7 @@
 "r_name": "Chum the Waters",
 "r_description": "Fizz tosses a fish in a direction that attaches to any champion that touches it, slowing the target. After a short delay, a shark erupts from the ground, knocking up the target and knocking any nearby enemies aside. All enemies hit are dealt magic damage and slowed.",
 "difficulty_rank": 64,
-"meta_tier": 1
+"meta_tier": 2
 },
 {
 "name": "Galio",
@@ -693,7 +693,7 @@
 "r_name": "Mercury Cannon / Mercury Hammer",
 "r_description": "Hammer Stance: Transforms the Mercury Hammer into the Mercury Cannon gaining new abilities and increased range. The first attack in this form reduces the target's Armor and Magic Resist.  Cannon Stance: Transforms the Mercury Cannon into the Mercury Hammer gaining new abilities and increasing Armor and Magic Resist. The first attack in this form deals additional magic damage.",
 "difficulty_rank": 30,
-"meta_tier": 2
+"meta_tier": 3
 },
 {
 "name": "Jhin",
@@ -784,7 +784,7 @@
 "r_name": "Requiem",
 "r_description": "After channeling for 3 seconds, Karthus deals damage to all enemy champions.",
 "difficulty_rank": 50,
-"meta_tier": 2
+"meta_tier": 1
 },
 {
 "name": "Kassadin",
@@ -1072,7 +1072,7 @@
 "r_name": "Nether Grasp",
 "r_description": "Malzahar channels the essence of the Void to suppress an enemy champion over a zone of damaging negative energy.",
 "difficulty_rank": 137,
-"meta_tier": 3
+"meta_tier": 4
 },
 {
 "name": "Maokai",
@@ -1119,7 +1119,7 @@
 "r_name": "Bullet Time",
 "r_description": "Miss Fortune channels a barrage of bullets into a cone in front of her, dealing large amounts of damage to enemies. Each wave of Bullet Time can critically strike",
 "difficulty_rank": 139,
-"meta_tier": 3
+"meta_tier": 4
 },
 {
 "name": "Mordekaiser",
@@ -1290,7 +1290,7 @@
 "r_name": "Call of the Forge God",
 "r_description": "Ornn summons a massive elemental at a location which travels toward him with increasing speed. Enemies run over by the elemental take damage, are slowed and are made Brittle. Ornn can recast the ability to charge into the elemental, redirecting it in the direction he hits it, causing the elemental to affect any enemies it runs over to be knocked up, dealing the same damage and re-applying Brittle.",
 "difficulty_rank": 79,
-"meta_tier": 4
+"meta_tier": 3
 },
 {
 "name": "Pantheon",
@@ -1471,7 +1471,7 @@
 "r_name": "The Equalizer",
 "r_description": "Rumble fires off a group of rockets, creating a wall of flames that damages and slows enemies.",
 "difficulty_rank": 46,
-"meta_tier": 5
+"meta_tier": "?"
 },
 {
 "name": "Ryze",
@@ -1566,7 +1566,7 @@
 "r_name": "Hallucinate",
 "r_description": "Shaco creates an illusion of himself near him, which can attack nearby enemies (Deals reduced damage to turrets).  Upon death, it explodes, spawning three mini Jack in the Boxes and dealing damage to nearby enemies.",
 "difficulty_rank": 21,
-"meta_tier": 3
+"meta_tier": "?"
 },
 {
 "name": "Shen",
@@ -1581,7 +1581,7 @@
 "r_name": "Stand United",
 "r_description": "Shen shields target allied champion from incoming damage, and soon after teleports to their location.",
 "difficulty_rank": 78,
-"meta_tier": 3
+"meta_tier": 2
 },
 {
 "name": "Shyvana",
@@ -1656,7 +1656,7 @@
 "r_name": "Impale",
 "r_description": "Skarner suppresses an enemy champion and deals damage to it. During this time, Skarner can move freely and will drag his helpless victim around with him. When the effect ends, the target will be dealt additional damage.",
 "difficulty_rank": 114,
-"meta_tier": 5
+"meta_tier": 4
 },
 {
 "name": "Sona",
@@ -1671,7 +1671,7 @@
 "r_name": "Crescendo",
 "r_description": "Sona plays her ultimate chord, stunning enemy champions and forcing them to dance and dealing magic damage to them. Each rank reduces the base cooldown of Sona's basic abilities.",
 "difficulty_rank": 149,
-"meta_tier": 1
+"meta_tier": 2
 },
 {
 "name": "Soraka",
@@ -1731,7 +1731,7 @@
 "r_name": "Unleashed Power",
 "r_description": "Syndra bombards an enemy Champion with all of her Dark Spheres.",
 "difficulty_rank": 33,
-"meta_tier": 4
+"meta_tier": 5
 },
 {
 "name": "TahmKench",
@@ -1777,7 +1777,7 @@
 "r_name": "Shadow Assault",
 "r_description": "Talon disperses a ring of blades and becomes Invisible while gaining additional Movement Speed. When Talon emerges from Invisibility, the blades converge on his location. Each time the blades move, Shadow Assault deals physical damage to enemies hit by at least one blade.",
 "difficulty_rank": 61,
-"meta_tier": 2
+"meta_tier": 1
 },
 {
 "name": "Taric",
@@ -2055,7 +2055,7 @@
 "r_name": "Stormbringer",
 "r_description": "Volibear leaps to a target location, slowing and damaging enemies beneath him while gaining bonus health.  Enemy towers near his landing location become temporarily disabled.",
 "difficulty_rank": 110,
-"meta_tier": 2
+"meta_tier": 3
 },
 {
 "name": "Warwick",
@@ -2131,7 +2131,7 @@
 "r_name": "Crescent Guard",
 "r_description": "Xin Zhao deals damage to nearby enemies based on their current Health and knocks non-challenged targets back. Xin Zhao is impervious to damage dealt by champions outside of the circle created.",
 "difficulty_rank": 143,
-"meta_tier": 4
+"meta_tier": 5
 },
 {
 "name": "Yasuo",
@@ -2281,5 +2281,5 @@
 "r_name": "Stranglethorns",
 "r_description": "Zyra summons a twisted thicket at her target location, dealing damage to enemies as it expands and knocking them airborne as it contracts. Plants within the thicket are enraged.",
 "difficulty_rank": 101,
-"meta_tier": 4
+"meta_tier": "?"
 }]}
