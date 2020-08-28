@@ -137,7 +137,7 @@
 "meta_tier": 2
 },
 {
-"name": "AurelionSol",
+"name": "Aurelion-Sol",
 "displayName": "Aurelion Sol",
 "p_name": "Center of the Universe",
 "p_description": "Stars orbit Aurelion Sol, dealing magic damage when they hit an enemy.",
@@ -273,7 +273,7 @@
 "meta_tier": 2
 },
 {
-"name": "ChoGath",
+"name": "Cho-Gath",
 "displayName": "Cho'Gath",
 "p_name": "Carnivore",
 "p_description": "Whenever Cho'Gath kills a unit, he recovers Health and Mana. The values restored increase with Cho'Gath's level.",
@@ -334,7 +334,7 @@
 "meta_tier": 3
 },
 {
-"name": "DrMundo",
+"name": "Dr-Mundo",
 "displayName": "Dr. Mundo",
 "p_name": "Adrenaline Rush",
 "p_description": "Dr. Mundo regenerates 0.3% of his maximum Health each second.",
@@ -650,7 +650,7 @@
 "meta_tier": 4
 },
 {
-"name": "JarvanIV",
+"name": "Jarvan-IV",
 "displayName": "Jarvan IV",
 "p_name": "Martial Cadence",
 "p_description": "Jarvan's first basic attack on an enemy deals bonus physical damage based on their current Health. This effect cannot occur again on the same enemy for a few seconds.",
@@ -663,7 +663,7 @@
 "r_name": "Cataclysm",
 "r_description": "Jarvan IV heroically leaps into battle at a target with such force that he terraforms the surrounding area to create an arena around them. Nearby enemies are damaged at the moment of impact.",
 "difficulty_rank": 117,
-"meta_tier": 4
+"meta_tier": 5
 },
 {
 "name": "Jax",
@@ -726,7 +726,7 @@
 "meta_tier": 4
 },
 {
-"name": "KaiSa",
+"name": "Kai-Sa",
 "displayName": "Kai'Sa",
 "p_name": "Second Skin",
 "p_description": "Kai'Sa's basic attacks stack Plasma, dealing increasing bonus magic damage. Allies' immobilizing effects help stack Plasma. Additionally, Kai'Sa's item purchases upgrade her basic spells to have more powerful properties.",
@@ -862,7 +862,7 @@
 "meta_tier": 4
 },
 {
-"name": "KhaZix",
+"name": "Kha-Zix",
 "displayName": "Kha'Zix",
 "p_name": "Unseen Threat",
 "p_description": "Nearby enemies that are Isolated from their allies are marked. Kha'Zix's abilities have interactions with Isolated targets.  When Kha'Zix is not visible to the enemy team, he gains Unseen Threat, causing his next basic attack against an enemy champion to deal bonus magic damage and slow them for a few seconds.",
@@ -908,7 +908,7 @@
 "meta_tier": 4
 },
 {
-"name": "KogMaw",
+"name": "Kog-Maw",
 "displayName": "Kog'Maw",
 "p_name": "Icathian Surprise",
 "p_description": "Upon dying, Kog'Maw starts a chain reaction in his body which causes him to move faster and detonate after 4 seconds; dealing 100 + (25 x lvl) true damage to surrounding enemies.",
@@ -939,7 +939,7 @@
 "meta_tier": 2
 },
 {
-"name": "LeeSin",
+"name": "Lee-Sin",
 "displayName": "Lee Sin",
 "p_name": "Flurry",
 "p_description": "After Lee Sin uses an ability, his next 2 basic attacks gain Attack Speed and return Energy.",
@@ -1090,7 +1090,7 @@
 "meta_tier": 1
 },
 {
-"name": "MasterYi",
+"name": "Master-Yi",
 "displayName": "Master Yi",
 "p_name": "Double Strike",
 "p_description": "Every few consecutive basic attack, Master Yi strikes twice.",
@@ -1106,7 +1106,7 @@
 "meta_tier": 3
 },
 {
-"name": "MissFortune",
+"name": "Miss-Fortune",
 "displayName": "Miss Fortune",
 "p_name": "Love Tap",
 "p_description": "Miss Fortune deals bonus physical damage whenever she basic attacks a new target.",
@@ -1244,6 +1244,16 @@
 {
 "name": "Nunu",
 "displayName": "Nunu & Willump",
+"p_name": "Call of the Freljord",
+"p_description": "Nunu increases the attack speed and movement speed of Willump and a nearby ally, and causes Willump's basic attacks to damage enemies around the target.",
+"q_name": "Consume",
+"q_description": "Willump takes a bite out of a minion, monster, or enemy champion, dealing damage and healing himself.",
+"w_name": "Biggest Snowball Ever!",
+"w_description": "Willump creates a snowball that grows in size and speed as he rolls it.  The snowball damages and knocks up enemies.",
+"e_name": "Snowball Barrage",
+"e_description": "Nunu throws multiple snowballs that damage enemies.  When he's finished, Willump roots any champions or large monsters that were hit by a snowball.",
+"r_name": "Absolute Zero",
+"r_description": "Nunu & Willump create a powerful blizzard in an area that slows enemies and deals massive damage at the end.",
 "difficulty_rank": 76,
 "meta_tier": 2
 },
@@ -1398,7 +1408,7 @@
 "meta_tier": 3
 },
 {
-"name": "RekSai",
+"name": "Rek-Sai",
 "displayName": "Rek'Sai",
 "p_name": "Fury of the Xer'Sai",
 "p_description": "While unburrowed Rek'Sai generates Fury with her basic attacks and spells. When burrowed Rek'Sai consumes Fury to heal herself.",
@@ -1471,7 +1481,7 @@
 "r_name": "The Equalizer",
 "r_description": "Rumble fires off a group of rockets, creating a wall of flames that damages and slows enemies.",
 "difficulty_rank": 46,
-"meta_tier": "?"
+"meta_tier": 5
 },
 {
 "name": "Ryze",
@@ -1566,7 +1576,7 @@
 "r_name": "Hallucinate",
 "r_description": "Shaco creates an illusion of himself near him, which can attack nearby enemies (Deals reduced damage to turrets).  Upon death, it explodes, spawning three mini Jack in the Boxes and dealing damage to nearby enemies.",
 "difficulty_rank": 21,
-"meta_tier": "?"
+"meta_tier": 3
 },
 {
 "name": "Shen",
@@ -1734,7 +1744,7 @@
 "meta_tier": 5
 },
 {
-"name": "TahmKench",
+"name": "Tahm-Kench",
 "displayName": "Tahm Kench",
 "p_name": "An Acquired Taste",
 "p_description": "Tahm Kench puts the heft of his immense body behind his attacks and abilities, gaining extra damage based on his total health. Damaging enemy champions builds stacks of An Acquired Taste. At three stacks, he can use Devour on an enemy champion.",
@@ -1870,7 +1880,7 @@
 "meta_tier": 5
 },
 {
-"name": "TwistedFate",
+"name": "Twisted-Fate",
 "displayName": "Twisted Fate",
 "p_name": "Loaded Dice",
 "p_description": "Upon killing a unit, Twisted Fate rolls his 'lucky' dice receiving anywhere between 1 and 6 bonus gold.",
@@ -1916,8 +1926,7 @@
 "meta_tier": 5
 },
 {
-"name": "Ultra-HeavyTankSupport",
-"displayName": "Ultra-Heavy Tank Support",
+"name": "Ultra-Heavy Tank Support",
 "difficulty_rank": "?",
 "meta_tier": "?"
 },
@@ -1982,7 +1991,7 @@
 "meta_tier": 5
 },
 {
-"name": "VelKoz",
+"name": "Vel-Koz",
 "displayName": "Vel'Koz",
 "p_name": "Organic Deconstruction",
 "p_description": "Vel'Koz's abilities apply Organic Deconstruction to enemies on hit. If 3 stacks are accumulated, the enemy will take a burst of true damage.",
@@ -2118,7 +2127,7 @@
 "meta_tier": 4
 },
 {
-"name": "XinZhao",
+"name": "Xin-Zhao",
 "displayName": "Xin Zhao",
 "p_name": "Determination",
 "p_description": "Every third attack deals bonus damage and heals Xin Zhao.",
@@ -2281,5 +2290,5 @@
 "r_name": "Stranglethorns",
 "r_description": "Zyra summons a twisted thicket at her target location, dealing damage to enemies as it expands and knocking them airborne as it contracts. Plants within the thicket are enraged.",
 "difficulty_rank": 101,
-"meta_tier": "?"
+"meta_tier": 4
 }]}

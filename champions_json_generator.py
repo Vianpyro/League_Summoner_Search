@@ -18,7 +18,8 @@ class GetLeagueStatsBot:
     def get_champ_meta_tier(self, champion):
         base_url = 'https://na.op.gg/champion'
         try:
-            page = requests.get(f'{base_url}/{champion.lower()}/statistics')
+            champ_url = champion.replace('-', '').lower()
+            page = requests.get(f'{base_url}/{champ_url}/statistics')
             tree = html.fromstring(page.content)
         except: pass
 
@@ -111,25 +112,41 @@ no_data_champions = ('Samira', 'Seraphine', 'Ultra-Heavy Tank Support')
 word = '{\n"patch": %s,\n"champions":\n[' % (champ_stats.PATCH)
 total_champions = len(champions_list)
 for index, champ in enumerate(sorted(champions_list)):
-    # Get a "clean" champion name
-    clean_champ_name = champ.replace("'", '-').replace(".", '').replace(" ", '-')
-
     # Don't put a ',' if first element when opening champion part
     if index == 0: word += '{\n'
     else: word += ',\n{\n'
 
     # Add champion name and (maybe) display name
-    if "'" in champ or ' ' in champ:
-        if champ == 'Nunu & Willump':
-            word += '"name": "Nunu",\n'
-        else:
-            word += '"name": "%s",\n' % (champ.replace("'", '').replace(' ', '').replace('.', ''))
+    LoL_names = {
+        'Aurelion Sol': 'Aurelion-Sol',
+        "Cho'Gath": 'Cho-Gath',
+        'Dr. Mundo': 'Dr-Mundo',
+        'Jarvan IV': 'Jarvan-IV',
+        "Kai'Sa": 'Kai-Sa',
+        "Kha'Zix": 'Kha-Zix',
+        "Kog'Maw": 'Kog-Maw',
+        'Lee Sin': 'Lee-Sin',
+        'Master Yi': 'Master-Yi',
+        'Miss Fortune': 'Miss-Fortune',
+        'Nunu & Willump': 'Nunu', 
+        "Rek'Sai": 'Rek-Sai',
+        'Tahm Kench': 'Tahm-Kench',
+        'Twisted Fate': 'Twisted-Fate',
+        "Vel'Koz": 'Vel-Koz',
+        'Xin Zhao': 'Xin-Zhao'
+    }
+
+    if champ in LoL_names:
+        word += f'"name": "{LoL_names[champ]}",\n'
         word += f'"displayName": "{champ}",\n'
+        champions_abilities = champ_stats.get_champ_abilities(LoL_names[champ])
+        champ_meta_tier = champ_stats.get_champ_meta_tier(LoL_names[champ].lower())
     else:
+        champions_abilities = champ_stats.get_champ_abilities(champ)
         word += f'"name": "{champ}",\n'
-    
+        champ_meta_tier = champ_stats.get_champ_meta_tier(champ.lower())
+
     # Add abilities
-    champions_abilities = champ_stats.get_champ_abilities(clean_champ_name)
     if champions_abilities != None:
         abilities = ['p', 'q', 'w', 'e', 'r']
         for j in range (len(abilities)):
@@ -141,7 +158,6 @@ for index, champ in enumerate(sorted(champions_list)):
     else: word += f'"difficulty_rank": {champions_list.index(champ) + 1},\n'
 
     # Add champion meta rank
-    champ_meta_tier = champ_stats.get_champ_meta_tier(clean_champ_name.replace('-', ''))
     word += '"meta_tier": '
     if champ_meta_tier != None: word += f'{champ_meta_tier}'
     else: word += '"?"'
