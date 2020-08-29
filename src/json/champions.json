@@ -154,6 +154,7 @@
 },
 {
 "name": "Azir",
+"free": true,
 "p_name": "Shurima's Legacy",
 "p_description": "Azir can summon the Disc of the Sun from the ruins of allied or enemy turrets.",
 "q_name": "Conquering Sands",
@@ -199,6 +200,7 @@
 },
 {
 "name": "Brand",
+"free": true,
 "p_name": "Blaze",
 "p_description": "Brand's spells light his targets ablaze, dealing damage over 4 seconds, stacking up to 3 times. If Brand kills an enemy while it is ablaze he regains mana. When Blaze reaches max stacks on a Champion or large monster, it becomes unstable. It detonates in 2 seconds, applying spell effects and dealing massive damage in an area around the victim.",
 "q_name": "Sear",
@@ -336,6 +338,7 @@
 {
 "name": "Dr-Mundo",
 "displayName": "Dr. Mundo",
+"free": true,
 "p_name": "Adrenaline Rush",
 "p_description": "Dr. Mundo regenerates 0.3% of his maximum Health each second.",
 "q_name": "Infected Cleaver",
@@ -486,6 +489,7 @@
 },
 {
 "name": "Gangplank",
+"free": true,
 "p_name": "Trial by Fire",
 "p_description": "Every few seconds, Gangplank's melee strike will set his opponent on fire.",
 "q_name": "Parrrley",
@@ -561,6 +565,7 @@
 },
 {
 "name": "Hecarim",
+"free": true,
 "p_name": "Warpath",
 "p_description": "Hecarim gains Attack Damage equal to a percentage of his bonus Movement Speed.",
 "q_name": "Rampage",
@@ -576,6 +581,7 @@
 },
 {
 "name": "Heimerdinger",
+"free": true,
 "p_name": "Hextech Affinity",
 "p_description": "Gain Movement Speed while near allied towers and turrets deployed by Heimerdinger.",
 "q_name": "H-28 G Evolution Turret",
@@ -697,6 +703,7 @@
 },
 {
 "name": "Jhin",
+"free": true,
 "p_name": "Whisper",
 "p_description": "Jhin's hand cannon, Whisper, is a precise instrument designed to deal superior damage. It fires at a fixed rate and carries only four shots. Jhin imbues the final bullet with dark magics to critically strike and deal bonus execute damage. Whenever Whisper crits, it inspires Jhin with a burst of movement speed.",
 "q_name": "Dancing Grenade",
@@ -743,6 +750,7 @@
 },
 {
 "name": "Kalista",
+"free": true,
 "p_name": "Martial Poise",
 "p_description": "Enter a movement command while winding up Kalista's basic attack or Pierce to lunge a short distance when she launches her attack.",
 "q_name": "Pierce",
@@ -758,6 +766,7 @@
 },
 {
 "name": "Karma",
+"free": true,
 "p_name": "Gathering Fire",
 "p_description": "Reduces Mantra's cooldown each time Karma damages an enemy champion with one of her abilities (Half-effect for Karma's basic attacks)",
 "q_name": "Inner Flame",
@@ -941,6 +950,7 @@
 {
 "name": "Lee-Sin",
 "displayName": "Lee Sin",
+"free": true,
 "p_name": "Flurry",
 "p_description": "After Lee Sin uses an ability, his next 2 basic attacks gain Attack Speed and return Energy.",
 "q_name": "Sonic Wave / Resonating Strike",
@@ -986,6 +996,7 @@
 },
 {
 "name": "Lissandra",
+"free": true,
 "p_name": "Iceborn Subjugation",
 "p_description": "When an enemy champion dies near Lissandra they become a Frozen Thrall. Frozen Thralls slow nearby enemies and then, after a delay, shatter from the intense cold, dealing magic damage to nearby targets.",
 "q_name": "Ice Shard",
@@ -1259,6 +1270,7 @@
 },
 {
 "name": "Olaf",
+"free": true,
 "p_name": "Berserker Rage",
 "p_description": "Olaf's Attack Speed is increased by 1% for each 1% of his Health he is missing.",
 "q_name": "Undertow",
@@ -1274,6 +1286,7 @@
 },
 {
 "name": "Orianna",
+"free": true,
 "p_name": "Clockwork Windup",
 "p_description": "Orianna's autoattack deals additional magic damage. This damage increases the more Orianna attacks the same target.",
 "q_name": "Command: Attack",
@@ -2083,6 +2096,7 @@
 },
 {
 "name": "Wukong",
+"free": true,
 "p_name": "Stone Skin",
 "p_description": "Wukong gains stacking armor and max health regeneration while fighting champions and monsters.",
 "q_name": "Crushing Blow",
@@ -2279,6 +2293,7 @@
 },
 {
 "name": "Zyra",
+"free": true,
 "p_name": "Garden of Thorns",
 "p_description": "Seeds spawn around Zyra periodically, becoming faster with level. Zyra can cast Deadly Spines or Grasping Roots near seeds to grow plants, who fight for Zyra.",
 "q_name": "Deadly Spines",

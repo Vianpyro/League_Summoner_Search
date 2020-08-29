@@ -5,32 +5,27 @@ import requests
 
 class GetLeagueStatsBot:
     def __init__(self):
-        base_url = 'https://na.leagueoflegends.com/en-us/news/tags/patch-notes'
-        try:
-            page = requests.get(f'{base_url}')
-            tree = html.fromstring(page.content)
-        except: pass
+        self.get_patch()
 
-        try: self.PATCH = tree.xpath('//*[@id="gatsby-focus-wrapper"]/div/div[2]/div/div[1]/div/ol/li[1]/a/article/div[2]/div/h2/text()')[0][6:-6]
-        except: self.PATCH = '"?"'
-        print('PATCH: ' + self.PATCH)
+    def load_page(self, url):
+        try: return html.fromstring(requests.get(url).content)
+        except: return
+
+    def get_patch(self):
+        tree = self.load_page('https://na.leagueoflegends.com/en-us/news/tags/patch-notes')
+        return tree.xpath('//*[@id="gatsby-focus-wrapper"]/div/div[2]/div/div[1]/div/ol/li[1]/a/article/div[2]/div/h2/text()')[0][6:-6]
+
+    def get_champion_rotation(self):
+        tree = self.load_page('https://leagueoflegends.fandom.com/wiki/Free_champion_rotation')
+        return [tree.xpath(f'//*[@id="mw-content-text"]/div[1]/div[1]/ol/li[{i}]/div/div[2]/a/text()')[0] for i in range (1, 16)]
 
     def get_champ_meta_tier(self, champion):
-        base_url = 'https://na.op.gg/champion'
-        try:
-            champ_url = champion.replace('-', '').lower()
-            page = requests.get(f'{base_url}/{champ_url}/statistics')
-            tree = html.fromstring(page.content)
-        except: pass
-
+        tree = self.load_page('https://na.op.gg/champion/%s/statistics' % (champion.replace('-', '')))
         try: return tree.xpath('//*[@class="champion-stats-header-info__tier"]/b/text()')[0][-1]
-        except: pass
-
+        except: print(f"Unable to load {champion}'s meta tier.")
         
     def get_champ_abilities(self, champion):
-        base_url = 'https://na.leagueoflegends.com/en-us/champions'
-        page = requests.get(f'{base_url}/{champion.lower()}/')
-        tree = html.fromstring(page.content)
+        tree = self.load_page(f'https://na.leagueoflegends.com/en-us/champions/{champion.lower()}/')
 
         recent_abilities = {
             'Samira': (
@@ -61,102 +56,104 @@ class GetLeagueStatsBot:
 
 
 if __name__ == '__main__':
-    champ_stats = GetLeagueStatsBot()
+    champ_stats = GetLeagueStatsBot()  
+    free_champion_rotation = champ_stats.get_champion_rotation()
+    new_champs, new_winrate = [], []
 
-new_champs, new_winrate = [], []
+    tier_op, tier_1, tier_2, tier_3, tier_4, tier_5 = [], [], [], [], [], []
+    for j in range (len(new_champs)):
+        if new_winrate[j] > 53.0: tier_op.append(new_champs[j])
+        elif 53.0 > new_winrate[j] > 51.0: tier_1.append(new_champs[j])
+        elif 51.0 > new_winrate[j] > 50.0: tier_2.append(new_champs[j])
+        elif 50.0 > new_winrate[j] > 49.0: tier_3.append(new_champs[j])
+        elif 49.0 > new_winrate[j] > 48.0: tier_4.append(new_champs[j])
+        else: tier_5.append(new_champs[j])
 
-tier_op, tier_1, tier_2, tier_3, tier_4, tier_5 = [], [], [], [], [], []
-for j in range (len(new_champs)):
-    if new_winrate[j] > 53.0: tier_op.append(new_champs[j])
-    elif 53.0 > new_winrate[j] > 51.0: tier_1.append(new_champs[j])
-    elif 51.0 > new_winrate[j] > 50.0: tier_2.append(new_champs[j])
-    elif 50.0 > new_winrate[j] > 49.0: tier_3.append(new_champs[j])
-    elif 49.0 > new_winrate[j] > 48.0: tier_4.append(new_champs[j])
-    else: tier_5.append(new_champs[j])
+    # List by hardest to easiest champion skill cap
+    champions_list = (
+        'Aurelion Sol', 'Kalista', 'Draven', 'Gangplank', 'Thresh', 'Zed', 'Yasuo', 'Lee Sin', 'Azir', 'Nidalee',
+        'Riven', 'Yone', 'Leblanc', 'Akali', 'Bard', 'Rengar', 'Katarina', 'Cassiopeia', 'Elise', 'Twisted Fate',
+        'Shaco', 'Ivern', 'Pyke', 'Zoe', 'Vayne', 'Qiyana', 'Lucian', 'Rakan', 'Tahm Kench', 'Jayce', 'Irelia', 
+        'Fiora', 'Syndra', 'Kai\'Sa', 'Aatrox', 'Rek\'Sai', 'Singed', 'Xerath', 'Anivia', 'Kha\'Zix', 'Ryze', 
+        'Kled', 'Kindred', 'Orianna', 'Evelynn', 'Rumble', 'Ekko', 'Taliyah', 'Vladimir', 'Karthus', 'Janna', 
+        'Xayah', 'Ezreal', 'Camille', 'Gnar', 'Kayn', 'Kog\'Maw', 'Alistar', 'Gragas', 'Sylas', 'Talon', 'Viktor',
+        'Aphelios', 'Fizz', 'Renekton', 'Heimerdinger', 'Ahri', 'Vel\'Koz', 'Jax', 'Twitch', 'Illaoi', 'Urgot',
+        'Jhin',  'Yorick', 'Graves', 'Nunu & Willump', 'Kassadin', 'Shen', 'Ornn', 'Kennen', 'Sion', 'Quinn', 
+        'Varus', 'Senna', 'Fiddlesticks', 'Lissandra', 'Caitlyn', 'Lulu', 'Nami', 'Corki', 'Galio', 'Taric', 
+        'Darius', 'Tryndamere', 'Mordekaiser', 'Master Yi', 'Neeko', 'Lillia', 'Swain', 'Teemo', 'Zyra', 'Kayle',
+        'Olaf', 'Udyr', 'Tristana', 'Nocturne', 'Nasus', 'Shyvana', 'Poppy', 'Volibear', 'Zac', 'Sejuani',
+        'Hecarim', 'Skarner', 'Diana', 'Cho\'Gath', 'Jarvan IV', 'Blitzcrank', 'Nautilus', 'Wukong', 'Trundle',
+        'Morgana', 'Zilean', 'Karma', 'Braum', 'Leona', 'Sivir', 'Maokai', 'Sett', 'Brand', 'Jinx', 'Vi', 'Veigar',
+        'Ziggs', 'Lux', 'Pantheon', 'Malzahar', 'Soraka', 'Miss Fortune', 'Ashe', 'Dr. Mundo', 'Yuumi', 'Xin Zhao',
+        'Garen', 'Amumu', 'Rammus', 'Warwick', 'Malphite', 'Sona', 'Annie', 'Samira', 'Seraphine', 'Ultra-Heavy Tank Support'
+    )
 
-# List by hardest to easiest champion skill cap
-champions_list = (
-    'Aurelion Sol', 'Kalista', 'Draven', 'Gangplank', 'Thresh', 'Zed', 'Yasuo', 'Lee Sin', 'Azir', 'Nidalee',
-    'Riven', 'Yone', 'Leblanc', 'Akali', 'Bard', 'Rengar', 'Katarina', 'Cassiopeia', 'Elise', 'Twisted Fate',
-    'Shaco', 'Ivern', 'Pyke', 'Zoe', 'Vayne', 'Qiyana', 'Lucian', 'Rakan', 'Tahm Kench', 'Jayce', 'Irelia', 
-    'Fiora', 'Syndra', 'Kai\'Sa', 'Aatrox', 'Rek\'Sai', 'Singed', 'Xerath', 'Anivia', 'Kha\'Zix', 'Ryze', 
-    'Kled', 'Kindred', 'Orianna', 'Evelynn', 'Rumble', 'Ekko', 'Taliyah', 'Vladimir', 'Karthus', 'Janna', 
-    'Xayah', 'Ezreal', 'Camille', 'Gnar', 'Kayn', 'Kog\'Maw', 'Alistar', 'Gragas', 'Sylas', 'Talon', 'Viktor',
-    'Aphelios', 'Fizz', 'Renekton', 'Heimerdinger', 'Ahri', 'Vel\'Koz', 'Jax', 'Twitch', 'Illaoi', 'Urgot',
-    'Jhin',  'Yorick', 'Graves', 'Nunu & Willump', 'Kassadin', 'Shen', 'Ornn', 'Kennen', 'Sion', 'Quinn', 
-    'Varus', 'Senna', 'Fiddlesticks', 'Lissandra', 'Caitlyn', 'Lulu', 'Nami', 'Corki', 'Galio', 'Taric', 
-    'Darius', 'Tryndamere', 'Mordekaiser', 'Master Yi', 'Neeko', 'Lillia', 'Swain', 'Teemo', 'Zyra', 'Kayle',
-    'Olaf', 'Udyr', 'Tristana', 'Nocturne', 'Nasus', 'Shyvana', 'Poppy', 'Volibear', 'Zac', 'Sejuani',
-    'Hecarim', 'Skarner', 'Diana', 'Cho\'Gath', 'Jarvan IV', 'Blitzcrank', 'Nautilus', 'Wukong', 'Trundle',
-    'Morgana', 'Zilean', 'Karma', 'Braum', 'Leona', 'Sivir', 'Maokai', 'Sett', 'Brand', 'Jinx', 'Vi', 'Veigar',
-    'Ziggs', 'Lux', 'Pantheon', 'Malzahar', 'Soraka', 'Miss Fortune', 'Ashe', 'Dr. Mundo', 'Yuumi', 'Xin Zhao',
-    'Garen', 'Amumu', 'Rammus', 'Warwick', 'Malphite', 'Sona', 'Annie', 'Samira', 'Seraphine', 'Ultra-Heavy Tank Support'
-)
+    no_data_champions = ('Samira', 'Seraphine', 'Ultra-Heavy Tank Support')
 
-no_data_champions = ('Samira', 'Seraphine', 'Ultra-Heavy Tank Support')
+    word = '{\n"patch": %s,\n"champions":\n[' % (champ_stats.get_patch())
+    total_champions = len(champions_list)
+    for index, champ in enumerate(sorted(champions_list)):
+        # Don't put a ',' if first element when opening champion part
+        if index == 0: word += '{\n'
+        else: word += ',\n{\n'
 
-word = '{\n"patch": %s,\n"champions":\n[' % (champ_stats.PATCH)
-total_champions = len(champions_list)
-for index, champ in enumerate(sorted(champions_list)):
-    # Don't put a ',' if first element when opening champion part
-    if index == 0: word += '{\n'
-    else: word += ',\n{\n'
+        # Add champion name and (maybe) display name
+        LoL_names = {
+            'Aurelion Sol': 'Aurelion-Sol',
+            "Cho'Gath": 'Cho-Gath',
+            'Dr. Mundo': 'Dr-Mundo',
+            'Jarvan IV': 'Jarvan-IV',
+            "Kai'Sa": 'Kai-Sa',
+            "Kha'Zix": 'Kha-Zix',
+            "Kog'Maw": 'Kog-Maw',
+            'Lee Sin': 'Lee-Sin',
+            'Master Yi': 'Master-Yi',
+            'Miss Fortune': 'Miss-Fortune',
+            'Nunu & Willump': 'Nunu', 
+            "Rek'Sai": 'Rek-Sai',
+            'Tahm Kench': 'Tahm-Kench',
+            'Twisted Fate': 'Twisted-Fate',
+            "Vel'Koz": 'Vel-Koz',
+            'Xin Zhao': 'Xin-Zhao'
+        }
 
-    # Add champion name and (maybe) display name
-    LoL_names = {
-        'Aurelion Sol': 'Aurelion-Sol',
-        "Cho'Gath": 'Cho-Gath',
-        'Dr. Mundo': 'Dr-Mundo',
-        'Jarvan IV': 'Jarvan-IV',
-        "Kai'Sa": 'Kai-Sa',
-        "Kha'Zix": 'Kha-Zix',
-        "Kog'Maw": 'Kog-Maw',
-        'Lee Sin': 'Lee-Sin',
-        'Master Yi': 'Master-Yi',
-        'Miss Fortune': 'Miss-Fortune',
-        'Nunu & Willump': 'Nunu', 
-        "Rek'Sai": 'Rek-Sai',
-        'Tahm Kench': 'Tahm-Kench',
-        'Twisted Fate': 'Twisted-Fate',
-        "Vel'Koz": 'Vel-Koz',
-        'Xin Zhao': 'Xin-Zhao'
-    }
+        if champ in LoL_names:
+            word += f'"name": "{LoL_names[champ]}",\n'
+            word += f'"displayName": "{champ}",\n'
+            champions_abilities = champ_stats.get_champ_abilities(LoL_names[champ])
+            champ_meta_tier = champ_stats.get_champ_meta_tier(LoL_names[champ].lower())
+        else:
+            champions_abilities = champ_stats.get_champ_abilities(champ)
+            word += f'"name": "{champ}",\n'
+            champ_meta_tier = champ_stats.get_champ_meta_tier(champ.lower())
 
-    if champ in LoL_names:
-        word += f'"name": "{LoL_names[champ]}",\n'
-        word += f'"displayName": "{champ}",\n'
-        champions_abilities = champ_stats.get_champ_abilities(LoL_names[champ])
-        champ_meta_tier = champ_stats.get_champ_meta_tier(LoL_names[champ].lower())
-    else:
-        champions_abilities = champ_stats.get_champ_abilities(champ)
-        word += f'"name": "{champ}",\n'
-        champ_meta_tier = champ_stats.get_champ_meta_tier(champ.lower())
+        if champ in free_champion_rotation: word += f'"free": true,\n'
 
-    # Add abilities
-    if champions_abilities != None:
-        abilities = ['p', 'q', 'w', 'e', 'r']
-        for j in range (len(abilities)):
-            word += f'"{abilities[j]}_name": "{champions_abilities[j * 2]}",\n'
-            word += f'"{abilities[j]}_description": "{champions_abilities[(j * 2) + 1]}",\n'
+        # Add abilities
+        if champions_abilities != None:
+            abilities = ['p', 'q', 'w', 'e', 'r']
+            for j in range (len(abilities)):
+                word += f'"{abilities[j]}_name": "{champions_abilities[j * 2]}",\n'
+                word += f'"{abilities[j]}_description": "{champions_abilities[(j * 2) + 1]}",\n'
 
-    # Add champion skill caps rank
-    if champ in no_data_champions: word += '"difficulty_rank": "?",\n'
-    else: word += f'"difficulty_rank": {champions_list.index(champ) + 1},\n'
+        # Add champion skill caps rank
+        if champ in no_data_champions: word += '"difficulty_rank": "?",\n'
+        else: word += f'"difficulty_rank": {champions_list.index(champ) + 1},\n'
 
-    # Add champion meta rank
-    word += '"meta_tier": '
-    if champ_meta_tier != None: word += f'{champ_meta_tier}'
-    else: word += '"?"'
-    word += '\n'
+        # Add champion meta rank
+        word += '"meta_tier": '
+        if champ_meta_tier != None: word += f'{champ_meta_tier}'
+        else: word += '"?"'
+        word += '\n'
 
-    # Close champion part
-    word += '}'
+        # Close champion part
+        word += '}'
 
-    # Print the amount of champions left
-    print(total_champions - index)
+        # Print the amount of champions left
+        print(total_champions - index)
 
-word += ']}'
-with open('src/json/champions.json', 'w') as f:
-    f.write(word)
+    word += ']}'
+    with open('src/json/champions.json', 'w') as f:
+        f.write(word)
 
-input('JSON file generated successfuly, press enter to close this dialog...')
+    input('JSON file generated successfuly, press enter to close this dialog...')

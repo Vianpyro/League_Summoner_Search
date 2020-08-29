@@ -15,11 +15,17 @@ async function displayChampions() {
             `
             <figure class="#${champion.difficulty_rank}">
                 <a class="championData" data-champion="${champion.name}">
+                    <img id="is-${champion.name}-free" class="free-champion">
                     <img class="champ-img" src="../src/img/champions/${champion.name}/icon.jpg">
                     <figcaption id="champ${champion.name}Name"></figcaption>
                 </a>
             </figure>
             `;
+
+            // Display free champions
+            if (champion.free) {
+                document.getElementById(`is-${champion.name}-free`).src = '../src/img/lock_icon.png'
+            }
 
             // Display champ data when clicked on
             document.querySelectorAll(".championData").forEach(e => {

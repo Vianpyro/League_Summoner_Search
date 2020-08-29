@@ -25,7 +25,7 @@
     transition-duration: 250ms;
     margin-top: .9pc;
 }
-#champions figure img {
+.champ-img {
     border-radius: 20px;
     -webkit-box-shadow: var(--box-shadows);  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
     -moz-box-shadow: var(--box-shadows);  /* Firefox 3.5 - 3.6 */
@@ -35,7 +35,7 @@
     transition-duration: 250ms;
     width: 200px;
 }
-#champions figure img:hover {
+.champ-img:hover {
     transform: scale(1.125);
 }
 #champions figure:hover {
@@ -186,6 +186,12 @@
     font-size: 16px;
     visibility: visible;
 }
+.free-champion {
+    position: absolute;
+}
+#modal-free-champion {
+     position: absolute;
+}
 @media screen and (max-width: 800px) {
     #champions {
         margin: 1em 3em;
@@ -194,7 +200,7 @@
         margin: 1em;
         width: 105px;
     }
-    #champions figure img {
+    .champ-img {
         height: 105px;
         width: 105px;
     }
@@ -213,7 +219,7 @@
         margin: 2em;
         width: 400px;
     }
-    #champions figure img {
+    .champ-img {
         height: 400px;
         width: 400px;
     }

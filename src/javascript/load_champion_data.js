@@ -22,8 +22,16 @@ async function loadChampData(champion_name) {
         const colors = ['red', 'gray', 'brown', 'blue', 'green']
 
         if (1 <= meta_tier <= 5) {
-            document.getElementById('modal-champ-meta_tier').style.color = colors[meta_tier - 1]
-        } 
+            document.getElementById('modal-champ-meta_tier').style.color = colors[meta_tier - 1];
+        }
+        if (champ[0].free) {
+            document.getElementById('modal-free-champion').style.display = 'inherit';
+            document.getElementById('modal-champ-icon').style.borderRadius = '25px 0 0 0';
+        } else {
+            document.getElementById('modal-free-champion').style.display = 'none';
+            document.getElementById('modal-champ-icon').style.borderRadius = '0';
+            
+        }
 
         const ablities = ["p","q","w","e","r"];
         ablities.forEach(e => {
