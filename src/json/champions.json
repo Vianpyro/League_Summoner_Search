@@ -663,7 +663,7 @@
 "r_name": "Cataclysm",
 "r_description": "Jarvan IV heroically leaps into battle at a target with such force that he terraforms the surrounding area to create an arena around them. Nearby enemies are damaged at the moment of impact.",
 "difficulty_rank": 117,
-"meta_tier": 5
+"meta_tier": 4
 },
 {
 "name": "Jax",
@@ -997,7 +997,7 @@
 "r_name": "Frozen Tomb",
 "r_description": "If cast on an enemy champion, the target is frozen solid, stunning it. If cast on Lissandra, she encases herself in dark ice, healing herself while becoming untargetable and invulnerable. Dark ice then emanates from the target dealing magic damage to enemies and slowing Movement Speed.",
 "difficulty_rank": 86,
-"meta_tier": 4
+"meta_tier": 5
 },
 {
 "name": "Lucian",
@@ -1500,16 +1500,16 @@
 },
 {
 "name": "Samira",
-"p_name": "Passive Infos",
-"p_description": "'Thrill Seeking Marksman': Samira has two main weapons, a pistol and a dagger. Her attacks alternate between her pistol and dagger.",
-"q_name": "Q-Spell Infos",
-"q_description": "DISCLAIMER: Everything about this Samira character, including leaks, pictures, and other forms of information are tentative in nature, and might or might not be true until the official confirmation from Riot Games themselves.",
-"w_name": "W-Spell Infos",
-"w_description": "DISCLAIMER: Everything about this Samira character, including leaks, pictures, and other forms of information are tentative in nature, and might or might not be true until the official confirmation from Riot Games themselves.",
-"e_name": "E-Spell Infos",
-"e_description": "Since Samira's a marksman/assassin we could assume a dash a bit like Lucian's.",
-"r_name": "Ultimate Infos",
-"r_description": "Samira uses a machine gun in a combination of Katarina's R, Urgot's R and Nunu's R. She'll start spinning and shooting bullets from her machine gun as well as throw multiple daggers.",
+"p_name": "Daredevil Impulse",
+"p_description": "Samira builds a combo by hitting attacks or abilities from the previous hit. Each one increases her Style, from 'E' to 'S' grade. Samira gains movement speed according to her grade. Samira's attacks in melee range deal additional magic damage, increased with the target missing health. Samira's attacks against enemies affected by Immobilizing effects Knock Up for 0.5 seconds and deal damage over 6 separate attacks. Samira dashes into range against targets slightly outside of her attack range.",
+"q_name": "Flair",
+"q_description": "Samira fires a shot, dealing physical damage to the first enemy hit. If this ability is cast towards an enemy in melee range, Samira will instead slash with her sword, dealing physical damage. Either hit can critically strike for 25% bonus damage. If cast during Wild Rush, Samira will strike all enemies in her path upon completion.",
+"w_name": "Blade Whirl",
+"w_description": "Samira slashes around her for 1 second, damaging enemies twice dealing physical damage each and destroying any enemy missiles that enter the area.",
+"e_name": "Wild Rush",
+"e_description": "Samira dashes through an enemy or ally, slashing enemies she passes through and gaining Attack Speed. Killing an enemy champion refreshes this ability's cooldown.",
+"r_name": "Inferno Trigger",
+"r_description": "Samira can only use this ability if her current Style rating is 'S'. Samira unleashes a torrent of shots from her weapons, wildly shooting all enemies surrounding her 10 times over 2 seconds, each shot dealing physical damage and applying lifesteal. Each shot can also critically strike.",
 "difficulty_rank": "?",
 "meta_tier": "?"
 },
@@ -1893,7 +1893,7 @@
 "r_name": "Destiny",
 "r_description": "Twisted Fate predicts the fortunes of his foes, revealing all enemy champions and enabling the use of Gate, which teleports Twisted Fate to any target location in 1.5 seconds.",
 "difficulty_rank": 20,
-"meta_tier": 2
+"meta_tier": 3
 },
 {
 "name": "Twitch",

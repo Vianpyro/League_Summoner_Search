@@ -48,11 +48,11 @@ class GetLeagueStatsBot:
                 'Fate Sealed', 'Yone strikes all enemies in his path, blinking behind the last enemy hit and knocking everyone airborn towards him.'
             ),
             'Samira': (
-                'Passive Infos', "'Thrill Seeking Marksman': Samira has two main weapons, a pistol and a dagger. Her attacks alternate between her pistol and dagger.",
-                'Q-Spell Infos', "DISCLAIMER: Everything about this Samira character, including leaks, pictures, and other forms of information are tentative in nature, and might or might not be true until the official confirmation from Riot Games themselves.",
-                'W-Spell Infos', "DISCLAIMER: Everything about this Samira character, including leaks, pictures, and other forms of information are tentative in nature, and might or might not be true until the official confirmation from Riot Games themselves.",
-                'E-Spell Infos', "Since Samira's a marksman/assassin we could assume a dash a bit like Lucian's.",
-                'Ultimate Infos', "Samira uses a machine gun in a combination of Katarina's R, Urgot's R and Nunu's R. She'll start spinning and shooting bullets from her machine gun as well as throw multiple daggers."
+                'Daredevil Impulse', "Samira builds a combo by hitting attacks or abilities from the previous hit. Each one increases her Style, from 'E' to 'S' grade. Samira gains movement speed according to her grade. Samira's attacks in melee range deal additional magic damage, increased with the target missing health. Samira's attacks against enemies affected by Immobilizing effects Knock Up for 0.5 seconds and deal damage over 6 separate attacks. Samira dashes into range against targets slightly outside of her attack range.",
+                'Flair', f'Samira fires a shot, dealing physical damage to the first enemy hit. If this ability is cast towards an enemy in melee range, Samira will instead slash with her sword, dealing physical damage. Either hit can critically strike for 25% bonus damage. If cast during Wild Rush, Samira will strike all enemies in her path upon completion.',
+                'Blade Whirl', 'Samira slashes around her for 1 second, damaging enemies twice dealing physical damage each and destroying any enemy missiles that enter the area.',
+                'Wild Rush', "Samira dashes through an enemy or ally, slashing enemies she passes through and gaining Attack Speed. Killing an enemy champion refreshes this ability's cooldown.",
+                'Inferno Trigger', "Samira can only use this ability if her current Style rating is 'S'. Samira unleashes a torrent of shots from her weapons, wildly shooting all enemies surrounding her 10 times over 2 seconds, each shot dealing physical damage and applying lifesteal. Each shot can also critically strike."
             )
         }
 
