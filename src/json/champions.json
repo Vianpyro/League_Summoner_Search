@@ -669,7 +669,7 @@
 "r_name": "Cataclysm",
 "r_description": "Jarvan IV heroically leaps into battle at a target with such force that he terraforms the surrounding area to create an arena around them. Nearby enemies are damaged at the moment of impact.",
 "difficulty_rank": 117,
-"meta_tier": 4
+"meta_tier": 5
 },
 {
 "name": "Jax",
@@ -1130,7 +1130,7 @@
 "r_name": "Bullet Time",
 "r_description": "Miss Fortune channels a barrage of bullets into a cone in front of her, dealing large amounts of damage to enemies. Each wave of Bullet Time can critically strike",
 "difficulty_rank": 139,
-"meta_tier": 4
+"meta_tier": 3
 },
 {
 "name": "Mordekaiser",

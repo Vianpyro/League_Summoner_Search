@@ -188,9 +188,11 @@
 }
 .free-champion {
     position: absolute;
+    width: 28px;
 }
 #modal-free-champion {
      position: absolute;
+     width: 28px;
 }
 @media screen and (max-width: 800px) {
     #champions {
@@ -209,6 +211,14 @@
     }
     #modal-champ-figure {
         float: none;
+    }
+    .free-champion {
+    position: absolute;
+    width: 24px;
+    }
+    #modal-free-champion {
+        position: absolute;
+        width: 24px;
     }
 }
 @media screen and (min-width: 2000px) {
