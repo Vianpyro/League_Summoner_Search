@@ -1,8 +1,9 @@
 {
-"patch": 10.17,
+"patch": 10.18,
 "champions":
 [{
 "name": "Aatrox",
+"free": true,
 "p_name": "Deathbringer Stance",
 "p_description": "Periodically, Aatrox's next basic attack deals bonus physical damage and heals him, based on the target's max health. ",
 "q_name": "The Darkin Blade",
@@ -139,6 +140,7 @@
 {
 "name": "Aurelion-Sol",
 "displayName": "Aurelion Sol",
+"free": true,
 "p_name": "Center of the Universe",
 "p_description": "Stars orbit Aurelion Sol, dealing magic damage when they hit an enemy.",
 "q_name": "Starsurge",
@@ -154,7 +156,6 @@
 },
 {
 "name": "Azir",
-"free": true,
 "p_name": "Shurima's Legacy",
 "p_description": "Azir can summon the Disc of the Sun from the ruins of allied or enemy turrets.",
 "q_name": "Conquering Sands",
@@ -200,7 +201,6 @@
 },
 {
 "name": "Brand",
-"free": true,
 "p_name": "Blaze",
 "p_description": "Brand's spells light his targets ablaze, dealing damage over 4 seconds, stacking up to 3 times. If Brand kills an enemy while it is ablaze he regains mana. When Blaze reaches max stacks on a Champion or large monster, it becomes unstable. It detonates in 2 seconds, applying spell effects and dealing massive damage in an area around the victim.",
 "q_name": "Sear",
@@ -322,6 +322,7 @@
 },
 {
 "name": "Diana",
+"free": true,
 "p_name": "Moonsilver Blade",
 "p_description": "Every third strike cleaves nearby enemies for an additional magic damage. After casting a spell, Diana gains attack speed for her next 3 attacks.",
 "q_name": "Crescent Strike",
@@ -338,7 +339,6 @@
 {
 "name": "Dr-Mundo",
 "displayName": "Dr. Mundo",
-"free": true,
 "p_name": "Adrenaline Rush",
 "p_description": "Dr. Mundo regenerates 0.3% of his maximum Health each second.",
 "q_name": "Infected Cleaver",
@@ -489,7 +489,6 @@
 },
 {
 "name": "Gangplank",
-"free": true,
 "p_name": "Trial by Fire",
 "p_description": "Every few seconds, Gangplank's melee strike will set his opponent on fire.",
 "q_name": "Parrrley",
@@ -565,7 +564,6 @@
 },
 {
 "name": "Hecarim",
-"free": true,
 "p_name": "Warpath",
 "p_description": "Hecarim gains Attack Damage equal to a percentage of his bonus Movement Speed.",
 "q_name": "Rampage",
@@ -581,7 +579,6 @@
 },
 {
 "name": "Heimerdinger",
-"free": true,
 "p_name": "Hextech Affinity",
 "p_description": "Gain Movement Speed while near allied towers and turrets deployed by Heimerdinger.",
 "q_name": "H-28 G Evolution Turret",
@@ -642,6 +639,7 @@
 },
 {
 "name": "Janna",
+"free": true,
 "p_name": "Tailwind",
 "p_description": "Janna passively gains bonus Movement Speed, and nearby allied champions gain this bonus when moving toward her.  Additionally, Janna's basic attacks cause additional magic damage based on her bonus Movement Speed.",
 "q_name": "Howling Gale",
@@ -688,6 +686,7 @@
 },
 {
 "name": "Jayce",
+"free": true,
 "p_name": "Hextech Capacitor",
 "p_description": "After casting Transform Jayce gains 40 Movement Speed and can move through units for the next 1.25 seconds.",
 "q_name": "To the Skies! / Shock Blast",
@@ -703,7 +702,6 @@
 },
 {
 "name": "Jhin",
-"free": true,
 "p_name": "Whisper",
 "p_description": "Jhin's hand cannon, Whisper, is a precise instrument designed to deal superior damage. It fires at a fixed rate and carries only four shots. Jhin imbues the final bullet with dark magics to critically strike and deal bonus execute damage. Whenever Whisper crits, it inspires Jhin with a burst of movement speed.",
 "q_name": "Dancing Grenade",
@@ -735,6 +733,7 @@
 {
 "name": "Kai-Sa",
 "displayName": "Kai'Sa",
+"free": true,
 "p_name": "Second Skin",
 "p_description": "Kai'Sa's basic attacks stack Plasma, dealing increasing bonus magic damage. Allies' immobilizing effects help stack Plasma. Additionally, Kai'Sa's item purchases upgrade her basic spells to have more powerful properties.",
 "q_name": "Icathian Rain",
@@ -750,7 +749,6 @@
 },
 {
 "name": "Kalista",
-"free": true,
 "p_name": "Martial Poise",
 "p_description": "Enter a movement command while winding up Kalista's basic attack or Pierce to lunge a short distance when she launches her attack.",
 "q_name": "Pierce",
@@ -766,7 +764,6 @@
 },
 {
 "name": "Karma",
-"free": true,
 "p_name": "Gathering Fire",
 "p_description": "Reduces Mantra's cooldown each time Karma damages an enemy champion with one of her abilities (Half-effect for Karma's basic attacks)",
 "q_name": "Inner Flame",
@@ -857,6 +854,7 @@
 },
 {
 "name": "Kennen",
+"free": true,
 "p_name": "Mark of the Storm",
 "p_description": "Kennen stuns enemies he hits 3 times with his abilities.",
 "q_name": "Thundering Shuriken",
@@ -873,6 +871,7 @@
 {
 "name": "Kha-Zix",
 "displayName": "Kha'Zix",
+"free": true,
 "p_name": "Unseen Threat",
 "p_description": "Nearby enemies that are Isolated from their allies are marked. Kha'Zix's abilities have interactions with Isolated targets.  When Kha'Zix is not visible to the enemy team, he gains Unseen Threat, causing his next basic attack against an enemy champion to deal bonus magic damage and slow them for a few seconds.",
 "q_name": "Taste Their Fear",
@@ -945,12 +944,11 @@
 "r_name": "Mimic",
 "r_description": "LeBlanc casts a mimicked version of one of her basic spells.",
 "difficulty_rank": 13,
-"meta_tier": 2
+"meta_tier": 3
 },
 {
 "name": "Lee-Sin",
 "displayName": "Lee Sin",
-"free": true,
 "p_name": "Flurry",
 "p_description": "After Lee Sin uses an ability, his next 2 basic attacks gain Attack Speed and return Energy.",
 "q_name": "Sonic Wave / Resonating Strike",
@@ -996,7 +994,6 @@
 },
 {
 "name": "Lissandra",
-"free": true,
 "p_name": "Iceborn Subjugation",
 "p_description": "When an enemy champion dies near Lissandra they become a Frozen Thrall. Frozen Thralls slow nearby enemies and then, after a delay, shatter from the intense cold, dealing magic damage to nearby targets.",
 "q_name": "Ice Shard",
@@ -1194,6 +1191,7 @@
 },
 {
 "name": "Nautilus",
+"free": true,
 "p_name": "Staggering Blow",
 "p_description": "Nautilus' basic attacks deal increased physical damage and roots his target briefly. Staggering blow cannot trigger more than once every few seconds on the same target.",
 "q_name": "Dredge Line",
@@ -1239,6 +1237,7 @@
 },
 {
 "name": "Nocturne",
+"free": true,
 "p_name": "Umbra Blades",
 "p_description": "Every few seconds, Nocturne's next attack strikes surrounding enemies for bonus physical damage and heals himself.   Nocturne's basic attacks reduce this cooldown.",
 "q_name": "Duskbringer",
@@ -1270,7 +1269,6 @@
 },
 {
 "name": "Olaf",
-"free": true,
 "p_name": "Berserker Rage",
 "p_description": "Olaf's Attack Speed is increased by 1% for each 1% of his Health he is missing.",
 "q_name": "Undertow",
@@ -1286,7 +1284,6 @@
 },
 {
 "name": "Orianna",
-"free": true,
 "p_name": "Clockwork Windup",
 "p_description": "Orianna's autoattack deals additional magic damage. This damage increases the more Orianna attacks the same target.",
 "q_name": "Command: Attack",
@@ -1332,6 +1329,7 @@
 },
 {
 "name": "Poppy",
+"free": true,
 "p_name": "Iron Ambassador",
 "p_description": "Poppy throws her buckler that bounces off the target. Poppy can pick it up to gain a temporary shield.",
 "q_name": "Hammer Shock",
@@ -1906,10 +1904,11 @@
 "r_name": "Destiny",
 "r_description": "Twisted Fate predicts the fortunes of his foes, revealing all enemy champions and enabling the use of Gate, which teleports Twisted Fate to any target location in 1.5 seconds.",
 "difficulty_rank": 20,
-"meta_tier": 3
+"meta_tier": 2
 },
 {
 "name": "Twitch",
+"free": true,
 "p_name": "Deadly Venom",
 "p_description": "Twitch's basic attacks infect the target, dealing true damage each second.",
 "q_name": "Ambush",
@@ -2096,7 +2095,6 @@
 },
 {
 "name": "Wukong",
-"free": true,
 "p_name": "Stone Skin",
 "p_description": "Wukong gains stacking armor and max health regeneration while fighting champions and monsters.",
 "q_name": "Crushing Blow",
@@ -2143,6 +2141,7 @@
 {
 "name": "Xin-Zhao",
 "displayName": "Xin Zhao",
+"free": true,
 "p_name": "Determination",
 "p_description": "Every third attack deals bonus damage and heals Xin Zhao.",
 "q_name": "Three Talon Strike",
@@ -2263,6 +2262,7 @@
 },
 {
 "name": "Zilean",
+"free": true,
 "p_name": "Time In A Bottle",
 "p_description": "Zilean stores time as Experience.   When he has enough Experience to finish an ally's level, he can right-click them to impart it. Zilean receives as much Experience as he gives. Cannot be used in combat.",
 "q_name": "Time Bomb",
@@ -2278,6 +2278,7 @@
 },
 {
 "name": "Zoe",
+"free": true,
 "p_name": "More Sparkles!",
 "p_description": "Zoe's next basic attack after casting a spell deals bonus magic damage.",
 "q_name": "Paddle Star!",
@@ -2293,7 +2294,6 @@
 },
 {
 "name": "Zyra",
-"free": true,
 "p_name": "Garden of Thorns",
 "p_description": "Seeds spawn around Zyra periodically, becoming faster with level. Zyra can cast Deadly Spines or Grasping Roots near seeds to grow plants, who fight for Zyra.",
 "q_name": "Deadly Spines",
