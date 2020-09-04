@@ -34,6 +34,13 @@ class GetLeagueStatsBot:
                 'Blade Whirl', 'Samira slashes around her for 1 second, damaging enemies twice dealing physical damage each and destroying any enemy missiles that enter the area.',
                 'Wild Rush', "Samira dashes through an enemy or ally, slashing enemies she passes through and gaining Attack Speed. Killing an enemy champion refreshes this ability's cooldown.",
                 'Inferno Trigger', "Samira can only use this ability if her current Style rating is 'S'. Samira unleashes a torrent of shots from her weapons, wildly shooting all enemies surrounding her 10 times over 2 seconds, each shot dealing physical damage and applying lifesteal. Each shot can also critically strike."
+            ),
+            'Seraphine': (
+                'HARMONY / ECHO', 'Every third basic ability cast will echo, casting it again. Casting an ability grants a Note to nearby allies. For each Note your next attack gains Attack Range and deals additional magic damage.',
+                '?', "Deals magic damage in target area, increased with the enemy's missing health.",
+                '?', 'Shields all nearby ally champion and grants them movement speed for a few seconds. If you are already shielded, each nearby allies are healed a percentage of their missing health.',
+                '?', 'Deals magic damage to enemies and slows them for a few seconds. If the enemy is already slowed, they are rooted instead.',
+                '?', 'Deals magic damage to enemies and charm they for several seconds. Spell extends when it touches an ally or enemy champion.',
             )
         }
 
