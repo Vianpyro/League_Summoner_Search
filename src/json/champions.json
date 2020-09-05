@@ -15,7 +15,7 @@
 "r_name": "World Ender",
 "r_description": "Aatrox unleashes his demonic form, fearing nearby enemy minions and gaining attack damage, increased healing, and movement speed. If he gets a takedown, this effect is extended.",
 "difficulty_rank": 35,
-"meta_tier": 3
+"meta_tier": 4
 },
 {
 "name": "Ahri",
@@ -105,7 +105,7 @@
 "r_name": "Summon: Tibbers",
 "r_description": "Annie wills her bear Tibbers to life, dealing damage to units in the area. Tibbers can attack and also burns enemies that stand near him.",
 "difficulty_rank": 150,
-"meta_tier": 4
+"meta_tier": 3
 },
 {
 "name": "Aphelios",
@@ -167,7 +167,7 @@
 "r_name": "Emperor's Divide",
 "r_description": "Azir summons a wall of soldiers which charge forward, knocking back and damaging enemies.",
 "difficulty_rank": 9,
-"meta_tier": 4
+"meta_tier": 5
 },
 {
 "name": "Bard",
@@ -182,7 +182,7 @@
 "r_name": "Tempered Fate",
 "r_description": "Bard sends spirit energy arcing to a location, putting all champions, minions, monsters, and turrets hit into stasis for a brief time.",
 "difficulty_rank": 15,
-"meta_tier": 2
+"meta_tier": 1
 },
 {
 "name": "Blitzcrank",
@@ -334,7 +334,7 @@
 "r_name": "Moonfall",
 "r_description": "Diana reveals and draws in all nearby enemies and slows them.  If Diana pulls in one or more enemy champions, the moonlight crashes down onto her after a short delay, dealing magic damage in an area around her, increased for each target beyond the first pulled.",
 "difficulty_rank": 115,
-"meta_tier": 3
+"meta_tier": 4
 },
 {
 "name": "Dr-Mundo",
@@ -365,7 +365,7 @@
 "r_name": "Whirling Death",
 "r_description": "Draven hurls two massive axes to deal physical damage to each unit struck. Whirling Death slowly reverses direction and returns to Draven after striking an enemy champion. Draven may also activate this ability while the axes are in flight to cause it to return early. Deals less damage for each unit hit and resets when the axes reverse direction.",
 "difficulty_rank": 3,
-"meta_tier": 4
+"meta_tier": 3
 },
 {
 "name": "Ekko",
@@ -380,7 +380,7 @@
 "r_name": "Chronobreak",
 "r_description": "Ekko shatters his timeline, becoming untargetable and rewinding to a more favorable point in time. He returns to whenever he was a few seconds ago, and heals for a percentage of the damage received in that duration. Enemies near his arrival zone take massive damage.",
 "difficulty_rank": 47,
-"meta_tier": 1
+"meta_tier": 2
 },
 {
 "name": "Elise",
@@ -500,7 +500,7 @@
 "r_name": "Cannon Barrage",
 "r_description": "Gangplank signals his ship to bombard an area, slowing and damaging enemies.",
 "difficulty_rank": 4,
-"meta_tier": 2
+"meta_tier": 3
 },
 {
 "name": "Garen",
@@ -605,7 +605,7 @@
 "r_name": "Leap of Faith",
 "r_description": "Illaoi smashes her idol into the ground, dealing physical damage to nearby enemies. A Tentacle spawns for each enemy champion hit.",
 "difficulty_rank": 71,
-"meta_tier": 4
+"meta_tier": 3
 },
 {
 "name": "Irelia",
@@ -620,7 +620,7 @@
 "r_name": "Vanguard's Edge",
 "r_description": "Irelia fires a massive number of blades that explode outward upon hitting an enemy champion. Enemies hit by the blades are damaged and Marked. Afterwards the blades form a wall that will damage and slow enemies that walk through it.",
 "difficulty_rank": 31,
-"meta_tier": 2
+"meta_tier": 3
 },
 {
 "name": "Ivern",
@@ -667,7 +667,7 @@
 "r_name": "Cataclysm",
 "r_description": "Jarvan IV heroically leaps into battle at a target with such force that he terraforms the surrounding area to create an arena around them. Nearby enemies are damaged at the moment of impact.",
 "difficulty_rank": 117,
-"meta_tier": 4
+"meta_tier": 5
 },
 {
 "name": "Jax",
@@ -775,7 +775,7 @@
 "r_name": "Mantra",
 "r_description": "Karma empowers her next ability to do an additional effect. Mantra is available at level 1 and does not require a skill point.",
 "difficulty_rank": 124,
-"meta_tier": 3
+"meta_tier": 4
 },
 {
 "name": "Karthus",
@@ -805,7 +805,7 @@
 "r_name": "Riftwalk",
 "r_description": "Kassadin teleports to a nearby location dealing damage to nearby enemy units. Multiple Riftwalks in a short period of time cost additional Mana but also deal additional damage.",
 "difficulty_rank": 77,
-"meta_tier": 1
+"meta_tier": 2
 },
 {
 "name": "Katarina",
@@ -866,7 +866,7 @@
 "r_name": "Slicing Maelstrom",
 "r_description": "Kennen summons a storm that strikes at nearby enemy champions for magical damage.",
 "difficulty_rank": 80,
-"meta_tier": 4
+"meta_tier": 5
 },
 {
 "name": "Kha-Zix",
@@ -913,7 +913,7 @@
 "r_name": "Chaaaaaaaarge!!!",
 "r_description": "Kled and Skaarl charge to a location, leaving a speed-granting trail behind them and gaining a shield. Skaarl locks onto and rams the first enemy champion encountered.",
 "difficulty_rank": 42,
-"meta_tier": 4
+"meta_tier": 2
 },
 {
 "name": "Kog-Maw",
@@ -944,7 +944,7 @@
 "r_name": "Mimic",
 "r_description": "LeBlanc casts a mimicked version of one of her basic spells.",
 "difficulty_rank": 13,
-"meta_tier": 3
+"meta_tier": 4
 },
 {
 "name": "Lee-Sin",
@@ -960,7 +960,7 @@
 "r_name": "Dragon's Rage",
 "r_description": "Lee Sin performs a powerful roundhouse kick launching his target back, dealing physical damage to the target and any enemies they collide with. Enemies the target collides with are knocked into the air for a short duration. This technique was taught to him by Jesse Perring, although Lee Sin does not kick players off the map.",
 "difficulty_rank": 8,
-"meta_tier": 2
+"meta_tier": 3
 },
 {
 "name": "Leona",
@@ -1020,7 +1020,7 @@
 "r_name": "The Culling",
 "r_description": "Lucian unleashes a torrent of shots from his weapons.",
 "difficulty_rank": 27,
-"meta_tier": 2
+"meta_tier": 3
 },
 {
 "name": "Lulu",
@@ -1065,7 +1065,7 @@
 "r_name": "Unstoppable Force",
 "r_description": "Malphite ferociously charges to a location, damaging enemies and knocking them into the air.",
 "difficulty_rank": 148,
-"meta_tier": 3
+"meta_tier": 2
 },
 {
 "name": "Malzahar",
@@ -1095,7 +1095,7 @@
 "r_name": "Nature's Grasp",
 "r_description": "Maokai summons a colossal wall of brambles and thorns that slowly advances forwards, damaging and rooting any enemies in the path.",
 "difficulty_rank": 128,
-"meta_tier": 2
+"meta_tier": 1
 },
 {
 "name": "Master-Yi",
@@ -1127,7 +1127,7 @@
 "r_name": "Bullet Time",
 "r_description": "Miss Fortune channels a barrage of bullets into a cone in front of her, dealing large amounts of damage to enemies. Each wave of Bullet Time can critically strike",
 "difficulty_rank": 139,
-"meta_tier": 3
+"meta_tier": 2
 },
 {
 "name": "Mordekaiser",
@@ -1142,7 +1142,7 @@
 "r_name": "Realm of Death",
 "r_description": "Mordekaiser drags his victim to a different dimension with him and steals a portion of their stats. If he kills them, he keeps the stats until the victim respawns.",
 "difficulty_rank": 95,
-"meta_tier": 2
+"meta_tier": 3
 },
 {
 "name": "Morgana",
@@ -1157,7 +1157,7 @@
 "r_name": "Soul Shackles",
 "r_description": "Morgana unleashes the full force of her Celestial power as she unbinds her wings and hovers above the ground. She lashes chains of dark pain onto nearby enemy champions, gaining movement speed towards them. The chains slow and deal initial damage and, after a delay, stun those who are unable to break them.",
 "difficulty_rank": 122,
-"meta_tier": 1
+"meta_tier": 2
 },
 {
 "name": "Nami",
@@ -1203,7 +1203,7 @@
 "r_name": "Depth Charge",
 "r_description": "Nautilus fires a shockwave into the earth that chases an opponent. This shockwave rips up the earth above it, knocking enemies into the air. When it reaches the opponent, the shockwave erupts, knocking his target into the air and stunning them.",
 "difficulty_rank": 119,
-"meta_tier": 2
+"meta_tier": 3
 },
 {
 "name": "Neeko",
@@ -1233,7 +1233,7 @@
 "r_name": "Aspect Of The Cougar",
 "r_description": "Nidalee transforms into a cougar, gaining new abilities.",
 "difficulty_rank": 10,
-"meta_tier": 2
+"meta_tier": 1
 },
 {
 "name": "Nocturne",
@@ -1280,7 +1280,7 @@
 "r_name": "Ragnarok",
 "r_description": "Olaf temporarily becomes immune to disables.",
 "difficulty_rank": 103,
-"meta_tier": 3
+"meta_tier": 2
 },
 {
 "name": "Orianna",
@@ -1356,7 +1356,7 @@
 "r_name": "Death From Below",
 "r_description": "Pyke blinks to and executes low health enemies, allowing him to cast this spell again and granting additional gold to an ally who assists.",
 "difficulty_rank": 23,
-"meta_tier": 3
+"meta_tier": 4
 },
 {
 "name": "Qiyana",
@@ -1371,7 +1371,7 @@
 "r_name": "Supreme Display of Talent",
 "r_description": "Qiyana sends out a shockwave that detonates whatever elements she hits with it, stunning and damaging nearby enemies.",
 "difficulty_rank": 26,
-"meta_tier": 2
+"meta_tier": 3
 },
 {
 "name": "Quinn",
@@ -1386,7 +1386,7 @@
 "r_name": "Behind Enemy Lines",
 "r_description": "Quinn and Valor team up to fly around at great speed.  Ending the ability casts Skystrike, which deals damage to nearby enemies and marks champions as Vulnerable.",
 "difficulty_rank": 82,
-"meta_tier": 3
+"meta_tier": 2
 },
 {
 "name": "Rakan",
@@ -1401,7 +1401,7 @@
 "r_name": "The Quickness",
 "r_description": "Gains movement speed, charming and dealing magic damage to enemies touched.",
 "difficulty_rank": 28,
-"meta_tier": 4
+"meta_tier": 3
 },
 {
 "name": "Rammus",
@@ -1597,7 +1597,7 @@
 "r_name": "Hallucinate",
 "r_description": "Shaco creates an illusion of himself near him, which can attack nearby enemies (Deals reduced damage to turrets).  Upon death, it explodes, spawning three mini Jack in the Boxes and dealing damage to nearby enemies.",
 "difficulty_rank": 21,
-"meta_tier": 3
+"meta_tier": 4
 },
 {
 "name": "Shen",
@@ -1612,7 +1612,7 @@
 "r_name": "Stand United",
 "r_description": "Shen shields target allied champion from incoming damage, and soon after teleports to their location.",
 "difficulty_rank": 78,
-"meta_tier": 3
+"meta_tier": 2
 },
 {
 "name": "Shyvana",
@@ -1642,7 +1642,7 @@
 "r_name": "Insanity Potion",
 "r_description": "Singed drinks a potent brew of chemicals, granting him increased combat stats.",
 "difficulty_rank": 37,
-"meta_tier": 4
+"meta_tier": 5
 },
 {
 "name": "Sion",
@@ -1687,7 +1687,7 @@
 "r_name": "Impale",
 "r_description": "Skarner suppresses an enemy champion and deals damage to it. During this time, Skarner can move freely and will drag his helpless victim around with him. When the effect ends, the target will be dealt additional damage.",
 "difficulty_rank": 114,
-"meta_tier": 5
+"meta_tier": 4
 },
 {
 "name": "Sona",
@@ -1717,7 +1717,7 @@
 "r_name": "Wish",
 "r_description": "Soraka fills her allies with hope, instantly restoring health to herself and all friendly champions.",
 "difficulty_rank": 138,
-"meta_tier": 4
+"meta_tier": 3
 },
 {
 "name": "Swain",
@@ -1898,7 +1898,7 @@
 "r_name": "Undying Rage",
 "r_description": "Tryndamere's lust for battle becomes so strong that he is unable to die, no matter how wounded he becomes.",
 "difficulty_rank": 94,
-"meta_tier": 5
+"meta_tier": 4
 },
 {
 "name": "Twisted-Fate",
@@ -1914,7 +1914,7 @@
 "r_name": "Destiny",
 "r_description": "Twisted Fate predicts the fortunes of his foes, revealing all enemy champions and enabling the use of Gate, which teleports Twisted Fate to any target location in 1.5 seconds.",
 "difficulty_rank": 20,
-"meta_tier": 2
+"meta_tier": 3
 },
 {
 "name": "Twitch",
@@ -2116,7 +2116,7 @@
 "r_name": "Cyclone",
 "r_description": "Wukong's extends his staff and spins it around repeatedly, gaining Movement Speed.  Enemies struck take damage and are knocked up.",
 "difficulty_rank": 120,
-"meta_tier": 2
+"meta_tier": 3
 },
 {
 "name": "Xayah",
@@ -2208,7 +2208,7 @@
 "r_name": "Eulogy of the Isles",
 "r_description": "Yorick summons the Maiden of the Mist that causes Yorick's attacks against the Maiden's target to deal bonus damage. The Maiden will also automatically raise Walkers from dead enemies.",
 "difficulty_rank": 74,
-"meta_tier": 5
+"meta_tier": 4
 },
 {
 "name": "Yuumi",
@@ -2284,7 +2284,7 @@
 "r_name": "Chronoshift",
 "r_description": "Zilean places a protective time rune on an allied champion, teleporting the champion back in time if they take lethal damage.",
 "difficulty_rank": 123,
-"meta_tier": 3
+"meta_tier": 2
 },
 {
 "name": "Zoe",
