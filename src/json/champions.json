@@ -105,7 +105,7 @@
 "r_name": "Summon: Tibbers",
 "r_description": "Annie wills her bear Tibbers to life, dealing damage to units in the area. Tibbers can attack and also burns enemies that stand near him.",
 "difficulty_rank": 150,
-"meta_tier": 3
+"meta_tier": 2
 },
 {
 "name": "Aphelios",
@@ -135,7 +135,7 @@
 "r_name": "Enchanted Crystal Arrow",
 "r_description": "Ashe fires a missile of ice in a straight line. If the arrow collides with an enemy Champion, it deals damage and stuns the Champion, stunning for longer the farther arrow has traveled. In addition, surrounding enemy units take damage and are slowed.",
 "difficulty_rank": 140,
-"meta_tier": 1
+"meta_tier": 2
 },
 {
 "name": "Aurelion-Sol",
@@ -152,7 +152,7 @@
 "r_name": "Voice of Light",
 "r_description": "Aurelion Sol projects a blast of pure starfire, damaging and slowing all enemies caught in it and knocking nearby enemies back to a safer distance.",
 "difficulty_rank": 1,
-"meta_tier": 4
+"meta_tier": 3
 },
 {
 "name": "Azir",
@@ -334,7 +334,7 @@
 "r_name": "Moonfall",
 "r_description": "Diana reveals and draws in all nearby enemies and slows them.  If Diana pulls in one or more enemy champions, the moonlight crashes down onto her after a short delay, dealing magic damage in an area around her, increased for each target beyond the first pulled.",
 "difficulty_rank": 115,
-"meta_tier": 4
+"meta_tier": 3
 },
 {
 "name": "Dr-Mundo",
@@ -350,7 +350,7 @@
 "r_name": "Sadism",
 "r_description": "Dr. Mundo sacrifices a portion of his Health for increased Movement Speed and drastically increased Health Regeneration.",
 "difficulty_rank": 141,
-"meta_tier": 5
+"meta_tier": 4
 },
 {
 "name": "Draven",
@@ -605,7 +605,7 @@
 "r_name": "Leap of Faith",
 "r_description": "Illaoi smashes her idol into the ground, dealing physical damage to nearby enemies. A Tentacle spawns for each enemy champion hit.",
 "difficulty_rank": 71,
-"meta_tier": 3
+"meta_tier": 4
 },
 {
 "name": "Irelia",
@@ -651,7 +651,7 @@
 "r_name": "Monsoon",
 "r_description": "Janna surrounds herself in a magical storm, throwing enemies back. After the storm has settled, soothing winds heal nearby allies while the ability is active.",
 "difficulty_rank": 51,
-"meta_tier": 4
+"meta_tier": 3
 },
 {
 "name": "Jarvan-IV",
@@ -667,7 +667,7 @@
 "r_name": "Cataclysm",
 "r_description": "Jarvan IV heroically leaps into battle at a target with such force that he terraforms the surrounding area to create an arena around them. Nearby enemies are damaged at the moment of impact.",
 "difficulty_rank": 117,
-"meta_tier": 5
+"meta_tier": 4
 },
 {
 "name": "Jax",
@@ -698,7 +698,7 @@
 "r_name": "Mercury Cannon / Mercury Hammer",
 "r_description": "Hammer Stance: Transforms the Mercury Hammer into the Mercury Cannon gaining new abilities and increased range. The first attack in this form reduces the target's Armor and Magic Resist.  Cannon Stance: Transforms the Mercury Cannon into the Mercury Hammer gaining new abilities and increasing Armor and Magic Resist. The first attack in this form deals additional magic damage.",
 "difficulty_rank": 30,
-"meta_tier": 3
+"meta_tier": 4
 },
 {
 "name": "Jhin",
@@ -850,7 +850,7 @@
 "r_name": "Umbral Trespass",
 "r_description": "Kayn hides in an enemy's body, dealing massive damage when he bursts out.",
 "difficulty_rank": 56,
-"meta_tier": 3
+"meta_tier": 2
 },
 {
 "name": "Kennen",
@@ -898,7 +898,7 @@
 "r_name": "Lamb's Respite",
 "r_description": "Lamb grants all living things inside a zone a respite from death. Until the effect ends, nothing can die. At the end, units are healed.",
 "difficulty_rank": 43,
-"meta_tier": 3
+"meta_tier": 4
 },
 {
 "name": "Kled",
@@ -1005,7 +1005,7 @@
 "r_name": "Frozen Tomb",
 "r_description": "If cast on an enemy champion, the target is frozen solid, stunning it. If cast on Lissandra, she encases herself in dark ice, healing herself while becoming untargetable and invulnerable. Dark ice then emanates from the target dealing magic damage to enemies and slowing Movement Speed.",
 "difficulty_rank": 86,
-"meta_tier": 5
+"meta_tier": 4
 },
 {
 "name": "Lucian",
@@ -1020,7 +1020,7 @@
 "r_name": "The Culling",
 "r_description": "Lucian unleashes a torrent of shots from his weapons.",
 "difficulty_rank": 27,
-"meta_tier": 3
+"meta_tier": 2
 },
 {
 "name": "Lulu",
@@ -1080,7 +1080,7 @@
 "r_name": "Nether Grasp",
 "r_description": "Malzahar channels the essence of the Void to suppress an enemy champion over a zone of damaging negative energy.",
 "difficulty_rank": 137,
-"meta_tier": 2
+"meta_tier": 3
 },
 {
 "name": "Maokai",
@@ -1233,7 +1233,7 @@
 "r_name": "Aspect Of The Cougar",
 "r_description": "Nidalee transforms into a cougar, gaining new abilities.",
 "difficulty_rank": 10,
-"meta_tier": 1
+"meta_tier": 2
 },
 {
 "name": "Nocturne",
@@ -1249,7 +1249,7 @@
 "r_name": "Paranoia",
 "r_description": "Nocturne reduces the sight radius of all enemy champions and removes their ally vision in the process. He can then launch himself at a nearby enemy champion.",
 "difficulty_rank": 106,
-"meta_tier": 4
+"meta_tier": 5
 },
 {
 "name": "Nunu",
@@ -1280,7 +1280,7 @@
 "r_name": "Ragnarok",
 "r_description": "Olaf temporarily becomes immune to disables.",
 "difficulty_rank": 103,
-"meta_tier": 2
+"meta_tier": 4
 },
 {
 "name": "Orianna",
@@ -1295,7 +1295,7 @@
 "r_name": "Command: Shockwave",
 "r_description": "Orianna commands her Ball to unleash a shockwave, dealing magic damage and launching nearby enemies towards the Ball after a short delay.",
 "difficulty_rank": 44,
-"meta_tier": 3
+"meta_tier": 4
 },
 {
 "name": "Ornn",
@@ -1310,7 +1310,7 @@
 "r_name": "Call of the Forge God",
 "r_description": "Ornn summons a massive elemental at a location which travels toward him with increasing speed. Enemies run over by the elemental take damage, are slowed and are made Brittle. Ornn can recast the ability to charge into the elemental, redirecting it in the direction he hits it, causing the elemental to affect any enemies it runs over to be knocked up, dealing the same damage and re-applying Brittle.",
 "difficulty_rank": 79,
-"meta_tier": 2
+"meta_tier": 3
 },
 {
 "name": "Pantheon",
@@ -1356,7 +1356,7 @@
 "r_name": "Death From Below",
 "r_description": "Pyke blinks to and executes low health enemies, allowing him to cast this spell again and granting additional gold to an ally who assists.",
 "difficulty_rank": 23,
-"meta_tier": 4
+"meta_tier": 3
 },
 {
 "name": "Qiyana",
@@ -1371,7 +1371,7 @@
 "r_name": "Supreme Display of Talent",
 "r_description": "Qiyana sends out a shockwave that detonates whatever elements she hits with it, stunning and damaging nearby enemies.",
 "difficulty_rank": 26,
-"meta_tier": 3
+"meta_tier": 2
 },
 {
 "name": "Quinn",
@@ -1416,7 +1416,7 @@
 "r_name": "Tremors",
 "r_description": "Rammus creates waves of destruction pulsing through the ground, causing damage to nearby enemies and slowing them. Turrets take double damage from Tremors.",
 "difficulty_rank": 146,
-"meta_tier": 3
+"meta_tier": 4
 },
 {
 "name": "Rek-Sai",
@@ -1432,7 +1432,7 @@
 "r_name": "Void Rush",
 "r_description": "Rek'sai passively marks targets by damaging them. She can activate this ability to become briefly untargetable and lunge at a marked target for heavy damage based on their missing health.",
 "difficulty_rank": 36,
-"meta_tier": 2
+"meta_tier": 1
 },
 {
 "name": "Renekton",
@@ -1552,7 +1552,7 @@
 "r_name": "Dawning Shadow",
 "r_description": "Senna calls upon the relic stones of fallen Sentinels, splitting her relic cannon into a holy array of shadow and light. She then fires a global beam that shields allies from harm, while damaging enemies caught in the center.",
 "difficulty_rank": 84,
-"meta_tier": 2
+"meta_tier": 1
 },
 {
 "name": "Seraphine",
@@ -1597,7 +1597,7 @@
 "r_name": "Hallucinate",
 "r_description": "Shaco creates an illusion of himself near him, which can attack nearby enemies (Deals reduced damage to turrets).  Upon death, it explodes, spawning three mini Jack in the Boxes and dealing damage to nearby enemies.",
 "difficulty_rank": 21,
-"meta_tier": 4
+"meta_tier": 3
 },
 {
 "name": "Shen",
@@ -1642,7 +1642,7 @@
 "r_name": "Insanity Potion",
 "r_description": "Singed drinks a potent brew of chemicals, granting him increased combat stats.",
 "difficulty_rank": 37,
-"meta_tier": 5
+"meta_tier": 4
 },
 {
 "name": "Sion",
@@ -1687,7 +1687,7 @@
 "r_name": "Impale",
 "r_description": "Skarner suppresses an enemy champion and deals damage to it. During this time, Skarner can move freely and will drag his helpless victim around with him. When the effect ends, the target will be dealt additional damage.",
 "difficulty_rank": 114,
-"meta_tier": 4
+"meta_tier": 3
 },
 {
 "name": "Sona",
@@ -1823,7 +1823,7 @@
 "r_name": "Cosmic Radiance",
 "r_description": "Pulses cosmic energy onto nearby allied champions after a delay, making them invulnerable for a short duration.",
 "difficulty_rank": 92,
-"meta_tier": 2
+"meta_tier": 3
 },
 {
 "name": "Teemo",
@@ -1898,7 +1898,7 @@
 "r_name": "Undying Rage",
 "r_description": "Tryndamere's lust for battle becomes so strong that he is unable to die, no matter how wounded he becomes.",
 "difficulty_rank": 94,
-"meta_tier": 4
+"meta_tier": 5
 },
 {
 "name": "Twisted-Fate",
@@ -1914,7 +1914,7 @@
 "r_name": "Destiny",
 "r_description": "Twisted Fate predicts the fortunes of his foes, revealing all enemy champions and enabling the use of Gate, which teleports Twisted Fate to any target location in 1.5 seconds.",
 "difficulty_rank": 20,
-"meta_tier": 3
+"meta_tier": 2
 },
 {
 "name": "Twitch",
@@ -1965,7 +1965,7 @@
 "r_name": "Fear Beyond Death",
 "r_description": "Urgot fires a chem-drill that impales the first enemy champion hit. If that champion falls below a health threshold, Urgot judges them weak and can execute them.",
 "difficulty_rank": 72,
-"meta_tier": 5
+"meta_tier": 4
 },
 {
 "name": "Varus",
@@ -2101,7 +2101,7 @@
 "r_name": "Infinite Duress",
 "r_description": "Warwick leaps in a direction (scaling with his bonus movement speed), suppressing the first champion he collides with for 1.5 seconds.",
 "difficulty_rank": 147,
-"meta_tier": 4
+"meta_tier": 3
 },
 {
 "name": "Wukong",
@@ -2116,7 +2116,7 @@
 "r_name": "Cyclone",
 "r_description": "Wukong's extends his staff and spins it around repeatedly, gaining Movement Speed.  Enemies struck take damage and are knocked up.",
 "difficulty_rank": 120,
-"meta_tier": 3
+"meta_tier": 2
 },
 {
 "name": "Xayah",
@@ -2146,7 +2146,7 @@
 "r_name": "Rite of the Arcane",
 "r_description": "Xerath immobilizes himself and gains numerous long-range barrages.",
 "difficulty_rank": 38,
-"meta_tier": 3
+"meta_tier": 4
 },
 {
 "name": "Xin-Zhao",
@@ -2178,7 +2178,7 @@
 "r_name": "Last Breath",
 "r_description": "Blinks to an Airborne enemy champion, dealing physical damage and holding all Airborne enemies in the area in the air. Grants maximum Flow but resets all stacks of Gathering Storm.  For a moderate time afterwards, Yasuo's critical strikes gain significant Bonus Armor Penetration.",
 "difficulty_rank": 7,
-"meta_tier": 2
+"meta_tier": 1
 },
 {
 "name": "Yone",
@@ -2208,7 +2208,7 @@
 "r_name": "Eulogy of the Isles",
 "r_description": "Yorick summons the Maiden of the Mist that causes Yorick's attacks against the Maiden's target to deal bonus damage. The Maiden will also automatically raise Walkers from dead enemies.",
 "difficulty_rank": 74,
-"meta_tier": 4
+"meta_tier": 5
 },
 {
 "name": "Yuumi",
@@ -2223,7 +2223,7 @@
 "r_name": "Final Chapter",
 "r_description": "Yuumi channels seven waves of damage, rooting anyone hit by three or more. Yuumi can move, attach, and cast Zoomies! while channeling.",
 "difficulty_rank": 142,
-"meta_tier": 3
+"meta_tier": 2
 },
 {
 "name": "Zac",
@@ -2300,7 +2300,7 @@
 "r_name": "Portal Jump",
 "r_description": "Blink to a nearby position for 1 second. Then blink back.",
 "difficulty_rank": 24,
-"meta_tier": 2
+"meta_tier": 3
 },
 {
 "name": "Zyra",
